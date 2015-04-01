@@ -1,0 +1,39 @@
+who is the captain of the edmonton oilers
+(lambda $0 /people/person (/ice_hockey/hockey_team@captain:t /en/edmonton_oilers:/ice_hockey/hockey_team $0))
+
+who currently plays for the san jose sharks
+(lambda $0 /people/person (exists $1 (exists $2 (/ice_hockey/hockey_roster_position@position@player@team@number:t $1 $0 /en/san_jose_sharks:/ice_hockey/hockey_team $2))))
+
+in what division do the st. louis blues play
+(lambda $0 /common/topic (/ice_hockey/hockey_team@division:t /m/06x6s:/ice_hockey/hockey_team $0))
+
+what position does craig adams play
+(lambda $0 /common/topic (/ice_hockey/hockey_player@hockey_position:t /en/craig_adams_1977:/ice_hockey/hockey_player $0))
+
+what number is ryan callahan on the new york rangers
+(lambda $0 /type/int (exists $1 (/ice_hockey/hockey_roster_position@position@player@team@number:t $1 /en/ryan_callahan:/ice_hockey/hockey_player /en/new_york_rangers:/ice_hockey/hockey_team $0)))
+
+who coaches the toronto maple leafs
+(lambda $0 /common/topic (/ice_hockey/hockey_team@coach:t /en/toronto_maple_leafs:/ice_hockey/hockey_team $0))
+
+when did christopher higgins stop playing for the montreal canadiens
+(lambda $0 /type/datetime (exists $1 (/ice_hockey/hockey_previous_roster_position@team@player@from@to:t /en/montreal_canadiens:/ice_hockey/hockey_team /en/christopher_higgins:/ice_hockey/hockey_player $0 $1)))
+
+for what team does fedor tyutin play
+(lambda $0 /common/topic (exists $1 (exists $2 (/ice_hockey/hockey_roster_position@position@player@team@number:t $1 /en/fedor_tyutin:/ice_hockey/hockey_player $0 $2))))
+
+what position does colby armstrong play on the toronto maple leafs
+(lambda $0 /common/topic (exists $1 (/ice_hockey/hockey_roster_position@position@player@team@number:t $0 /en/colby_armstrong:/ice_hockey/hockey_player /en/toronto_maple_leafs:/ice_hockey/hockey_team $1)))
+
+what team does mike babcock coach
+(lambda $0 /common/topic (/ice_hockey/hockey_coach@current_team:t /en/mike_babcock:/ice_hockey/hockey_coach $0))
+
+how many hockey players play center
+(count $0 (/ice_hockey/hockey_position@players:t /m/02qvdc:/ice_hockey/hockey_position $0))
+
+how many teams are in the atlantic division of the eastern conference
+(count $0 (/ice_hockey/hockey_division@teams:t /en/atlantic_division:/ice_hockey/hockey_division $0))
+
+what are the divisions of the western conference of the nhl
+(lambda $0 /common/topic (/ice_hockey/hockey_conference@divisions:t /en/western_conference:/ice_hockey/hockey_conference $0))
+

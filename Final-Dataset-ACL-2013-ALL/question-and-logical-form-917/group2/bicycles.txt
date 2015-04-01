@@ -1,0 +1,18 @@
+how many speeds does a panasonic dx3000 have
+(lambda $0 /type/int (/bicycles/bicycle_model@speeds:t /en/panasonic_dx3000:/bicycles/bicycle_model $0))
+
+what type of bicycle is a bianchi pista
+(lambda $0 /common/topic (/bicycles/bicycle_model@bicycle_type:t /en/bianchi_pista:/bicycles/bicycle_model $0))
+
+who manufactures the specialized stumpjumper
+(lambda $0 /common/topic (/bicycles/bicycle_model@manufacturer:t /en/stumpjumper:/bicycles/bicycle_model $0))
+
+what bicycle models does raleigh manufacture
+(lambda $0 /common/topic (/bicycles/bicycle_manufacturer@bicycle_models:t /en/raleigh_bicycle_company:/bicycles/bicycle_manufacturer $0))
+
+what are some mountain bike models
+(lambda $0 /common/topic (/bicycles/bicycle_type@bicycle_models_of_this_type:t /en/mountain_bike:/bicycles/bicycle_type $0))
+
+what are some examples of a road bike
+(lambda $0 /common/topic (/bicycles/bicycle_type@bicycle_models_of_this_type:t /en/road_bicycle:/bicycles/bicycle_type $0))
+

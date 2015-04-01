@@ -1,0 +1,36 @@
+what powers does sonic the hedgehog have
+(lambda $0 /common/topic (/fictional_universe/fictional_character@powers_or_abilities:t /en/sonic_the_hedgehog:/fictional_universe/fictional_character $0))
+
+who created charlie brown
+(lambda $0 /people/person (/fictional_universe/fictional_character@character_created_by:t /en/charlie_brown:/fictional_universe/fictional_character $0))
+
+where was luke skywalker born
+(lambda $0 /common/topic (/fictional_universe/fictional_character@place_of_birth:t /en/luke_skywalker:/fictional_universe/fictional_character $0))
+
+what species is the doctor
+(lambda $0 /common/topic (/fictional_universe/fictional_character@species:t /en/the_doctor:/fictional_universe/fictional_character $0))
+
+what is the setting of the magician_s nephew
+(lambda $0 /common/topic (/fictional_universe/work_of_fiction@setting:t /en/the_magicians_nephew:/fictional_universe/work_of_fiction $0))
+
+where is the hobbit set
+(lambda $0 /common/topic (/fictional_universe/work_of_fiction@setting:t /en/the_hobbit:/fictional_universe/work_of_fiction $0))
+
+what species is spock
+(lambda $0 /common/topic (/fictional_universe/fictional_character@species:t /en/spock:/fictional_universe/fictional_character $0))
+
+what character was born in gotham city
+(lambda $0 /common/topic (/fictional_universe/fictional_setting@fictional_characters_born_here:t /en/gotham_city:/fictional_universe/fictional_setting $0))
+
+how many works have been set on the moon
+(count $0 (/fictional_universe/fictional_setting@works_set_here:t /en/moon:/fictional_universe/fictional_setting $0))
+
+what fictional characters have attended oxford
+(lambda $0 /common/topic (/fictional_universe/school_in_fiction@students_graduates:t /en/university_of_oxford:/fictional_universe/school_in_fiction $0))
+
+who destroyed the one ring
+(lambda $0 /common/topic (/fictional_universe/fictional_object@destroyed_by:t /en/one_ring:/fictional_universe/fictional_object $0))
+
+who created the philosopher_s stone
+(lambda $0 /common/topic (/fictional_universe/fictional_object@created_by:t /en/philosophers_stone:/fictional_universe/fictional_object $0))
+

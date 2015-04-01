@@ -1,0 +1,21 @@
+what are some british locomotive class 52 trains
+(lambda $0 /common/topic (/rail/locomotive_class@locomotives_of_this_class:t /en/british_rail_class_52:/rail/locomotive_class $0))
+
+when was the mark vii monorail introduced
+(lambda $0 /type/datetime (/rail/locomotive_class@introduced:t /en/mark_vii_monorail:/rail/locomotive_class $0))
+
+what class of train was heavy harry
+(lambda $0 /common/topic (/rail/locomotive@locomotive_class:t /m/0glzm0h:/rail/locomotive $0))
+
+what lines does the london overground operate
+(lambda $0 /location/location (exists $1 (exists $2 (/rail/railway_operator_relationship@railway@operator@from_date@to_date:t $0 /en/london_overground:/rail/railway_operator $1 $2))))
+
+how long is the tokyu tamagawa line
+(lambda $0 /common/topic (/rail/railway@length:t /en/tokyu_tamagawa_line:/rail/railway $0))
+
+who operates the silver star railway
+(lambda $0 /common/topic (exists $1 (exists $2 (/rail/railway_operator_relationship@railway@operator@from_date@to_date:t /m/04rsv0:/rail/railway $0 $1 $2))))
+
+when did the princetown railway close
+(lambda $0 /type/datetime (/rail/railway@closed:t /en/princetown_railway:/rail/railway $0))
+

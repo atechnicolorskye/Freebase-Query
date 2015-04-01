@@ -1,0 +1,102 @@
+who did jun matsumoto play in hana yori dango
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (exists $4 (/tv/regular_tv_appearance@actor@character@series@from@to@special_performance_type@seasons:t /en/jun_matsumoto:/tv/tv_actor $0 /m/05f52tw:/tv/tv_program $1 $2 $3 $4))))))
+
+what production is the sopranos currently in
+(lambda $0 /common/topic (/tv/tv_program@currently_in_production:t /en/the_sopranos:/tv/tv_program $0))
+
+how many seasons of seinfeld are there
+(count $0 (/tv/tv_program@seasons:t /en/seinfeld:/tv/tv_program $0))
+
+who are the creators of teenage mutant ninja turtles
+(lambda $0 /common/topic (/tv/tv_program@program_creator:t /m/053x52:/tv/tv_program $0))
+
+what is the theme song of full house
+(lambda $0 /common/topic (/tv/tv_program@theme_song:t /en/full_house:/tv/tv_program $0))
+
+when did hey arnold! stop running
+(lambda $0 /type/datetime (/tv/tv_program@air_date_of_final_episode:t /en/hey_arnold:/tv/tv_program $0))
+
+what languages are spoken in firefly
+(lambda $0 /common/topic (/tv/tv_program@languages:t /base/ranker/rankerurlname/firefly$002f143400:/tv/tv_program $0))
+
+in what season of stargate sg-1 is the episode show and tell
+(lambda $0 /common/topic (/tv/tv_series_episode@season:t /m/08mpny:/tv/tv_series_episode $0))
+
+who wrote the episode straight and true of the wire
+(lambda $0 /people/person (/tv/tv_series_episode@writer:t /en/straight_and_true:/tv/tv_series_episode $0))
+
+what was the fawlty towers episode after the psychiatrist
+(lambda $0 /common/topic (/tv/tv_series_episode@next_episode:t /en/the_psychiatrist:/tv/tv_series_episode $0))
+
+who produced the three doctors
+(lambda $0 /common/topic (/tv/tv_series_episode@producers:t /en/the_three_doctors:/tv/tv_series_episode $0))
+
+on what network was gilligan_s island first aired
+(lambda $0 /common/topic (exists $1 (exists $2 (/tv/tv_network_duration@program@network@from@to:t /en/gilligans_island:/tv/tv_program $0 $1 $2))))
+
+how long are adventure time episodes
+(lambda $0 /type/int (/tv/tv_program@episode_running_time:t /m/0280hsm:/tv/tv_program $0))
+
+when did the last episode of six feet under air
+(lambda $0 /type/datetime (/tv/tv_program@air_date_of_final_episode:t /en/six_feet_under:/tv/tv_program $0))
+
+what tv programs has hugh laurie created
+(lambda $0 /common/topic (/tv/tv_program@program_creator:t $0 /en/hugh_laurie:/tv/tv_program_creator))
+
+who was the cohost in 1993 on cbs evening news
+(lambda $0 /common/topic (exists $1 (/tv/tv_regular_personal_appearance@to@from@appearance_type@person@program@seasons:t /type/datetime/1993:/type/datetime /type/datetime/1993:/type/datetime /en/co_host:/tv/non_character_role $0 /en/cbs_evening_news:/tv/tv_program $1)))
+
+who is the newscaster on abc 6 news
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/tv/tv_regular_personal_appearance@to@from@appearance_type@person@program@seasons:t $1 $2 /en/newscaster:/tv/non_character_role $0 /en/abc_news:/tv/tv_program $3)))))
+
+how many seasons of sesame street are there
+(count $0 (/tv/tv_program@seasons:t /en/sesame_street:/tv/tv_program $0))
+
+what was the date of the first sesame street episode aired
+(lambda $0 /type/datetime (/tv/tv_program@air_date_of_first_episode:t /en/sesame_street:/tv/tv_program $0))
+
+who are the main cast members of sesame street
+(lambda $0 /people/person (exists $1 (exists $2 (exists $3 (exists $4 (exists $5 (/tv/regular_tv_appearance@actor@character@series@from@to@special_performance_type@seasons:t $0 $1 /en/sesame_street:/tv/tv_program $2 $3 $4 $5)))))))
+
+how many spin offs does sesame street have
+(count $0 (/tv/tv_program@spin_offs:t /en/sesame_street:/tv/tv_program $0))
+
+what is the theme song of sesame street
+(lambda $0 /common/topic (/tv/tv_program@theme_song:t /en/sesame_street:/tv/tv_program $0))
+
+how many shows was hayden panettiere on
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (exists $5 (/tv/regular_tv_appearance@actor@character@series@from@to@special_performance_type@seasons:t /en/hayden_panettiere:/tv/tv_actor $1 $0 $2 $3 $4 $5)))))))
+
+how many tv shows did jerry seinfeld produce
+(count $0 (exists $1 (exists $2 (exists $3 (/tv/tv_producer_term@program@producer@from@to@producer_type:t $0 /en/jerry_seinfeld:/tv/tv_producer $1 $2 $3)))))
+
+how many tv shows was ron glass in
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (exists $5 (/tv/regular_tv_appearance@actor@character@series@from@to@special_performance_type@seasons:t /en/ron_glass:/tv/tv_actor $1 $0 $2 $3 $4 $5)))))))
+
+how many tv shows did danny devito have a leading role in
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (exists $5 (/tv/regular_tv_appearance@actor@character@series@from@to@special_performance_type@seasons:t /en/danny_devito:/tv/tv_actor $1 $0 $2 $3 $4 $5)))))))
+
+how many tv programs did danny devito produce
+(count $0 (exists $1 (exists $2 (exists $3 (/tv/tv_producer_term@program@producer@from@to@producer_type:t $0 /en/danny_devito:/tv/tv_producer $1 $2 $3)))))
+
+who was the newscaster in 1948 on cbs evening news
+(lambda $0 /common/topic (exists $1 (/tv/tv_regular_personal_appearance@to@from@appearance_type@person@program@seasons:t /type/datetime/1948:/type/datetime /type/datetime/1948:/type/datetime /en/newscaster:/tv/non_character_role $0 /en/cbs_evening_news:/tv/tv_program $1)))
+
+who is the present newscaster on cbs evening news
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/tv/tv_regular_personal_appearance@to@from@appearance_type@person@program@seasons:t $1 $2 /en/newscaster:/tv/non_character_role $0 /en/cbs_evening_news:/tv/tv_program $3)))))
+
+who created sesame street
+(lambda $0 /common/topic (/tv/tv_program@program_creator:t /en/sesame_street:/tv/tv_program $0))
+
+what was sesame street 's original network
+(lambda $0 /common/topic (exists $1 (exists $2 (/tv/tv_network_duration@program@network@from@to:t /en/sesame_street:/tv/tv_program $0 $1 $2))))
+
+how many episodes does sesame street have
+(count $0 (/tv/tv_program@episodes:t /en/sesame_street:/tv/tv_program $0))
+
+how many tv did jerry seinfeld have a starring role in
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (exists $5 (/tv/regular_tv_appearance@actor@character@series@from@to@special_performance_type@seasons:t /en/jerry_seinfeld:/tv/tv_actor $1 $0 $2 $3 $4 $5)))))))
+
+how many starring tv roles did jack albertson have
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (exists $5 (/tv/regular_tv_appearance@actor@character@series@from@to@special_performance_type@seasons:t /en/jack_albertson:/tv/tv_actor $1 $0 $2 $3 $4 $5)))))))
+

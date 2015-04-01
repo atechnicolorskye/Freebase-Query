@@ -1,0 +1,63 @@
+who wrote travels with my cello
+(lambda $0 /people/person (/book/written_work@author:t /m/03crp32:/book/written_work $0))
+
+when was the catcher in the rye first published
+(lambda $0 /type/datetime (/book/written_work@date_of_first_publication:t /en/the_catcher_in_the_rye:/book/written_work $0))
+
+what is the original language of the wind-up bird chronicle
+(lambda $0 /common/topic (/book/written_work@original_language:t /en/the_wind-up_bird_chronicle:/book/written_work $0))
+
+what are some books about art deco
+(lambda $0 /common/topic (/book/book_subject@works:t /en/art_deco:/book/book_subject $0))
+
+how often does the washington post come out
+(lambda $0 /common/topic (/book/periodical@frequency_or_issues_per_year:t /en/the_washington_post:/book/periodical $0))
+
+when was the boston herald first published
+(lambda $0 /common/topic (/book/periodical@first_issue_date:t /en/boston_herald:/book/periodical $0))
+
+where is the guardian circulated
+(lambda $0 /location/location (/book/newspaper@circulation_areas:t /en/the_guardian:/book/newspaper $0))
+
+what is the subject of the atlantic monthly
+(lambda $0 /common/topic (/book/periodical@subjects:t /en/the_atlantic_monthly:/book/periodical $0))
+
+who publishes the journal of abnormal psychology
+(lambda $0 /common/topic (exists $1 (exists $2 (/book/periodical_publisher_period@periodical@publisher@from@to:t /en/journal_of_abnormal_psychology:/book/periodical $0 $1 $2))))
+
+who did the cover art for batman #477
+(lambda $0 /people/person (/book/magazine_issue@cover_artist:t /en/batman_477:/book/magazine_issue $0))
+
+what articles are in the july 1967 issue of frontier times
+(lambda $0 /common/topic (exists $1 (exists $2 (/book/contents@work@publication@page_number@credited_to:t $0 /en/frontier_times_1967_july:/book/publication $1 $2))))
+
+what are some periodicals on computer science
+(lambda $0 /common/topic (/book/periodical_subject@periodicals:t /en/computer_science:/book/periodical_subject $0))
+
+what series is a wrinkle in time a part of
+(lambda $0 /common/topic (/book/written_work@part_of_series:t /en/a_wrinkle_in_time:/book/written_work $0))
+
+who are the characters in to kill a mockingbird
+(lambda $0 /common/topic (/book/book@characters:t /en/to_kill_a_mockingbird:/book/book $0))
+
+what universe is the lord of the rings set in
+(lambda $0 /common/topic (/book/literary_series@fictional_universe:t /en/the_lord_of_the_rings:/book/literary_series $0))
+
+when was pride and prejudice published
+(lambda $0 /type/datetime (/book/written_work@date_of_first_publication:t /en/pride_and_prejudice:/book/written_work $0))
+
+what are the books in the chronicles of narnia series
+(lambda $0 /common/topic (/book/written_work@part_of_series:t $0 /en/the_chronicles_of_narnia:/book/literary_series))
+
+who wrote a series of unfortunate events
+(lambda $0 /people/person (/book/author@series_written_or_contributed_to:t $0 /en/a_series_of_unfortunate_events:/book/literary_series))
+
+what genre is the hound of the baskervilles
+(lambda $0 /common/topic (/book/literary_genre@books_in_this_genre:t $0 /en/the_hound_of_the_baskervilles:/book/book))
+
+what series did tamora pierce write
+(lambda $0 /common/topic (/book/author@series_written_or_contributed_to:t /en/tamora_pierce:/book/author $0))
+
+how many books are there written on computer programming
+(count $0 (/book/literary_genre@books_in_this_genre:t /en/computer_programming:/book/literary_genre $0))
+

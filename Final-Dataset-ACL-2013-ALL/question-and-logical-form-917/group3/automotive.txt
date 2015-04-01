@@ -1,0 +1,30 @@
+what is the highway fuel economy of a 2007 honda civic hybrid
+(lambda $0 /common/topic (exists $1 (exists $2 (/automotive/us_fuel_economy@highway_mpg@city_mpg@trim_level@fuel:t $0 $1 /m/04nbbrp:/automotive/trim_level $2))))
+
+what is the fuel economy of a 2008 hyundai accent gls sedan in the city
+(lambda $0 /common/topic (exists $1 (exists $2 (/automotive/us_fuel_economy@highway_mpg@city_mpg@trim_level@fuel:t $0 $1 /m/04nbpg5:/automotive/trim_level $2))))
+
+what is the price of a 2012 jeep wrangler sport
+(lambda $0 /common/topic (/automotive/trim_level@msrp:t /m/0hgwnr4:/automotive/trim_level $0))
+
+what is the transmission of a 2011 honda fit
+(lambda $0 /common/topic (/automotive/trim_level@transmission:t /m/0h2krn6:/automotive/trim_level $0))
+
+what is the engine in a 2010 ferrari california
+(lambda $0 /common/topic (/automotive/trim_level@engine:t /m/0h33xbs:/automotive/trim_level $0))
+
+what makes does ford have
+(lambda $0 /common/topic (/automotive/company@make_s:t /en/ford_motor_company:/automotive/company $0))
+
+what are bmw's manufacturing plants
+(lambda $0 /location/location (/automotive/company@manufacturing_plants:t /en/bmw:/automotive/company $0))
+
+what's the horsepower of an alluminum-alloy v6 engine
+(lambda $0 /common/topic (/automotive/engine@horsepower:t /en/alluminum_alloy_v6:/automotive/engine $0))
+
+what types of fuel does a 4 cylinder engine take
+(lambda $0 /common/topic (/automotive/engine@fuels_used:t /en/4_cylinder:/automotive/engine $0))
+
+who designed the first generation ford mustang
+(lambda $0 /people/person (/automotive/generation@designer:t /en/first_generation_ford_mustang:/automotive/generation $0))
+

@@ -1,0 +1,27 @@
+what is the orbital period of the moon
+(lambda $0 /common/topic (/astronomy/orbital_relationship@orbital_period:t /en/moon:/astronomy/orbital_relationship $0))
+
+what are the moons of jupiter
+(lambda $0 /common/topic (/astronomy/orbital_relationship@orbited_by:t /en/jupiter:/astronomy/orbital_relationship $0))
+
+what is the temperature of polaris
+(lambda $0 /common/topic (/astronomy/star@temperature_k:t /en/polaris:/astronomy/star $0))
+
+where was the 3 juno asteroid discovered
+(lambda $0 /common/topic (/astronomy/astronomical_discovery@discovery_site:t /en/3_juno:/astronomy/astronomical_discovery $0))
+
+who discovered the rings of saturn
+(lambda $0 /people/person (/astronomy/astronomical_discovery@discoverer:t /en/rings_of_saturn:/astronomy/astronomical_discovery $0))
+
+how was pluto discovered
+(lambda $0 /common/topic (/astronomy/astronomical_discovery@discovery_technique:t /en/pluto:/astronomy/astronomical_discovery $0))
+
+what telescopes does the lowell observatory have
+(lambda $0 /common/topic (/astronomy/astronomical_observatory@telescope_s:t /en/lowell_observatory:/astronomy/astronomical_observatory $0))
+
+what meteor showers has the comet halley spawned
+(lambda $0 /common/topic (/astronomy/comet@meteor_shower_spawned:t /en/comet_halley:/astronomy/comet $0))
+
+what starts are in ursa minor
+(lambda $0 /common/topic (/astronomy/constellation@contains:t /en/ursa_minor:/astronomy/constellation $0))
+

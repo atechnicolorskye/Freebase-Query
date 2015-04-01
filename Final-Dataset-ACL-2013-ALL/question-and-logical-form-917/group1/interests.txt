@@ -1,0 +1,18 @@
+what did elizabeth ii collect
+(lambda $0 /common/topic (exists $1 (/interests/collection@collector@category@items:t /en/elizabeth_ii_of_the_united_kingdom:/interests/collector $0 $1)))
+
+how many cars are in jay leno's car collection
+(count $0 (/interests/collection@collector@category@items:t /en/jay_leno:/interests/collector /en/automobile:/interests/collection_category $0))
+
+how many people collect automobiles
+(count $0 (exists $1 (/interests/collection@collector@category@items:t $0 /en/automobile:/interests/collection_category $1)))
+
+what is the collection of postcards called
+(lambda $0 /common/topic (/interests/collection_category@name_of_collection_activity:t /en/postcard:/interests/collection_category $0))
+
+what is sarah jessica parker's hobby
+(lambda $0 /common/topic (/interests/hobbyist@hobbies:t /en/sarah_jessica_parker:/interests/hobbyist $0))
+
+how many collections did barry halper have
+(count $0 (exists $1 (/interests/collection@collector@category@items:t /en/barry_halper:/interests/collector $0 $1)))
+

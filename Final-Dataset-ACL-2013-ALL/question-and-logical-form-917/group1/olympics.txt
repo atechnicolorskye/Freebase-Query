@@ -1,0 +1,42 @@
+for what country did bernard lagat play in the 2000 summer olympics
+(lambda $0 /common/topic (exists $1 (/olympics/olympic_athlete_affiliation@athlete@country@olympics@sport:t /en/bernard_lagat:/olympics/olympic_athlete $0 /en/2000_summer_olympics:/olympics/olympic_games $1)))
+
+in what events did ian thorpe compete in the 2004 summer olympics
+(lambda $0 /common/topic (exists $1 (exists $2 (/olympics/olympic_medal_honor@country@event@medal@medalist@olympics:t $1 $0 $2 /en/ian_thorpe:/olympics/olympic_athlete /en/2004_summer_olympics:/olympics/olympic_games))))
+
+what sport did scott anderson play in the 1992 summer olympics
+(lambda $0 /common/topic (exists $1 (/olympics/olympic_athlete_affiliation@athlete@country@olympics@sport:t /m/04dnjr9:/olympics/olympic_athlete $1 /en/1992_summer_olympics:/olympics/olympic_games $0)))
+
+what medal did graeme brown receive at the 2004 summer olympics
+(lambda $0 /common/topic (exists $1 (exists $2 (/olympics/olympic_medal_honor@country@event@medal@medalist@olympics:t $1 $2 $0 /en/graeme_brown:/olympics/olympic_athlete /en/2004_summer_olympics:/olympics/olympic_games))))
+
+who got the gold medal in men_s singles tennis at the 1896 summer olympics
+(lambda $0 /people/person (exists $1 (exists $2 (/olympics/olympic_medal_honor@country@event@medal@medalist@olympics:t $1 /view/en/tennis_at_the_1896_summer_olympics_mens_singles:/olympics/olympic_event_competition /en/gold_medal:/olympics/olympic_medal $0 $2))))
+
+what german athletes have participated in the olympics
+(lambda $0 /people/person (exists $1 (exists $2 (/olympics/olympic_athlete_affiliation@athlete@country@olympics@sport:t $0 /en/germany:/olympics/olympic_participating_country $1 $2))))
+
+what olympics has egypt participated in
+(lambda $0 /common/topic (/olympics/olympic_participating_country@olympics_participated_in:t /en/egypt:/olympics/olympic_participating_country $0))
+
+what city hosted the 1948 summer olympics
+(lambda $0 /location/location (/olympics/olympic_games@host_city:t /en/1948_summer_olympics:/olympics/olympic_games $0))
+
+how many countries participated in the 2006 winter olympics
+(lambda $0 /type/int (/olympics/olympic_games@number_of_countries:t /en/2006_winter_olympics:/olympics/olympic_games $0))
+
+how many athletes have gotten an olympic gold medal
+(count $0 (exists $1 (exists $2 (exists $3 (/olympics/olympic_medal_honor@country@event@medal@medalist@olympics:t $1 $2 /en/gold_medal:/olympics/olympic_medal $0 $3)))))
+
+how many tennis events are there at the olympics
+(count $0 (/olympics/olympic_sport@events:t /m/07bs0:/olympics/olympic_sport $0))
+
+how many people ride the london underground daily
+(count $0 (/metropolitan_transit/transit_system@daily_riders:t /en/london_underground:/metropolitan_transit/transit_system $0))
+
+what are the lines of the new york city subway
+(lambda $0 /common/topic (/metropolitan_transit/transit_system@transit_lines:t /en/new_york_city_subway:/metropolitan_transit/transit_system $0))
+
+where does the market-frankford line stop
+(lambda $0 /location/location (/metropolitan_transit/transit_line@stops:t /en/market-frankford_line:/metropolitan_transit/transit_line $0))
+

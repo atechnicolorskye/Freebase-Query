@@ -1,0 +1,42 @@
+what ship class is the uss cobia
+(lambda $0 /common/topic (/boats/ship@ship_class:t /en/uss_cobia:/boats/ship $0))
+
+where was the uss constitution built
+(lambda $0 /location/location (/boats/ship@place_built:t /en/uss_constitution:/boats/ship $0))
+
+when was the uss croaker launched
+(lambda $0 /type/datetime (/boats/ship@launched:t /en/uss_croaker:/boats/ship $0))
+
+who built the uss nautilus
+(lambda $0 /common/topic (/boats/ship@ship_builder:t /en/uss_nautilus:/boats/ship $0))
+
+where was lady washington built
+(lambda $0 /location/location (/boats/ship@place_built:t /en/lady_washington:/boats/ship $0))
+
+what is the hull made of on the james craig
+(lambda $0 /common/topic (/boats/ship@hull_material:t /m/02zl93:/boats/ship $0))
+
+how long overall is the tahina
+(lambda $0 /common/topic (/boats/ship@length_overall:t /m/0b_h31m:/boats/ship $0))
+
+how is the plastiki propelled
+(lambda $0 /common/topic (/boats/ship@means_of_propulsion:t /en/plastiki:/boats/ship $0))
+
+what are some gato class submarines
+(lambda $0 /common/topic (/boats/ship_class@ships_in_class:t /en/gato_class_submarine:/boats/ship_class $0))
+
+what is the max speed of a collins class submarine
+(lambda $0 /common/topic (/boats/ship_class@max_speed_knots:t /en/collins_class_submarine:/boats/ship_class $0))
+
+how many ships has nathanael herreshoff designed
+(count $0 (/boats/ship_designer@boats_designed:t /en/nathanael_herreshoff:/boats/ship_designer $0))
+
+how many boats does the royal navy own
+(count $0 (exists $1 (exists $2 (/boats/ship_ownership@ship@owner@from_date@to_date:t $0 /en/royal_navy:/boats/ship_owner $1 $2))))
+
+how many ships were built by bath iron works
+(count $0 (/boats/ship_builder@ships_built:t /en/bath_iron_works:/boats/ship_builder $0))
+
+what spirits are produced in kentucky
+(lambda $0 /common/topic (/distilled_spirits/spirit_producing_region@distilleries:t /en/kentucky:/distilled_spirits/spirit_producing_region $0))
+

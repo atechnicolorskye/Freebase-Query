@@ -1,0 +1,12 @@
+what artists are influenced by lead belly
+(lambda $0 /common/topic (/influence/influence_node@influenced:t /en/leadbelly:/influence/influence_node $0))
+
+who has influenced stephen fry
+(lambda $0 /common/topic (/influence/influence_node@influenced_by:t /en/stephen_fry:/influence/influence_node $0))
+
+how many people influenced karl marx
+(count $0 (/influence/influence_node@influenced_by:t /en/karl_marx:/influence/influence_node $0))
+
+how many people have been influenced by socrates
+(count $0 (/influence/influence_node@influenced:t /en/socrates:/influence/influence_node $0))
+

@@ -1,0 +1,53 @@
+In ACL dataset, we update our previous *SEM dataset. We include more domains and more questions.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Questions and Logical Forms
+
+-----------------------------
+917 training and testing data made up of sentences, logical forms, such as:
+
+	when was the order of saint michael founded
+	(lambda $0 /type/datetime (/royalty/order_of_chivalry@date_founded:t /en/order_of_saint_michael:/royalty/order_of_chivalry $0))
+
+
+-----------------------------
+to perform 3-fold cross-validation, we divide the dataset into three groups of nearly-equal size by placing similar domains together in the same group;
+
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+named-entity-list
+
+-----------------------------
+initial NP lexicon with one lexical item per line
+eg:
+	word :- NP : logical form
+
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Lang.LANG
+
+----------------------------
+relations definition:
+eg:
+	(/american_football/football_team@current_head_coach:t /american_football/football_team /american_football/football_coach t)
+
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Types-sub.LANG
+
+----------------------------
+types definition: (sub-type super-type)
+eg:
+	(/transportation/bridge /location/location)
+
+

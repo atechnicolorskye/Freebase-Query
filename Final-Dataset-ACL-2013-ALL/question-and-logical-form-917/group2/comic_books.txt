@@ -1,0 +1,33 @@
+who published the amazing spider-man
+(lambda $0 /common/topic (/comic_books/comic_book_series@publisher:t /en/the_amazing_spider-man:/comic_books/comic_book_series $0))
+
+how many issues are there in the x-men
+(lambda $0 /type/int (/comic_books/comic_book_series@number_of_issues:t /m/02hqp38:/comic_books/comic_book_series $0))
+
+who created the runaways comic book series
+(lambda $0 /people/person (/comic_books/comic_book_series@created_by:t /en/runaways:/comic_books/comic_book_series $0))
+
+what characters are featured in batman: the dark knight returns
+(lambda $0 /common/topic (/comic_books/comic_book_series@featured_characters:t /en/batman_the_dark_knight_returns:/comic_books/comic_book_series $0))
+
+in which comic book issue did kitty pryde first appear
+(lambda $0 /common/topic (/comic_books/comic_book_character@first_appearance:t /en/kitty_pryde:/comic_books/comic_book_character $0))
+
+which issues of x-men have iceman on the cover
+(lambda $0 /common/topic (/comic_books/comic_book_character@cover_appearances:t /en/iceman:/comic_books/comic_book_character $0))
+
+who created superman
+(lambda $0 /people/person (/comic_books/comic_book_character@created_by:t /en/superman:/comic_books/comic_book_character $0))
+
+how many comic stories has adrienne roy colored
+(count $0 (/comic_books/comic_book_colorist@comic_stories_colored:t /en/adrienne_roy:/comic_books/comic_book_colorist $0))
+
+what was the cover price of the x-men issue 1
+(lambda $0 /common/topic (/comic_books/comic_book_issue@cover_price:t /en/the_x_men_1:/comic_books/comic_book_issue $0))
+
+what characters were on the cover of batman #1
+(lambda $0 /common/topic (/comic_books/comic_book_issue@characters_on_cover:t /en/batman_1:/comic_books/comic_book_issue $0))
+
+what issue of sandman is a dream of a thousand cats
+(lambda $0 /type/int (/comic_books/comic_book_issue@issue_number:t /en/a_dream_of_a_thousand_cats:/comic_books/comic_book_issue $0))
+

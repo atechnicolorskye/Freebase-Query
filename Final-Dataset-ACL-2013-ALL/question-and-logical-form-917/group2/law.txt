@@ -1,0 +1,33 @@
+who invented scrabble
+(lambda $0 /people/person (/law/invention@inventor:t /en/scrabble:/law/invention $0))
+
+what area did the meiji constitution govern
+(lambda $0 /location/location (/law/constitution@country:t /en/meiji_constitution:/law/constitution $0))
+
+when was the first amendment ratified
+(lambda $0 /type/datetime (/law/constitutional_amendment@ratification_completed_on:t /en/first_amendment_to_the_united_states_constitution:/law/constitutional_amendment $0))
+
+who proposed the fifth amendment
+(lambda $0 /common/topic (/law/constitutional_amendment@proposed_by:t /en/fifth_amendment_to_the_united_states_constitution:/law/constitutional_amendment $0))
+
+how many us supreme court cases have there been
+(count $0 (/law/court@legal_cases:t /en/supreme_court_of_the_united_states:/law/court/legal_cases $0))
+
+over what area does the court of chancery have jurisdiction
+(lambda $0 /location/location (/law/court@jurisdiction:t /en/court_of_chancery:/law/court $0))
+
+how many judges has the high court of justice had
+(count $0 (exists $1 (exists $2 (exists $3 (/law/judicial_tenure@court@judge@from_date@to_date@title:t /en/high_court_of_justice:/law/court $0 $1 $2 $3)))))
+
+when was the high court of australia founded
+(lambda $0 /type/datetime (/law/court@founded:t /en/high_court_of_australia:/law/court $0))
+
+what was roe v. wade about
+(lambda $0 /common/topic (/law/legal_case@subject:t /en/roe_v_wade:/law/legal_case $0))
+
+what judge presided over state v. kelly
+(lambda $0 /people/person (/law/legal_case@judges:t /en/state_v_kelly:/law/judge $0))
+
+when was the printing press invented
+(lambda $0 /type/datetime (/law/invention@date_of_invention:t /en/printing_press:/law/invention $0))
+

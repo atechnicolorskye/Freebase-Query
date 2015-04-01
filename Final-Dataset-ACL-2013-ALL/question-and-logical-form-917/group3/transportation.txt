@@ -1,0 +1,18 @@
+how long is the golden gate bridge
+(lambda $0 /common/topic (/transportation/bridge@total_length:t /en/golden_gate_bridge:/transportation/bridge $0))
+
+what type of bridge is the manhattan bridge
+(lambda $0 /common/topic (/transportation/bridge@bridge_type:t /en/suspension_bridge:/transportation/bridge $0))
+
+what highway system does us route 101 belong to
+(lambda $0 /common/topic (/transportation/road@highway_system:t /en/us_route_101:/transportation/road $0))
+
+what cities does us interstate 5 pass
+(lambda $0 /location/location (/transportation/road@major_cities:t /en/us_interstate_5:/transportation/road $0))
+
+how long is the mexican federal highway 1
+(lambda $0 /common/topic (/transportation/road@length:t /en/mexican_federal_highway_1:/transportation/road $0))
+
+when was interstate 579 formed
+(lambda $0 /type/datetime (/transportation/road@formed:t /en/interstate_579:/transportation/road $0))
+

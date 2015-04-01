@@ -1,0 +1,18 @@
+where was the 1st world science fiction convention held
+(lambda $0 /common/topic (/conferences/conference@venue:t /en/1st_world_science_fiction_convention:/conferences/conference $0))
+
+who sponsors the hoby seminars
+(lambda $0 /common/topic (/conferences/conference_series@sponsoring_organization:t /m/0hmwcy2:/conferences/conference_series $0))
+
+what is pycon about
+(lambda $0 /common/topic (/conferences/conference_series@subject:t /en/pycon:/conferences/conference_series $0))
+
+how many conferences have been held at the los angeles convention center
+(count $0 (/conferences/conference_venue@conferences:t /en/los_angeles_convention_center:/conferences/conference_venue $0))
+
+what conferences does google sponsor
+(lambda $0 /common/topic (/conferences/conference_sponsor@conferences:t /en/google:/conferences/conference_sponsor $0))
+
+how many conferences about mathematics are there
+(lambda $0 /common/topic (/conferences/conference_subject@series_of_conferences_about_this:t /en/mathematics:/conferences/conference_subject $0))
+

@@ -1,0 +1,33 @@
+what substancs has robert downey jr abused
+(lambda $0 /common/topic (exists $1 (exists $2 (/celebrities/substance_abuse_problem@substance@start@end@celebrity:t $0 $1 $2 /en/robert_downey_jr:/celebrities/celebrity))))
+
+what is britney spears' sexual orientation
+(lambda $0 /common/topic (exists $1 (exists $2 (/celebrities/sexual_orientation_phase@celebrity@start@end@sexual_orientation:t /en/britney_spears:/celebrities/celebrity $1 $2 $0))))
+
+how many legal offences has lindsey lohan committed
+(count $0 (exists $1 (exists $2 (/celebrities/legal_entanglement@celebrity@location@offense@date:t /en/lindsay_lohan:/celebrities/celebrity $1 $0 $2))))
+
+what is angelina jolie's net worth
+(lambda $0 /common/topic (/celebrities/celebrity@net_worth:t /en/angelina_jolie:/celebrities/celebrity $0))
+
+when did robin williams stop abusing cocaine
+(lambda $0 /type/datetime (exists $1 (/celebrities/substance_abuse_problem@substance@start@end@celebrity:t /en/cocaine:/celebrities/abused_substance $0 $1 /en/robin_williams:/celebrities/celebrity)))
+
+when did charlie sheen enter the thousand oaks rehab facility
+(lambda $0 /type/datetime (exists $1 (/celebrities/rehab@celebrity@rehab_facility@entered@completed:t /en/charlie_sheen:/celebrities/celebrity /m/04fz39z:/celebrities/rehab_facility $0 $1)))
+
+what rehab facilities has jerry garcia gone to
+(lambda $0 /common/topic (exists $1 (exists $2 (/celebrities/rehab@celebrity@rehab_facility@entered@completed:t /en/jerry_garcia:/celebrities/celebrity $0 $1 $2))))
+
+how many celebrities have been charged with driving under the influence
+(count $0 (exists $1 (exists $2 (/celebrities/legal_entanglement@celebrity@location@offense@date:t $0 $1 /en/driving_under_the_influence:/celebrities/reason_for_arrest $2))))
+
+who makes up tomkat
+(lambda $0 /common/topic (/celebrities/supercouple@partners:t /en/tomkat:/celebrities/supercouple $0))
+
+how many celebrities have abused cocaine
+(count $0 (exists $1 (exists $2 (/celebrities/substance_abuse_problem@substance@start@end@celebrity:t /en/cocaine:/celebrities/abused_substance $1 $2 $0))))
+
+what celebrities have gone to the betty ford center
+(lambda $0 /common/topic (exists $1 (exists $2 (/celebrities/rehab@celebrity@rehab_facility@entered@completed:t $0 /en/betty_ford_center:/celebrities/rehab_facility $1 $2))))
+

@@ -1,0 +1,15 @@
+what year were the ny yankees founded
+(lambda $0 /type/datetime (/sports/sports_team@founded:t /en/new_york_yankees:/sports/sports_team $0))
+
+what stadium do the phillies play in
+(lambda $0 /location/location (/sports/sports_team@arena_stadium:t /en/philadelphia_phillies:/sports/sports_team $0))
+
+how many wins did the philadelphia eagles have in the 2008 nfl season
+(count $0 (exists $1 (exists $2 (/sports/sports_team_season_record@season@team@wins@losses@ties:t /en/2008_nfl_season:/sports/sports_league_season /en/philadelphia_eagles:/sports/sports_team $0 $1 $2))))
+
+what is the mascot of the boston red sox
+(lambda $0 /common/topic (/sports/sports_team@team_mascot:t /en/boston_red_sox:/sports/sports_team $0))
+
+where do the denver spurs play
+(lambda $0 /location/location (/sports/sports_team@arena_stadium:t /en/denver_spurs:/sports/sports_team $0))
+

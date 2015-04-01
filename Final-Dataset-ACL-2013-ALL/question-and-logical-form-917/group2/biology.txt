@@ -1,0 +1,42 @@
+where does the chow chow originate
+(lambda $0 /location/location (/biology/animal_breed@place_of_origin:t /en/chow_chow:/biology/animal_breed $0))
+
+what is the scientific name for a horse
+(lambda $0 /common/topic (/biology/organism_classification@scientific_name:t /en/domesticated_horse:/biology/organism_classification $0))
+
+what are the dna codons of glutamine
+(lambda $0 /common/topic (/biology/amino_acid@codons:t /en/glutamine:/biology/amino_acid $0))
+
+how many rna codons does glycine have
+(count $0 (/biology/amino_acid@rna_codons:t /en/glycine:/biology/amino_acid $0))
+
+what is the single letter abreviation for tryptophan
+(lambda $0 /common/topic (/biology/amino_acid@single_letter_abbreviation:t /en/tryptophan:/biology/amino_acid $0))
+
+what breed group is a shar pei in the american kennel club
+(lambda $0 /common/topic (exists $1 (exists $2 (/biology/breed_registration@from@to@breed@registry@breed_group:t $1 $2 /en/shar_pei:/biology/animal_breed /en/american_kennel_club:/biology/breed_registry $0))))
+
+how many breeds are in the sporting group of the american kennel club
+(count $0 (exists $1 (exists $2 (/biology/breed_registration@from@to@breed@registry@breed_group:t $1 $2 $0 /en/american_kennel_club:/biology/breed_registry /en/sporting_group:/biology/breed_group))))
+
+how tall was seabiscuit
+(lambda $0 /common/topic (/biology/organism@height_meters:t /en/seabiscuit:/biology/organism $0))
+
+when did secretariat die
+(lambda $0 /type/datetime (/biology/deceased_organism@date_of_death:t /en/secretariat:/biology/deceased_organism $0))
+
+what type of organism was lucy a fossil of
+(lambda $0 /common/topic (/biology/fossil_specimen@organism:t /m/0gd2g7:/biology/fossil_specimen $0))
+
+where was neanderthal 1 found
+(lambda $0 /location/location (/biology/fossil_specimen@found_at_site:t /m/026lz95:/biology/fossil_specimen $0))
+
+what is rna binding
+(lambda $0 /common/topic (/biology/gene_ontology_group@description:t /en/rna_binding:/biology/gene_ontology_group $0))
+
+what percentage of the grapes in a 1966 chateau latour grand vin are merlot
+(lambda $0 /type/int (/wine/grape_variety_composition@percentage@grape_variety@wine:t $0 /en/merlot:/wine/grape_variety /en/1966_chateau_latour:/wine/wine))
+
+what percent alcohol is a g.h. mumm cordon rouge brut
+(lambda $0 /common/topic (/wine/wine@percentage_alcohol:t /en/g_h_mumm_cordon_rouge_brut:/wine/wine $0))
+

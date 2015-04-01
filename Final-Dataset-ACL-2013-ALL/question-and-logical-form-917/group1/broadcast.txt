@@ -1,0 +1,36 @@
+who are the hosts of car talk
+(lambda $0 /common/topic (/broadcast/content@artist:t /en/car_talk:/broadcast/content $0))
+
+who owns wxpn
+(lambda $0 /common/topic (/broadcast/radio_station@owner:t /en/wxpn:/broadcast/radio_station $0))
+
+who produces meet the press
+(lambda $0 /common/topic (/broadcast/content@producer:t /en/nbc_meet_the_press_video:/broadcast/content $0))
+
+what is the genre of the skeptics' guide to the universe
+(lambda $0 /common/topic (/broadcast/content@genre:t /m/03z9smt:/broadcast/content $0))
+
+where is between the lines produced
+(lambda $0 /location/location (/broadcast/content@location:t /m/03d5yt5:/broadcast/content $0))
+
+when did the standard school broadcast start production
+(lambda $0 /type/datetime (/broadcast/content@production_start:t /en/the_standard_school_broadcast:/broadcast/content $0))
+
+when did easy aces stop being produced
+(lambda $0 /type/datetime (/broadcast/content@production_end:t /en/easy_aces:/broadcast/content $0))
+
+how many broadcasts does blogtalkradio distribute
+(count $0 (/broadcast/distributor@distributes:t /en/blogtalkradio:/broadcast/distributor $0))
+
+how long is wired_s gadget lab podcast
+(lambda $0 /type/int (/broadcast/podcast_feed@average_media_length:t /en/wireds_gadget_lab_podcast_podcast_feed:/broadcast/podcast_feed $0))
+
+what area does kifm serve
+(lambda $0 /location/location (/broadcast/radio_station@serves_area:t /en/kifm:/broadcast/radio_station $0))
+
+how many radio stations does cbs radio own
+(count $0 (/broadcast/radio_station_owner@radio_stations:t /en/cbs_radio:/broadcast/radio_station_owner $0))
+
+how many tv channels does nbc own
+(count $0 (/broadcast/tv_station_owner@tv_stations:t /en/nbc:/broadcast/tv_station_owner $0))
+

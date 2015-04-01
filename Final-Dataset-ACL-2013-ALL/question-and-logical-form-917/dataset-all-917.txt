@@ -1,0 +1,2751 @@
+what is the highway fuel economy of a 2007 honda civic hybrid
+(lambda $0 /common/topic (exists $1 (exists $2 (/automotive/us_fuel_economy@highway_mpg@city_mpg@trim_level@fuel:t $0 $1 /m/04nbbrp:/automotive/trim_level $2))))
+
+what is the fuel economy of a 2008 hyundai accent gls sedan in the city
+(lambda $0 /common/topic (exists $1 (exists $2 (/automotive/us_fuel_economy@highway_mpg@city_mpg@trim_level@fuel:t $0 $1 /m/04nbpg5:/automotive/trim_level $2))))
+
+what is the price of a 2012 jeep wrangler sport
+(lambda $0 /common/topic (/automotive/trim_level@msrp:t /m/0hgwnr4:/automotive/trim_level $0))
+
+what is the transmission of a 2011 honda fit
+(lambda $0 /common/topic (/automotive/trim_level@transmission:t /m/0h2krn6:/automotive/trim_level $0))
+
+what is the engine in a 2010 ferrari california
+(lambda $0 /common/topic (/automotive/trim_level@engine:t /m/0h33xbs:/automotive/trim_level $0))
+
+what makes does ford have
+(lambda $0 /common/topic (/automotive/company@make_s:t /en/ford_motor_company:/automotive/company $0))
+
+what are bmw's manufacturing plants
+(lambda $0 /location/location (/automotive/company@manufacturing_plants:t /en/bmw:/automotive/company $0))
+
+what's the horsepower of an alluminum-alloy v6 engine
+(lambda $0 /common/topic (/automotive/engine@horsepower:t /en/alluminum_alloy_v6:/automotive/engine $0))
+
+what types of fuel does a 4 cylinder engine take
+(lambda $0 /common/topic (/automotive/engine@fuels_used:t /en/4_cylinder:/automotive/engine $0))
+
+who designed the first generation ford mustang
+(lambda $0 /people/person (/automotive/generation@designer:t /en/first_generation_ford_mustang:/automotive/generation $0))
+
+what year did sgt. pepper's lonely hearts club band win a grammy
+(lambda $0 /type/datetime (exists $1 (exists $2 (exists $3 (exists $4 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $0 $2 $3 /en/sgt_peppers_lonely_hearts_club_band:/award/award_winning_work $4))))))
+
+when did everything is illuminated win the guardian first book award
+(lambda $0 /type/datetime (exists $1 (exists $2 (exists $3 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $0 /en/guardian_first_book_award:/award/award_category $2 /en/everything_is_illuminated:/award/award_winning_work $3)))))
+
+what award does the royal institute of british architects present
+(lambda $0 /common/topic (/award/award_presenting_organization@awards_presented:t /en/royal_institute_of_british_architects:/award/award_presenting_organization $0))
+
+what awards has lost won
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (exists $4 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $2 $0 $3 /en/lost:/award/award_winning_work $4))))))
+
+what awards has the english patient won
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (exists $4 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $2 $0 $3 /en/the_english_patient:/award/award_winning_work $4))))))
+
+in what year did harry potter and the goblet of fire win the hugo award for best novel
+(lambda $0 /type/datetime (exists $1 (exists $2 (exists $3 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $0 /en/hugo_award_for_best_novel:/award/award_category $2 /en/harry_potter_and_the_goblet_of_fire:/award/award_winning_work $3)))))
+
+where did monsanto rank on the forune 500 in 2000
+(lambda $0 /type/int (exists $1 (/award/ranking@rank@year@note@list@item:t $0 /type/datetime/2000:/type/datetime $1 /en/fortune_500:/award/ranked_list /en/monsanto:/award/ranked_item)))
+
+when was joni mitchell inducted into the rock and roll hall of fame
+(lambda $0 /type/datetime (exists $1 (exists $2 (/award/hall_of_fame_induction@date@note@hall_of_fame@inductee@category:t $0 $1 /en/rock_and_roll_hall_of_fame:/award/hall_of_fame /en/joni_mitchell:/award/hall_of_fame_inductee $2))))
+
+how many people have won the nobel peace prize
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $2 /en/nobel_peace_prize:/award/award_category $0 $3 $4))))))
+
+who was nominated for the academy award for best director in 2011
+(lambda $0 /common/topic (exists $1 (exists $2 (/award/award_nomination@award@year@award_nominee@nominated_for@notes_description:t /en/academy_award_for_best_director:/award/award_category /type/datetime/2011:/type/datetime $0 $1 $2))))
+
+for what albums did barack obama win a grammy award for best spoken word album
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $2 /en/grammy_award_for_best_spoken_word_album:/award/award_category /en/barack_obama:/award/award_winner $0 $3)))))
+
+who was rolling stones' greatest guitarist of all time in 2003
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/award/ranking@rank@year@note@list@item:t $1 $2 $3 /en/rolling_stones_100_greatest_guitarists_of_all_time:/award/ranked_list $0)))))
+
+how many awards did sesame street win
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $2 $0 $3 /en/sesame_street:/award/award_winning_work $4))))))
+
+how many peabody award winners are there
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $2 /en/peabody_award:/award/award_category $0 $3 $4))))))
+
+what year was ron glass an award nominee
+(lambda $0 /type/datetime (exists $1 (exists $2 (exists $3 (/award/award_nomination@award@year@award_nominee@nominated_for@notes_description:t $1 $0 /en/ron_glass:/award/award_nominee $2 $3)))))
+
+in 1981 what award did danny devito win
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 /type/datetime/1981:/type/datetime $0 /en/danny_devito:/award/award_winner $2 $3)))))
+
+in 1982 who were the primetieme emmy award for comedy series nominees
+(lambda $0 /common/topic (exists $1 (exists $2 (/award/award_nomination@award@year@award_nominee@nominated_for@notes_description:t /en/primetime_emmy_award_for_outstanding_comedy_series:/award/award_category /type/datetime/1982:/type/datetime $0 $1 $2))))
+
+how many awards did jack albertson win
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $2 $0 /en/jack_albertson:/award/award_winner $3 $4))))))
+
+what award did jack albertson win in 1968
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 /type/datetime/1968:/type/datetime $0 /en/jack_albertson:/award/award_winner $2 $3)))))
+
+what was target 's rank in the fortune 500 in 2010
+(lambda $0 /type/int (exists $1 (/award/ranking@rank@year@note@list@item:t $0 /type/datetime/2010:/type/datetime $1 /en/fortune_500:/award/ranked_list /en/target_corporation:/award/ranked_item)))
+
+who won best movie of 2010
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 /type/datetime/2010:/type/datetime /en/academy_award_for_best_picture:/award/award_category $0 $2 $3)))))
+
+how many awards did the movie 8 mile win
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $2 $0 $3 /en/8_mile:/award/award_winning_work $4))))))
+
+how many awards did titanic win
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $2 $0 $3 /en/titanic:/award/award_winning_work $4))))))
+
+what movies won the golden globe award for best drama film
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (exists $4 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $2 /en/golden_globe_award_for_best_motion_picture_-_drama:/award/award_category $3 $0 $4))))))
+
+what movies won ascap film and television music awards for most performed songs from motion pictures
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (exists $4 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $2 /m/04d215m:/award/award_category $3 $0 $4))))))
+
+how many awards did big daddy win
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $2 $0 $3 /en/big_daddy:/award/award_winning_work $4))))))
+
+how many nominations did nutty professor have
+(count $0 (exists $1 (exists $2 (exists $3 (/award/award_nomination@award@year@award_nominee@nominated_for@notes_description:t $0 $1 $2 /en/the_nutty_professor:/award/award_nominated_work $3)))))
+
+how many awards did danny devito win
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $2 $0 /en/danny_devito:/award/award_winner $3 $4))))))
+
+what movie did danny devito win an award for in 1981
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 /type/datetime/1981:/type/datetime $2 /en/danny_devito:/award/award_winner $0 $3)))))
+
+how many award nominations did danny devito have
+(count $0 (exists $1 (exists $2 (exists $3 (/award/award_nomination@award@year@award_nominee@nominated_for@notes_description:t $0 $1 /en/danny_devito:/award/award_nominee $2 $3)))))
+
+what movies were nominated for favorite comedy movie
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/award/award_nomination@award@year@award_nominee@nominated_for@notes_description:t /en/peoples_choice_award_for_favorite_comedy_movie:/award/award_category $1 $2 $0 $3)))))
+
+how many grammy awards did beyonce receive in her singing career
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $2 $0 /en/beyonce:/award/award_winner $3 $4))))))
+
+what ship class is the uss cobia
+(lambda $0 /common/topic (/boats/ship@ship_class:t /en/uss_cobia:/boats/ship $0))
+
+where was the uss constitution built
+(lambda $0 /location/location (/boats/ship@place_built:t /en/uss_constitution:/boats/ship $0))
+
+when was the uss croaker launched
+(lambda $0 /type/datetime (/boats/ship@launched:t /en/uss_croaker:/boats/ship $0))
+
+who built the uss nautilus
+(lambda $0 /common/topic (/boats/ship@ship_builder:t /en/uss_nautilus:/boats/ship $0))
+
+where was lady washington built
+(lambda $0 /location/location (/boats/ship@place_built:t /en/lady_washington:/boats/ship $0))
+
+what is the hull made of on the james craig
+(lambda $0 /common/topic (/boats/ship@hull_material:t /m/02zl93:/boats/ship $0))
+
+how long overall is the tahina
+(lambda $0 /common/topic (/boats/ship@length_overall:t /m/0b_h31m:/boats/ship $0))
+
+how is the plastiki propelled
+(lambda $0 /common/topic (/boats/ship@means_of_propulsion:t /en/plastiki:/boats/ship $0))
+
+what are some gato class submarines
+(lambda $0 /common/topic (/boats/ship_class@ships_in_class:t /en/gato_class_submarine:/boats/ship_class $0))
+
+what is the max speed of a collins class submarine
+(lambda $0 /common/topic (/boats/ship_class@max_speed_knots:t /en/collins_class_submarine:/boats/ship_class $0))
+
+how many ships has nathanael herreshoff designed
+(count $0 (/boats/ship_designer@boats_designed:t /en/nathanael_herreshoff:/boats/ship_designer $0))
+
+how many boats does the royal navy own
+(count $0 (exists $1 (exists $2 (/boats/ship_ownership@ship@owner@from_date@to_date:t $0 /en/royal_navy:/boats/ship_owner $1 $2))))
+
+how many ships were built by bath iron works
+(count $0 (/boats/ship_builder@ships_built:t /en/bath_iron_works:/boats/ship_builder $0))
+
+what substancs has robert downey jr abused
+(lambda $0 /common/topic (exists $1 (exists $2 (/celebrities/substance_abuse_problem@substance@start@end@celebrity:t $0 $1 $2 /en/robert_downey_jr:/celebrities/celebrity))))
+
+what is britney spears' sexual orientation
+(lambda $0 /common/topic (exists $1 (exists $2 (/celebrities/sexual_orientation_phase@celebrity@start@end@sexual_orientation:t /en/britney_spears:/celebrities/celebrity $1 $2 $0))))
+
+how many legal offences has lindsey lohan committed
+(count $0 (exists $1 (exists $2 (/celebrities/legal_entanglement@celebrity@location@offense@date:t /en/lindsay_lohan:/celebrities/celebrity $1 $0 $2))))
+
+what is angelina jolie's net worth
+(lambda $0 /common/topic (/celebrities/celebrity@net_worth:t /en/angelina_jolie:/celebrities/celebrity $0))
+
+when did robin williams stop abusing cocaine
+(lambda $0 /type/datetime (exists $1 (/celebrities/substance_abuse_problem@substance@start@end@celebrity:t /en/cocaine:/celebrities/abused_substance $0 $1 /en/robin_williams:/celebrities/celebrity)))
+
+when did charlie sheen enter the thousand oaks rehab facility
+(lambda $0 /type/datetime (exists $1 (/celebrities/rehab@celebrity@rehab_facility@entered@completed:t /en/charlie_sheen:/celebrities/celebrity /m/04fz39z:/celebrities/rehab_facility $0 $1)))
+
+what rehab facilities has jerry garcia gone to
+(lambda $0 /common/topic (exists $1 (exists $2 (/celebrities/rehab@celebrity@rehab_facility@entered@completed:t /en/jerry_garcia:/celebrities/celebrity $0 $1 $2))))
+
+how many celebrities have been charged with driving under the influence
+(count $0 (exists $1 (exists $2 (/celebrities/legal_entanglement@celebrity@location@offense@date:t $0 $1 /en/driving_under_the_influence:/celebrities/reason_for_arrest $2))))
+
+who makes up tomkat
+(lambda $0 /common/topic (/celebrities/supercouple@partners:t /en/tomkat:/celebrities/supercouple $0))
+
+how many celebrities have abused cocaine
+(count $0 (exists $1 (exists $2 (/celebrities/substance_abuse_problem@substance@start@end@celebrity:t /en/cocaine:/celebrities/abused_substance $1 $2 $0))))
+
+what celebrities have gone to the betty ford center
+(lambda $0 /common/topic (exists $1 (exists $2 (/celebrities/rehab@celebrity@rehab_facility@entered@completed:t $0 /en/betty_ford_center:/celebrities/rehab_facility $1 $2))))
+
+what languages has microsoft designed
+(lambda $0 /common/topic (/computer/programming_language_designer@languages_designed:t /en/microsoft:/computer/programming_language_designer $0))
+
+what software has oracle designed
+(lambda $0 /common/topic (/computer/software_developer@software:t /en/oracle_corporation:/computer/software_developer $0))
+
+what are some object-oriented programming languages
+(lambda $0 /common/topic (/computer/programming_language_paradigm@languages:t /en/object-oriented_programming:/computer/programming_language_paradigm $0))
+
+who is the developer of java language
+(lambda $0 /common/topic (/computer/programming_language@developers:t /m/07sbkfb:/computer/programming_language $0))
+
+what software has claris developed
+(lambda $0 /common/topic (/computer/software_developer@software:t /en/claris:/computer/software_developer $0))
+
+when was the latest release of microsoft word
+(lambda $0 /type/datetime (/computer/software@latest_release_date:t /en/microsoft_word:/computer/software $0))
+
+how many operating systems is adobe flash compatible with
+(count $0 (exists $1 (exists $2 (/computer/software_compatibility@software@operating_system@os_version_start@os_version_end:t /en/adobe_flash:/computer/software $0 $1 $2))))
+
+what programming languages were used for aol instant messenger
+(lambda $0 /common/topic (/computer/software@languages_used:t /en/aol_instant_messenger:/computer/software $0))
+
+what versions of mac os x is mozilla firefox compatible with
+(lambda $0 /common/topic (/computer/software@compatible_oses:t /en/mozilla_firefox:/computer/software $0))
+
+what processor did the apple ii use
+(lambda $0 /common/topic (/computer/computer@processor:t /en/apple_ii:/computer/computer $0))
+
+when did the apple i stop being sold
+(lambda $0 /type/datetime (/computer/computer@discontinued:t /en/apple_i:/computer/computer $0))
+
+when was the iphone introduced
+(lambda $0 /type/datetime (/computer/computer@introduced:t /en/iphone:/computer/computer $0))
+
+who designed the iphone
+(lambda $0 /common/topic (/computer/computer@key_designers:t /en/iphone:/computer/computer $0))
+
+when was macintosh introduced
+(lambda $0 /type/datetime (/computer/computer@introduced:t /en/macintosh:/computer/computer $0))
+
+what are the file formats supported by the iphone
+(lambda $0 /common/topic (/computer/computing_platform@file_formats_supported:t /en/iphone:/computer/computing_platform $0))
+
+who were the key designers of the macintosh
+(lambda $0 /common/topic (/computer/computer@key_designers:t /en/macintosh:/computer/computer $0))
+
+what games has macsoft games developed
+(lambda $0 /common/topic (/cvg/cvg_developer@games_developed:t /en/macsoft_games:/cvg/cvg_developer $0))
+
+what games has electronic arts developed
+(lambda $0 /common/topic (/cvg/cvg_developer@games_developed:t /en/electronic_arts:/cvg/cvg_developer $0))
+
+who did nathan fillion voice in halo: reach
+(lambda $0 /common/topic (exists $1 (/cvg/game_performance@character@game@voice_actor@performance_type@playable:t $0 /en/halo_reach:/cvg/computer_videogame /en/nathan_fillion:/cvg/game_voice_actor /m/02nsjvf:/cvg/computer_game_performance_type $1)))
+
+how many games are there for nintendo ds
+(count $0 (/cvg/cvg_platform@games_on_this_platform:t /en/nintendo_ds:/cvg/cvg_platform $0))
+
+how many songs are there for guitar hero: aerosmith
+(count $0 (exists $1 (exists $2 (exists $3 (/cvg/musical_game_song_relationship@download@game@platforms@song@release_date:t $1 /en/guitar_hero_aerosmith:/cvg/musical_game $2 $0 $3)))))
+
+when was civilization first released
+(lambda $0 /type/datetime (/cvg/computer_videogame@release_date:t /m/01vvf:/cvg/computer_videogame $0))
+
+how many expansion packs does the sims have
+(count $0 (/cvg/computer_videogame@expansions:t /en/the_sims:/cvg/computer_videogame $0))
+
+what characters are in super mario bros
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/cvg/game_performance@character@game@voice_actor@performance_type@playable:t $0 /en/super_mario_bros:/cvg/computer_videogame $1 $2 $3)))))
+
+does doom have a multiplayer mode
+(/cvg/computer_videogame@gameplay_modes:t /en/doom:/cvg/computer_videogame /en/multiplayer_game:/cvg/gameplay_mode)
+
+which characters are playable in sonic rush
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/cvg/game_performance@character@game@voice_actor@performance_type@playable:t $0 /en/sonic_rush:/cvg/computer_videogame $1 $2 $3)))))
+
+how many games are in the final fantasy series
+(count $0 (/cvg/game_series@games_in_series:t /en/final_fantasy:/cvg/game_series $0))
+
+who designed pac-man
+(lambda $0 /common/topic (/cvg/computer_videogame@designers:t /en/pac-man:/cvg/computer_videogame $0))
+
+in how many countries is the euro used
+(count $0 (/finance/currency@countries_used:t /en/euro:/finance/currency $0))
+
+what is the symbol for yen
+(lambda $0 /common/topic (/finance/currency@prefix_symbol:t /en/japanese_yen:/finance/currency $0))
+
+where was the peseta used as currency
+(lambda $0 /location/location (/finance/currency@countries_formerly_used:t /en/spanish_peseta:/finance/currency $0))
+
+what regions does the lse cover
+(lambda $0 /location/location (/finance/stock_exchange@primary_regions:t /en/london_stock_exchange:/finance/stock_exchange $0))
+
+how much danish kroner is a us dollar worth
+(lambda $0 /common/topic (exists $1 (exists $2 (/finance/exchange_rate@amount@date_of_rate@target_of_exchange@source_of_exchange:t $1 $2 $0 /en/danish_krone:/finance/currency))))
+
+how many companies are traded by the nyse
+(count $0 (/finance/stock_exchange@companies_traded:t /en/nyse:/finance/stock_exchange $0))
+
+what is the usa money currency code
+(lambda $0 /common/topic (/finance/currency@currency_code:t /en/us:/finance/currency $0))
+
+what is the australian dollar code
+(lambda $0 /common/topic (/finance/currency@currency_code:t /en/australian_dollar:/finance/currency $0))
+
+what is currency code for uk currency
+(lambda $0 /common/topic (/finance/currency@currency_code:t /en/uk:/finance/currency $0))
+
+what is currency code for the canadian dollar
+(lambda $0 /common/topic (/finance/currency@currency_code:t /en/canadian_dollar:/finance/currency $0))
+
+what is currency code for the mexican peso
+(lambda $0 /common/topic (/finance/currency@currency_code:t /en/mexican_peso:/finance/currency $0))
+
+how many countries use the indian rupee
+(count $0 (/finance/currency@countries_used:t /en/indian_rupee:/finance/currency $0))
+
+how many countries use the spanish peseta
+(count $0 (/finance/currency@countries_used:t /en/spanish_peseta:/finance/currency $0))
+
+what is currency code for the japanese yen
+(lambda $0 /common/topic (/finance/currency@currency_code:t /en/japanese_yen:/finance/currency $0))
+
+what is currency code for the swedish krona
+(lambda $0 /common/topic (/finance/currency@currency_code:t /en/swedish_krona:/finance/currency $0))
+
+what is currency code for the singapore dollar
+(lambda $0 /common/topic (/finance/currency@currency_code:t /en/singapore_dollar:/finance/currency $0))
+
+how many countries use euros
+(count $0 (/finance/currency@countries_used:t /en/euro:/finance/currency $0))
+
+how many countries use the australian dollar
+(count $0 (/finance/currency@countries_used:t /en/australian_dollar:/finance/currency $0))
+
+how many countries use uk money
+(count $0 (/finance/currency@countries_used:t /en/uk:/finance/currency $0))
+
+what is the currency code for the spanish peseta
+(lambda $0 /common/topic (/finance/currency@currency_code:t /en/spanish_peseta:/finance/currency $0))
+
+what is the currency code for the indonesian rupiah
+(lambda $0 /common/topic (/finance/currency@currency_code:t /en/indonesian_rupiah:/finance/currency $0))
+
+during what time period did uluru form
+(lambda $0 /common/topic (/geology/geological_formation@formed_during_period:t /en/uluru:/geology/geological_formation $0))
+
+what type of rock is the marcellus formation
+(lambda $0 /common/topic (/geology/geological_formation@type_of_rock:t /en/marcellus_formation:/geology/geological_formation $0))
+
+how many rock formations were formed during the cretaceous period
+(count $0 (/geology/geological_formation@formed_during_period:t $0 /en/cretaceous:/time/geologic_time_period))
+
+what are the sub-types of coal
+(lambda $0 /common/topic (/geology/rock_type@sub_types:t /en/coal:/geology/rock_type $0))
+
+how many sub-types of metamorphic rock are there
+(count $0 (/geology/rock_type@sub_types:t /en/metamorphic_rock:/geology/rock_type $0))
+
+what rock formations are made of quartzite
+(lambda $0 /location/location (/geology/rock_type@formations:t /en/quartzite:/geology/rock_type $0))
+
+what rock formations formed in the barremian period
+(lambda $0 /location/location (/geology/geological_formation@formed_during_period:t $0 /en/barremian:/time/geologic_time_period))
+
+what rock is gruta das torres made of
+(lambda $0 /common/topic (/geology/geological_formation@type_of_rock:t /en/gruta_das_torres:/geology/geological_formation $0))
+
+how many parent types does igneous rock have
+(count $0 (/geology/rock_type@parent_rock_type:t /en/igneous_rock:/geology/rock_type $0))
+
+who was vice president to woodrow wilson
+(lambda $0 /people/person (/government/us_president@vice_president:t /en/woodrow_wilson:/government/us_president $0))
+
+what party did grover cleveland belong to
+(lambda $0 /common/topic (exists $1 (exists $2 (/government/political_party_tenure@politician@from@to@party:t /en/grover_cleveland:/government/politician $1 $2 $0))))
+
+who won the 1964 united states presidential election
+(lambda $0 /people/person (/government/election@winner:t /en/united_states_presidential_election_1964:/government/election $0))
+
+what is the state flower of alaska
+(lambda $0 /common/topic (exists $1 (exists $2 (/location/location_symbol_relationship@date_adopted@date_revoked@administrative_division@symbol@Kind_of_symbol:t $1 $2 /en/alaska:/government/governmental_jurisdiction $0 /en/state_flower:/location/offical_symbol_variety))))
+
+since when has the california gull been the state bird of utah
+(lambda $0 /type/datetime (exists $1 (/location/location_symbol_relationship@date_adopted@date_revoked@administrative_division@symbol@Kind_of_symbol:t $0 $1 /en/utah:/government/governmental_jurisdiction /en/california_gull:/location/symbol_of_administrative_division /en/state_bird:/location/offical_symbol_variety)))
+
+who are the current senators of colorado
+(lambda $0 /people/person (exists $1 (exists $2 (exists $3 (exists $4 (exists $5 (exists $6 (/government/government_position_held@office_holder@office_position_or_title@governmental_body@district_represented@appointed_by@from@to@jurisdiction_of_office@legislative_sessions:t $0 /en/united_states_senator:/government/government_office_or_title $1 $2 $3 $4 $5 /en/colorado:/government/governmental_jurisdiction $6))))))))
+
+who was the 22nd president
+(lambda $0 /people/person (/government/us_president@presidency_number:t $0 /type/int/22:/type/int))
+
+who is the captain of the edmonton oilers
+(lambda $0 /people/person (/ice_hockey/hockey_team@captain:t /en/edmonton_oilers:/ice_hockey/hockey_team $0))
+
+who currently plays for the san jose sharks
+(lambda $0 /people/person (exists $1 (exists $2 (/ice_hockey/hockey_roster_position@position@player@team@number:t $1 $0 /en/san_jose_sharks:/ice_hockey/hockey_team $2))))
+
+in what division do the st. louis blues play
+(lambda $0 /common/topic (/ice_hockey/hockey_team@division:t /m/06x6s:/ice_hockey/hockey_team $0))
+
+what position does craig adams play
+(lambda $0 /common/topic (/ice_hockey/hockey_player@hockey_position:t /en/craig_adams_1977:/ice_hockey/hockey_player $0))
+
+what number is ryan callahan on the new york rangers
+(lambda $0 /type/int (exists $1 (/ice_hockey/hockey_roster_position@position@player@team@number:t $1 /en/ryan_callahan:/ice_hockey/hockey_player /en/new_york_rangers:/ice_hockey/hockey_team $0)))
+
+who coaches the toronto maple leafs
+(lambda $0 /common/topic (/ice_hockey/hockey_team@coach:t /en/toronto_maple_leafs:/ice_hockey/hockey_team $0))
+
+when did christopher higgins stop playing for the montreal canadiens
+(lambda $0 /type/datetime (exists $1 (/ice_hockey/hockey_previous_roster_position@team@player@from@to:t /en/montreal_canadiens:/ice_hockey/hockey_team /en/christopher_higgins:/ice_hockey/hockey_player $0 $1)))
+
+for what team does fedor tyutin play
+(lambda $0 /common/topic (exists $1 (exists $2 (/ice_hockey/hockey_roster_position@position@player@team@number:t $1 /en/fedor_tyutin:/ice_hockey/hockey_player $0 $2))))
+
+what position does colby armstrong play on the toronto maple leafs
+(lambda $0 /common/topic (exists $1 (/ice_hockey/hockey_roster_position@position@player@team@number:t $0 /en/colby_armstrong:/ice_hockey/hockey_player /en/toronto_maple_leafs:/ice_hockey/hockey_team $1)))
+
+what team does mike babcock coach
+(lambda $0 /common/topic (/ice_hockey/hockey_coach@current_team:t /en/mike_babcock:/ice_hockey/hockey_coach $0))
+
+how many hockey players play center
+(count $0 (/ice_hockey/hockey_position@players:t /m/02qvdc:/ice_hockey/hockey_position $0))
+
+how many teams are in the atlantic division of the eastern conference
+(count $0 (/ice_hockey/hockey_division@teams:t /en/atlantic_division:/ice_hockey/hockey_division $0))
+
+what are the divisions of the western conference of the nhl
+(lambda $0 /common/topic (/ice_hockey/hockey_conference@divisions:t /en/western_conference:/ice_hockey/hockey_conference $0))
+
+how many languages has jrr tolkein created
+(count $0 (/language/language_creator@languages_created:t /en/j_r_r_tolkien:/language/language_creator $0))
+
+how many writing systems are used in japanese
+(count $0 (/language/human_language@writing_system:t /en/japanese:/language/human_language $0))
+
+how many countries is spanish spoken in
+(count $0 (/language/human_language@countries_spoken_in:t /en/spanish:/language/human_language $0))
+
+what language family is afrikaans part of
+(lambda $0 /common/topic (/language/human_language@language_family:t /en/afrikaans:/language/human_language $0))
+
+how many dialects of arabic are there
+(count $0 (/language/human_language@dialects:t /en/arabic_language:/language/human_language $0))
+
+where are dravidian languages spoken
+(lambda $0 /location/location (/language/language_family@geographic_distribution:t /en/dravidian_languages:/language/language_family $0))
+
+what are the celtic languages
+(lambda $0 /common/topic (/language/language_family@languages:t /en/celtic_languages:/language/language_family $0))
+
+since when has the arabic alphabet been used
+(lambda $0 /type/datetime (/language/language_writing_system@used_from:t /en/arabic_alphabet:/language/language_writing_system $0))
+
+what languages use bengali script
+(lambda $0 /common/topic (/language/language_writing_system@languages:t /en/bengali_script:/language/language_writing_system $0))
+
+what play was west side story adapted from
+(lambda $0 /common/topic (/media_common/adaptation@adapted_from:t /en/west_side_story:/media_common/adaptation $0))
+
+who said that_s one small step for man, one giant leap for mankind
+(lambda $0 /people/person (/media_common/quotation@author:t /m/06gj5j3:/media_common/quotation $0))
+
+to whom is invisible man dedicated
+(lambda $0 /common/topic (exists $1 (exists $2 (/media_common/dedication@dedicated_by@dedicated_to@work_dedicated@notes:t $1 $0 /en/invisible_man:/media_common/dedicated_work $2))))
+
+what series was game of thrones adapted from
+(lambda $0 /common/topic (/media_common/adaptation@adapted_from:t /en/game_of_thrones:/media_common/adaptation $0))
+
+what are some adaptations of the wonderful wizard of oz
+(lambda $0 /common/topic (/media_common/adapted_work@adaptations:t /en/the_wonderful_wizard_of_oz:/media_common/adapted_work $0))
+
+how many works have been lost due to theft
+(count $0 (/media_common/cause_of_loss@works_lost_this_way:t /en/theft:/media_common/cause_of_loss $0))
+
+who completed mozart_s requiem
+(lambda $0 /people/person (exists $1 (/media_common/completion_of_unfinished_work@unfinished_work@finisher@finished_work:t /m/02xtrr:/media_common/unfinished_work $0 $1)))
+
+what works did anthony payne finish
+(lambda $0 /common/topic (exists $1 (/media_common/completion_of_unfinished_work@unfinished_work@finisher@finished_work:t $0 /en/anthony_payne:/media_common/completer_of_unfinished_work $1)))
+
+how many documentaries are there on netflix
+(count $0 (/media_common/netflix_genre@titles:t /en/documentary:/media_common/netflix_genre $0))
+
+what character says "i'll be back"
+(lambda $0 /common/topic (/media_common/quotation@spoken_by_character:t /m/06zh9s:/media_common/quotation $0))
+
+how many works did mozart dedicate to joseph haydn
+(count $0 (exists $1 (exists $2 (/media_common/dedication@dedicated_by@dedicated_to@work_dedicated@notes:t /en/joseph_haydn:/media_common/dedicator $1 $0 $2))))
+
+what are the symptoms of motor neuron disease
+(lambda $0 /common/topic (/medicine/disease@symptoms:t /en/motor_neuron_disease:/medicine/disease $0))
+
+what causes bipolar disorder
+(lambda $0 /common/topic (/medicine/disease@causes:t /en/bipolar_disorder:/medicine/disease $0))
+
+what treatments are there for leukemia
+(lambda $0 /common/topic (/medicine/disease@treatments:t /en/leukemia:/medicine/disease $0))
+
+what diseases cause leukemia
+(lambda $0 /common/topic (/medicine/disease@causes:t /en/leukemia:/medicine/disease $0))
+
+what are the causes of a heart attack
+(lambda $0 /common/topic (/medicine/disease@causes:t /en/myocardial_infarction:/medicine/disease $0))
+
+how many stages of breast cancer are there
+(count $0 (/medicine/disease@stages:t /en/breast_cancer:/medicine/disease $0))
+
+what conditions does aspirin treat
+(lambda $0 /common/topic (/medicine/medical_treatment@used_to_treat:t /en/aspirin:/medicine/medical_treatment $0))
+
+what are the side effects of morphine
+(lambda $0 /common/topic (/medicine/medical_treatment@side_effects:t /en/morphine:/medicine/medical_treatment $0))
+
+how many beds does mclean hospital have
+(count $0 (/medicine/hospital@beds:t /en/mclean_hospital:/medicine/hospital $0))
+
+what diseases is fatigue a symptom of
+(lambda $0 /common/topic (/medicine/disease@symptoms:t $0 /en/fatigue:/medicine/symptom))
+
+what hospitals specialize in cardiology
+(lambda $0 /location/location (/medicine/medical_specialty@hospitals_with_this_specialty:t /en/cardiology:/medicine/medical_specialty $0))
+
+how many cancer centers are comprehensive
+(count $0 (/medicine/cancer_center@comprehensive:t $0 /type/boolean/true:/type/boolean))
+
+what are some research only cancer centers
+(lambda $0 /common/topic (/medicine/cancer_center_type@centers_of_this_kind:t /en/research_only:/medicine/cancer_center_type $0))
+
+what conditions have symptoms including headache
+(lambda $0 /common/topic (/medicine/disease@symptoms:t $0 /en/headache:/medicine/symptom))
+
+who developed the polio vaccine
+(lambda $0 /common/topic (/medicine/vaccine@developed_by:t /en/polio_vaccine:/medicine/vaccine $0))
+
+what causes prostate cancer
+(lambda $0 /common/topic (/medicine/disease@causes:t /en/prostate_cancer:/medicine/disease $0))
+
+what are the causes of syphilis
+(lambda $0 /common/topic (/medicine/disease@causes:t /en/syphillis:/medicine/disease $0))
+
+what are the treatments of prostate cancer
+(lambda $0 /common/topic (/medicine/disease@treatments:t /en/prostate_cancer:/medicine/disease $0))
+
+how is syphilis transmitted
+(lambda $0 /common/topic (/medicine/infectious_disease@transmission:t /en/syphillis:/medicine/infectious_disease $0))
+
+what type of infection is syphilis
+(lambda $0 /common/topic (/medicine/infectious_disease@infectious_agent_type:t /en/syphillis:/medicine/infectious_disease $0))
+
+what is the parent disease of a stroke
+(lambda $0 /common/topic (/medicine/disease@parent_disease:t /en/stroke:/medicine/disease $0))
+
+what are the symptoms of prostate cancer
+(lambda $0 /common/topic (/medicine/disease@symptoms:t /en/prostate_cancer:/medicine/disease $0))
+
+what are the survival rates for prostate cancer
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (exists $4 (/medicine/disease/survival_rates&/medicine/survival_rate@gender@race@years@rate@disease_stage:t /en/prostate_cancer:/medicine/disease $1 $2 $0 $3 $4))))))
+
+what causes syphilis
+(lambda $0 /common/topic (/medicine/disease@causes:t /en/syphillis:/medicine/disease $0))
+
+what year was the album decade released
+(lambda $0 /type/datetime (/music/album@release_date:t /m/02967:/music/album $0))
+
+who composed the song ship of fools
+(lambda $0 /people/person (/music/composition@composer:t /m/02knmd5:/music/composition $0))
+
+when did the band massive attack form
+(lambda $0 /type/datetime (/music/artist@active_start:t /en/massive_attack:/music/artist $0))
+
+who produced sabotage by the beastie boys
+(lambda $0 /common/topic (/music/track@producer:t /m/0l16j8:/music/track $0))
+
+what genre of music is b12
+(lambda $0 /common/topic (/music/artist@genre:t /en/b12:/music/artist $0))
+
+who were the members of the soul stirrers
+(lambda $0 /people/person (exists $1 (exists $2 (exists $3 (/music/group_membership@member@group@role@start@end:t $0 /en/the_soul_stirrers:/music/musical_group $1 $2 $3)))))
+
+when did japan end as a musical group
+(lambda $0 /type/datetime (/music/artist@active_end:t /m/016f2t:/music/artist $0))
+
+how many albums has fleet foxes released
+(count $0 (/music/artist@album:t /en/fleet_foxes:/music/artist $0))
+
+how many tracks has the band recorded
+(count $0 (/music/artist@track:t /en/the_band:/music/artist $0))
+
+what instrument did lightnin' hopkins play
+(lambda $0 /common/topic (/music/group_member@instruments_played:t /en/lightnin_hopkins:/music/group_member $0))
+
+what record label was ali farka toure signed to
+(lambda $0 /common/topic (/music/artist@label:t /en/ali_farka_toure:/music/artist $0))
+
+when did michael jackson go solo
+(lambda $0 /type/datetime (/music/artist@active_start:t /en/michael_jackson:/music/artist $0))
+
+what are dave grohl 's musical genres
+(lambda $0 /common/topic (/music/artist@genre:t /en/dave_grohl:/music/artist $0))
+
+where did omarion 's musical career begin
+(lambda $0 /location/location (/music/artist@origin:t /en/omarion:/music/artist $0))
+
+how many record labels was omarion under
+(count $0 (/music/artist@label:t /en/omarion:/music/artist $0))
+
+what instruments did omarion play
+(lambda $0 /common/topic (/music/group_member@instruments_played:t /en/omarion:/music/group_member $0))
+
+what genre did lil hardin armstrong represent
+(lambda $0 /common/topic (/music/artist@genre:t /en/lil_hardin_armstrong:/music/artist $0))
+
+what is the electric charge of a proton
+(lambda $0 /common/topic (/physics/particle@electric_charge:t /en/proton:/physics/particle $0))
+
+what generation of matter is a down quark
+(lambda $0 /common/topic (/physics/particle@generation:t /en/down_quark:/physics/particle $0))
+
+what is the spin of a positron
+(lambda $0 /common/topic (/physics/particle@spin:t /en/positron:/physics/particle $0))
+
+what particles are in the lepton family
+(lambda $0 /common/topic (/physics/particle_family@particles:t /en/lepton:/physics/particle_family $0))
+
+what are the subclasses of the boson class
+(lambda $0 /common/topic (/physics/particle_family@subclasses:t /en/boson:/physics/particle_family $0))
+
+how many first generation particles are there
+(count $0 (/physics/subatomic_particle_generation@particles:t /m/0b66f5g:/physics/subatomic_particle_generation $0))
+
+how much did the construction of the taj mahal cost
+(lambda $0 /common/topic (/projects/project@actual_cost:t /en/initial_design_and_construction_of_taj_mahal:/projects/project $0))
+
+how many engineers worked on the design and construction of the plymouth breakwater
+(count $0 (exists $1 (exists $2 (/projects/project_participation@project@participant@role@from_date@to_date:t /en/design_and_construction_of_the_plymouth_breakwater:/projects/project $0 /en/engineer:/projects/project_role $1 $2))))
+
+when was the construction of new steubenville bridge finished
+(lambda $0 /type/datetime (/projects/project@actual_completion_date:t /m/0jb4_0h:/projects/project $0))
+
+how many people worked on the design and construction of the golden gate bridge
+(count $0 (exists $1 (exists $2 (exists $3 (/projects/project_participation@project@participant@role@from_date@to_date:t /en/design_and_construction_of_the_golden_gate_bridge:/projects/project $0 $1 $2 $3)))))
+
+when is the restoration of the rijksmuseum supposed to finish
+(lambda $0 /type/datetime (/projects/project@planned_completion_date:t /m/0fq7hj3:/projects/project $0))
+
+what was the manhattan project about
+(lambda $0 /common/topic (/projects/project@project_focus:t /en/manhattan_project:/projects/project $0))
+
+what was robert oppenheimer's role in the manhattan project
+(lambda $0 /common/topic (exists $1 (exists $2 (/projects/project_participation@project@participant@role@from_date@to_date:t /en/manhattan_project:/projects/project /en/robert_oppenheimer:/projects/project_participant $0 $1 $2))))
+
+on how many projects was james walker a design engineer
+(count $0 (exists $1 (exists $2 (/projects/project_participation@project@participant@role@from_date@to_date:t $0 /en/james_walker:/projects/project_participant /en/design_engineer:/projects/project_role $1 $2))))
+
+when did francesco sabatini start working on the puerta de san vicente
+(lambda $0 /type/datetime (exists $1 (exists $2 (/projects/project_participation@project@participant@role@from_date@to_date:t /m/0gk9x46:/projects/project /en/francesco_sabatini:/projects/project_participant $1 $0 $2))))
+
+what are some british locomotive class 52 trains
+(lambda $0 /common/topic (/rail/locomotive_class@locomotives_of_this_class:t /en/british_rail_class_52:/rail/locomotive_class $0))
+
+when was the mark vii monorail introduced
+(lambda $0 /type/datetime (/rail/locomotive_class@introduced:t /en/mark_vii_monorail:/rail/locomotive_class $0))
+
+what class of train was heavy harry
+(lambda $0 /common/topic (/rail/locomotive@locomotive_class:t /m/0glzm0h:/rail/locomotive $0))
+
+what lines does the london overground operate
+(lambda $0 /location/location (exists $1 (exists $2 (/rail/railway_operator_relationship@railway@operator@from_date@to_date:t $0 /en/london_overground:/rail/railway_operator $1 $2))))
+
+how long is the tokyu tamagawa line
+(lambda $0 /common/topic (/rail/railway@length:t /en/tokyu_tamagawa_line:/rail/railway $0))
+
+who operates the silver star railway
+(lambda $0 /common/topic (exists $1 (exists $2 (/rail/railway_operator_relationship@railway@operator@from_date@to_date:t /m/04rsv0:/rail/railway $0 $1 $2))))
+
+when did the princetown railway close
+(lambda $0 /type/datetime (/rail/railway@closed:t /en/princetown_railway:/rail/railway $0))
+
+what was henry viii's royal line
+(lambda $0 /common/topic (/royalty/monarch@royal_line:t /en/henry_viii_of_england:/royalty/monarch $0))
+
+when was the order of saint michael founded
+(lambda $0 /type/datetime (/royalty/order_of_chivalry@date_founded:t /en/order_of_saint_michael:/royalty/order_of_chivalry $0))
+
+who founded the order of the dragon
+(lambda $0 /people/person (/royalty/order_of_chivalry@founders:t /en/order_of_the_dragon:/royalty/order_of_chivalry $0))
+
+how many knights of the garter did the order of the garter have
+(count $0 (exists $1 (exists $2 (exists $3 (/royalty/chivalric_order_membership@order@recipient@from@to@presented_by@title:t /en/order_of_the_garter:/royalty/order_of_chivalry $0 $1 $2 $3 /en/knight_of_the_garter:/royalty/chivalric_title)))))
+
+what is the motto of the order of the golden fleece
+(lambda $0 /common/topic (/royalty/order_of_chivalry@motto:t /en/order_of_the_golden_fleece:/royalty/order_of_chivalry $0))
+
+how many people have held the title of grand master of the order of the most holy annunciation
+(count $0 (exists $1 (exists $2 (/royalty/chivalric_order_position_tenure@order@chivalric_office@from@until@officer:t /en/order_of_the_most_holy_annunciation:/royalty/order_of_chivalry /en/grand_master:/royalty/chivalric_office $1 $2 $0))))
+
+how many orders did queen victoria found
+(count $0 (/royalty/chivalric_order_founder@orders_founded:t /en/victoria_of_the_united_kingdom:/royalty/chivalric_order_founder $0))
+
+how many monarchs are from the house of tutor
+(count $0 (/royalty/royal_line@monarchs_from_this_line:t /en/tudor_dynasty:/royalty/royal_line $0))
+
+how many runs does the thunder ridge ski area have
+(count $0 (/skiing/ski_area@number_of_runs:t /en/thunder_ridge_ski_area:/skiing/ski_area $0))
+
+what is the highest elevation at the elk mountain ski area
+(lambda $0 /common/topic (/skiing/ski_area@top_elevation:t /en/elk_mountain_ski_area:/skiing/ski_area $0))
+
+what lodges are in the alta ski area
+(lambda $0 /location/location (/skiing/ski_area@lodges:t /en/alta_ski_area:/skiing/ski_area $0))
+
+what is the closet city to snowshoe mountain
+(lambda $0 /location/location (/skiing/ski_area@closest_city:t /en/snowshoe_mountain:/skiing/ski_area $0))
+
+when did coronet peak open
+(lambda $0 /type/datetime (/skiing/ski_area@opening_date:t /en/coronet_peak:/skiing/ski_area $0))
+
+who manages fulham f. c.
+(lambda $0 /people/person (exists $1 (exists $2 (/soccer/football_team_management_tenure@manager@team@from@to:t $0 /en/fulham_fc:/soccer/football_team $1 $2))))
+
+who managed liverpool f.c. from 2004 to june 2010
+(lambda $0 /people/person (/soccer/football_team_management_tenure@manager@team@from@to:t $0 /en/liverpool_fc:/soccer/football_team /type/datetime/2004:/type/datetime /type/datetime/2004:/type/datetime))
+
+how many soccer players are goalkeepers
+(count $0 (/soccer/football_position@players:t /m/0dgrmp:/soccer/football_position $0))
+
+who played in the 1973 fa cup final
+(lambda $0 /common/topic (/soccer/football_match@teams:t /en/fa_cup_final_1973:/soccer/football_match $0))
+
+how many teams participate in the uefa
+(count $0 (exists $1 (exists $2 (/soccer/football_league_participation@team@league@from@to:t $0 /en/uefa:/soccer/football_league $1 $2))))
+
+how many people were at the 2006 fifa world cup final
+(count $0 (/soccer/football_match@attendance:t /en/2006_fifa_world_cup_final:/soccer/football_match $0))
+
+what players scored in the 2006 fifa world cup final
+(lambda $0 /people/person (exists $1 (exists $2 (/soccer/football_goal@match@scorer@point_awarded_to@minute:t /en/2006_fifa_world_cup_final:/soccer/football_match $0 $1 $2))))
+
+how many people played in the 2010 fifa world cup final
+(count $0 (exists $1 (exists $2 (exists $3 (/soccer/football_player_match_participation@match@player@team@part_of_starting_lineup@shirt_number:t /en/2010_fifa_world_cup_final:/soccer/football_match $0 $1 $2 $3)))))
+
+what team does dennis bergkamp play for
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (exists $4 (exists $5 (exists $6 (/soccer/football_roster_position@position@team@player@number@from@to@appearances@total_goals:t $1 $0 /en/dennis_bergkamp:/soccer/football_player $2 $3 $4 $5 $6))))))))
+
+what position does cristiano ronaldo play
+(lambda $0 /common/topic (/soccer/football_player@position_s:t /en/cristiano_ronaldo:/soccer/football_player $0))
+
+who manufactured the space shuttle discovery
+(lambda $0 /common/topic (/spaceflight/spacecraft@manufacturer:t /en/space_shuttle_discovery:/spaceflight/spacecraft $0))
+
+when was the galileo spacecraft launched
+(lambda $0 /type/datetime (/spaceflight/satellite@launch_date:t /en/galileo_spacecraft:/spaceflight/satellite $0))
+
+where was the kepler spacecraft launched
+(lambda $0 /location/location (/spaceflight/satellite@launch_site:t /en/kepler_mission:/spaceflight/satellite $0))
+
+who were the astronauts in the apollo 12 mission
+(lambda $0 /people/person (/spaceflight/space_mission@astronauts:t /en/apollo_12:/spaceflight/space_mission $0))
+
+what is the dry mass of the hubble space telescope
+(lambda $0 /common/topic (/spaceflight/satellite@dry_mass_kg:t /en/hubble_space_telescope:/spaceflight/satellite $0))
+
+how much time did alan shepard spend in space
+(lambda $0 /common/topic (/spaceflight/astronaut@space_time_minutes:t /en/alan_shepard:/spaceflight/astronaut $0))
+
+what league is real madrid a member of
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/soccer/football_league_participation@team@league@from@to:t $1 $0 $2 $3)))))
+
+what year were the ny yankees founded
+(lambda $0 /type/datetime (/sports/sports_team@founded:t /en/new_york_yankees:/sports/sports_team $0))
+
+what stadium do the phillies play in
+(lambda $0 /location/location (/sports/sports_team@arena_stadium:t /en/philadelphia_phillies:/sports/sports_team $0))
+
+how many wins did the philadelphia eagles have in the 2008 nfl season
+(count $0 (exists $1 (exists $2 (/sports/sports_team_season_record@season@team@wins@losses@ties:t /en/2008_nfl_season:/sports/sports_league_season /en/philadelphia_eagles:/sports/sports_team $0 $1 $2))))
+
+what is the mascot of the boston red sox
+(lambda $0 /common/topic (/sports/sports_team@team_mascot:t /en/boston_red_sox:/sports/sports_team $0))
+
+where do the denver spurs play
+(lambda $0 /location/location (/sports/sports_team@arena_stadium:t /en/denver_spurs:/sports/sports_team $0))
+
+when did the renaissance begin
+(lambda $0 /type/datetime (/time/event@start_date:t /en/renaissance:/time/event $0))
+
+where did the rolling stones 2009 concert tour take place
+(lambda $0 /location/location (/time/event@locations:t /en/the_rolling_stones_2009_concert_tour:/time/event $0))
+
+how long is the golden gate bridge
+(lambda $0 /common/topic (/transportation/bridge@total_length:t /en/golden_gate_bridge:/transportation/bridge $0))
+
+what type of bridge is the manhattan bridge
+(lambda $0 /common/topic (/transportation/bridge@bridge_type:t /en/suspension_bridge:/transportation/bridge $0))
+
+what highway system does us route 101 belong to
+(lambda $0 /common/topic (/transportation/road@highway_system:t /en/us_route_101:/transportation/road $0))
+
+what cities does us interstate 5 pass
+(lambda $0 /location/location (/transportation/road@major_cities:t /en/us_interstate_5:/transportation/road $0))
+
+how long is the mexican federal highway 1
+(lambda $0 /common/topic (/transportation/road@length:t /en/mexican_federal_highway_1:/transportation/road $0))
+
+when was interstate 579 formed
+(lambda $0 /type/datetime (/transportation/road@formed:t /en/interstate_579:/transportation/road $0))
+
+how many people ride the london underground daily
+(count $0 (/metropolitan_transit/transit_system@daily_riders:t /en/london_underground:/metropolitan_transit/transit_system $0))
+
+what are the lines of the new york city subway
+(lambda $0 /common/topic (/metropolitan_transit/transit_system@transit_lines:t /en/new_york_city_subway:/metropolitan_transit/transit_system $0))
+
+where does the market-frankford line stop
+(lambda $0 /location/location (/metropolitan_transit/transit_line@stops:t /en/market-frankford_line:/metropolitan_transit/transit_line $0))
+
+who did jun matsumoto play in hana yori dango
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (exists $4 (/tv/regular_tv_appearance@actor@character@series@from@to@special_performance_type@seasons:t /en/jun_matsumoto:/tv/tv_actor $0 /m/05f52tw:/tv/tv_program $1 $2 $3 $4))))))
+
+what production is the sopranos currently in
+(lambda $0 /common/topic (/tv/tv_program@currently_in_production:t /en/the_sopranos:/tv/tv_program $0))
+
+how many seasons of seinfeld are there
+(count $0 (/tv/tv_program@seasons:t /en/seinfeld:/tv/tv_program $0))
+
+who are the creators of teenage mutant ninja turtles
+(lambda $0 /common/topic (/tv/tv_program@program_creator:t /m/053x52:/tv/tv_program $0))
+
+what is the theme song of full house
+(lambda $0 /common/topic (/tv/tv_program@theme_song:t /en/full_house:/tv/tv_program $0))
+
+when did hey arnold! stop running
+(lambda $0 /type/datetime (/tv/tv_program@air_date_of_final_episode:t /en/hey_arnold:/tv/tv_program $0))
+
+what languages are spoken in firefly
+(lambda $0 /common/topic (/tv/tv_program@languages:t /base/ranker/rankerurlname/firefly$002f143400:/tv/tv_program $0))
+
+in what season of stargate sg-1 is the episode show and tell
+(lambda $0 /common/topic (/tv/tv_series_episode@season:t /m/08mpny:/tv/tv_series_episode $0))
+
+who wrote the episode straight and true of the wire
+(lambda $0 /people/person (/tv/tv_series_episode@writer:t /en/straight_and_true:/tv/tv_series_episode $0))
+
+what was the fawlty towers episode after the psychiatrist
+(lambda $0 /common/topic (/tv/tv_series_episode@next_episode:t /en/the_psychiatrist:/tv/tv_series_episode $0))
+
+who produced the three doctors
+(lambda $0 /common/topic (/tv/tv_series_episode@producers:t /en/the_three_doctors:/tv/tv_series_episode $0))
+
+on what network was gilligan_s island first aired
+(lambda $0 /common/topic (exists $1 (exists $2 (/tv/tv_network_duration@program@network@from@to:t /en/gilligans_island:/tv/tv_program $0 $1 $2))))
+
+how long are adventure time episodes
+(lambda $0 /type/int (/tv/tv_program@episode_running_time:t /m/0280hsm:/tv/tv_program $0))
+
+when did the last episode of six feet under air
+(lambda $0 /type/datetime (/tv/tv_program@air_date_of_final_episode:t /en/six_feet_under:/tv/tv_program $0))
+
+what tv programs has hugh laurie created
+(lambda $0 /common/topic (/tv/tv_program@program_creator:t $0 /en/hugh_laurie:/tv/tv_program_creator))
+
+who was the cohost in 1993 on cbs evening news
+(lambda $0 /common/topic (exists $1 (/tv/tv_regular_personal_appearance@to@from@appearance_type@person@program@seasons:t /type/datetime/1993:/type/datetime /type/datetime/1993:/type/datetime /en/co_host:/tv/non_character_role $0 /en/cbs_evening_news:/tv/tv_program $1)))
+
+who is the newscaster on abc 6 news
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/tv/tv_regular_personal_appearance@to@from@appearance_type@person@program@seasons:t $1 $2 /en/newscaster:/tv/non_character_role $0 /en/abc_news:/tv/tv_program $3)))))
+
+how many seasons of sesame street are there
+(count $0 (/tv/tv_program@seasons:t /en/sesame_street:/tv/tv_program $0))
+
+what was the date of the first sesame street episode aired
+(lambda $0 /type/datetime (/tv/tv_program@air_date_of_first_episode:t /en/sesame_street:/tv/tv_program $0))
+
+who are the main cast members of sesame street
+(lambda $0 /people/person (exists $1 (exists $2 (exists $3 (exists $4 (exists $5 (/tv/regular_tv_appearance@actor@character@series@from@to@special_performance_type@seasons:t $0 $1 /en/sesame_street:/tv/tv_program $2 $3 $4 $5)))))))
+
+how many spin offs does sesame street have
+(count $0 (/tv/tv_program@spin_offs:t /en/sesame_street:/tv/tv_program $0))
+
+what is the theme song of sesame street
+(lambda $0 /common/topic (/tv/tv_program@theme_song:t /en/sesame_street:/tv/tv_program $0))
+
+how many shows was hayden panettiere on
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (exists $5 (/tv/regular_tv_appearance@actor@character@series@from@to@special_performance_type@seasons:t /en/hayden_panettiere:/tv/tv_actor $1 $0 $2 $3 $4 $5)))))))
+
+how many tv shows did jerry seinfeld produce
+(count $0 (exists $1 (exists $2 (exists $3 (/tv/tv_producer_term@program@producer@from@to@producer_type:t $0 /en/jerry_seinfeld:/tv/tv_producer $1 $2 $3)))))
+
+how many tv shows was ron glass in
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (exists $5 (/tv/regular_tv_appearance@actor@character@series@from@to@special_performance_type@seasons:t /en/ron_glass:/tv/tv_actor $1 $0 $2 $3 $4 $5)))))))
+
+how many tv shows did danny devito have a leading role in
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (exists $5 (/tv/regular_tv_appearance@actor@character@series@from@to@special_performance_type@seasons:t /en/danny_devito:/tv/tv_actor $1 $0 $2 $3 $4 $5)))))))
+
+how many tv programs did danny devito produce
+(count $0 (exists $1 (exists $2 (exists $3 (/tv/tv_producer_term@program@producer@from@to@producer_type:t $0 /en/danny_devito:/tv/tv_producer $1 $2 $3)))))
+
+who was the newscaster in 1948 on cbs evening news
+(lambda $0 /common/topic (exists $1 (/tv/tv_regular_personal_appearance@to@from@appearance_type@person@program@seasons:t /type/datetime/1948:/type/datetime /type/datetime/1948:/type/datetime /en/newscaster:/tv/non_character_role $0 /en/cbs_evening_news:/tv/tv_program $1)))
+
+who is the present newscaster on cbs evening news
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/tv/tv_regular_personal_appearance@to@from@appearance_type@person@program@seasons:t $1 $2 /en/newscaster:/tv/non_character_role $0 /en/cbs_evening_news:/tv/tv_program $3)))))
+
+who created sesame street
+(lambda $0 /common/topic (/tv/tv_program@program_creator:t /en/sesame_street:/tv/tv_program $0))
+
+what was sesame street 's original network
+(lambda $0 /common/topic (exists $1 (exists $2 (/tv/tv_network_duration@program@network@from@to:t /en/sesame_street:/tv/tv_program $0 $1 $2))))
+
+how many episodes does sesame street have
+(count $0 (/tv/tv_program@episodes:t /en/sesame_street:/tv/tv_program $0))
+
+how many tv did jerry seinfeld have a starring role in
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (exists $5 (/tv/regular_tv_appearance@actor@character@series@from@to@special_performance_type@seasons:t /en/jerry_seinfeld:/tv/tv_actor $1 $0 $2 $3 $4 $5)))))))
+
+how many starring tv roles did jack albertson have
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (exists $5 (/tv/regular_tv_appearance@actor@character@series@from@to@special_performance_type@seasons:t /en/jack_albertson:/tv/tv_actor $1 $0 $2 $3 $4 $5)))))))
+
+what architectural style is the brooklyn bridge
+(lambda $0 /common/topic (/architecture/structure@architectural_style:t /en/brooklyn_bridge:/architecture/structure $0))
+
+who are some bauhaus architects
+(lambda $0 /people/person (/architecture/architectural_style@architects:t /en/bauhaus:/architecture/architectural_style $0))
+
+how many floors does the white house have
+(lambda $0 /type/int (/architecture/building@floors:t /en/white_house:/architecture/building $0))
+
+when was the ss great britain established as a museum
+(lambda $0 /type/datetime (/architecture/museum@established:t /en/ss_great_britain:/architecture/museum $0))
+
+what structures did frank lloyd wright design
+(count $0 (/architecture/architect@structures_designed:t /en/frank_lloyd_wright:/architecture/architect $0))
+
+what was walter gropius' architectural style
+(lambda $0 /common/topic (/architecture/architect@architectural_style:t /en/walter_gropius:/architecture/architect $0))
+
+what is the building function of the eiffel tower
+(lambda $0 /common/topic (/architecture/building@building_function:t /en/eiffel_tower:/architecture/building $0))
+
+who lived in fallingwater
+(lambda $0 /common/topic (exists $1 (exists $2 (/architecture/occupancy@occupant@from@to@building:t $0 $1 $2 /en/fallingwater:/architecture/building))))
+
+when was the pencarrow head lighthouse first lit
+(lambda $0 /type/datetime (/architecture/lighthouse@year_first_lit:t /en/pencarrow_head_lighthouse:/architecture/lighthouse $0))
+
+what is the cape may lighthouse made of
+(lambda $0 /common/topic (/architecture/lighthouse@construction:t /en/cape_may_lighthouse:/architecture/lighthouse $0))
+
+when did john j. raskob own the empire state building
+(lambda $0 /type/datetime (exists $1 (/architecture/ownership@end_date@start_date@owner@structure:t $0 $1 /en/john_j_raskob:/architecture/architectural_structure_owner /en/empire_state_building:/architecture/structure)))
+
+how tall is westminster abbey
+(lambda $0 /common/topic (/architecture/structure@height_meters:t /en/westminster_abbey:/architecture/structure $0))
+
+who designed the parthenon
+(lambda $0 /people/person (/architecture/structure@architect:t /en/parthenon:/architecture/structure $0))
+
+what position did mike schmidt play
+(lambda $0 /common/topic (/baseball/baseball_player@position_s:t /en/mike_schmidt:/baseball/baseball_player $0))
+
+when was hank aaron inducted into the hall of fame
+(lambda $0 /type/datetime (/baseball/baseball_player@hall_of_fame_induction:t /en/henry_aaron:/baseball/baseball_player $0))
+
+who are the players currently on the los angeles dodgers
+(lambda $0 /people/person (exists $1 (exists $2 (/baseball/baseball_roster_position@position@team@player@number:t $1 /en/los_angeles_dodgers:/baseball/baseball_team $0 $2))))
+
+in what division are the st. louis cardinals
+(lambda $0 /common/topic (/baseball/baseball_team@division:t /en/st_louis_cardinals:/baseball/baseball_team $0))
+
+how many teams did joe torre manage
+(count $0 (exists $1 (exists $2 (/baseball/baseball_historical_managerial_position@manager@team@from@to:t /en/joe_torre:/baseball/baseball_manager $0 $1 $2))))
+
+what team does joe girardi currently manage
+(lambda $0 /common/topic (/baseball/baseball_manager@current_team_managed:t /en/joe_girardi:/baseball/baseball_manager $0))
+
+how many players are in the current roster of the new york mets
+(count $0 (exists $1 (exists $2 (/baseball/baseball_roster_position@position@team@player@number:t $1 /en/new_york_mets:/baseball/baseball_team $0 $2))))
+
+what teams did babe ruth play for
+(lambda $0 /common/topic (exists $1 (exists $2 (/baseball/baseball_historical_roster_position@to@from@player@team:t $1 $2 /en/babe_ruth:/baseball/baseball_player $0))))
+
+what number is kevin youkilis on the boston red sox
+(lambda $0 /type/int (exists $1 (/baseball/baseball_roster_position@position@team@player@number:t $1 /en/boston_red_sox:/baseball/baseball_team /en/kevin_youkilis:/baseball/baseball_player $0)))
+
+who wrote travels with my cello
+(lambda $0 /people/person (/book/written_work@author:t /m/03crp32:/book/written_work $0))
+
+when was the catcher in the rye first published
+(lambda $0 /type/datetime (/book/written_work@date_of_first_publication:t /en/the_catcher_in_the_rye:/book/written_work $0))
+
+what is the original language of the wind-up bird chronicle
+(lambda $0 /common/topic (/book/written_work@original_language:t /en/the_wind-up_bird_chronicle:/book/written_work $0))
+
+what are some books about art deco
+(lambda $0 /common/topic (/book/book_subject@works:t /en/art_deco:/book/book_subject $0))
+
+how often does the washington post come out
+(lambda $0 /common/topic (/book/periodical@frequency_or_issues_per_year:t /en/the_washington_post:/book/periodical $0))
+
+when was the boston herald first published
+(lambda $0 /common/topic (/book/periodical@first_issue_date:t /en/boston_herald:/book/periodical $0))
+
+where is the guardian circulated
+(lambda $0 /location/location (/book/newspaper@circulation_areas:t /en/the_guardian:/book/newspaper $0))
+
+what is the subject of the atlantic monthly
+(lambda $0 /common/topic (/book/periodical@subjects:t /en/the_atlantic_monthly:/book/periodical $0))
+
+who publishes the journal of abnormal psychology
+(lambda $0 /common/topic (exists $1 (exists $2 (/book/periodical_publisher_period@periodical@publisher@from@to:t /en/journal_of_abnormal_psychology:/book/periodical $0 $1 $2))))
+
+who did the cover art for batman #477
+(lambda $0 /people/person (/book/magazine_issue@cover_artist:t /en/batman_477:/book/magazine_issue $0))
+
+what articles are in the july 1967 issue of frontier times
+(lambda $0 /common/topic (exists $1 (exists $2 (/book/contents@work@publication@page_number@credited_to:t $0 /en/frontier_times_1967_july:/book/publication $1 $2))))
+
+what are some periodicals on computer science
+(lambda $0 /common/topic (/book/periodical_subject@periodicals:t /en/computer_science:/book/periodical_subject $0))
+
+what series is a wrinkle in time a part of
+(lambda $0 /common/topic (/book/written_work@part_of_series:t /en/a_wrinkle_in_time:/book/written_work $0))
+
+who are the characters in to kill a mockingbird
+(lambda $0 /common/topic (/book/book@characters:t /en/to_kill_a_mockingbird:/book/book $0))
+
+what universe is the lord of the rings set in
+(lambda $0 /common/topic (/book/literary_series@fictional_universe:t /en/the_lord_of_the_rings:/book/literary_series $0))
+
+when was pride and prejudice published
+(lambda $0 /type/datetime (/book/written_work@date_of_first_publication:t /en/pride_and_prejudice:/book/written_work $0))
+
+what are the books in the chronicles of narnia series
+(lambda $0 /common/topic (/book/written_work@part_of_series:t $0 /en/the_chronicles_of_narnia:/book/literary_series))
+
+who wrote a series of unfortunate events
+(lambda $0 /people/person (/book/author@series_written_or_contributed_to:t $0 /en/a_series_of_unfortunate_events:/book/literary_series))
+
+what genre is the hound of the baskervilles
+(lambda $0 /common/topic (/book/literary_genre@books_in_this_genre:t $0 /en/the_hound_of_the_baskervilles:/book/book))
+
+what series did tamora pierce write
+(lambda $0 /common/topic (/book/author@series_written_or_contributed_to:t /en/tamora_pierce:/book/author $0))
+
+how many books are there written on computer programming
+(count $0 (/book/literary_genre@books_in_this_genre:t /en/computer_programming:/book/literary_genre $0))
+
+who are the hosts of car talk
+(lambda $0 /common/topic (/broadcast/content@artist:t /en/car_talk:/broadcast/content $0))
+
+who owns wxpn
+(lambda $0 /common/topic (/broadcast/radio_station@owner:t /en/wxpn:/broadcast/radio_station $0))
+
+who produces meet the press
+(lambda $0 /common/topic (/broadcast/content@producer:t /en/nbc_meet_the_press_video:/broadcast/content $0))
+
+what is the genre of the skeptics' guide to the universe
+(lambda $0 /common/topic (/broadcast/content@genre:t /m/03z9smt:/broadcast/content $0))
+
+where is between the lines produced
+(lambda $0 /location/location (/broadcast/content@location:t /m/03d5yt5:/broadcast/content $0))
+
+when did the standard school broadcast start production
+(lambda $0 /type/datetime (/broadcast/content@production_start:t /en/the_standard_school_broadcast:/broadcast/content $0))
+
+when did easy aces stop being produced
+(lambda $0 /type/datetime (/broadcast/content@production_end:t /en/easy_aces:/broadcast/content $0))
+
+how many broadcasts does blogtalkradio distribute
+(count $0 (/broadcast/distributor@distributes:t /en/blogtalkradio:/broadcast/distributor $0))
+
+how long is wired_s gadget lab podcast
+(lambda $0 /type/int (/broadcast/podcast_feed@average_media_length:t /en/wireds_gadget_lab_podcast_podcast_feed:/broadcast/podcast_feed $0))
+
+what area does kifm serve
+(lambda $0 /location/location (/broadcast/radio_station@serves_area:t /en/kifm:/broadcast/radio_station $0))
+
+how many radio stations does cbs radio own
+(count $0 (/broadcast/radio_station_owner@radio_stations:t /en/cbs_radio:/broadcast/radio_station_owner $0))
+
+how many tv channels does nbc own
+(count $0 (/broadcast/tv_station_owner@tv_stations:t /en/nbc:/broadcast/tv_station_owner $0))
+
+what are nicknames for new york
+(lambda $0 /common/topic (/common/topic@alias:t /en/new_york_state:/common/topic $0))
+
+how many nicknames does shaquille o'neal have
+(count $0 (/common/topic@alias:t /en/shaquille_oneal:/common/topic $0))
+
+what other names is the united nations known by
+(lambda $0 /common/topic (/common/topic@alias:t /en/united_nations:/common/topic $0))
+
+what are the new york giants also known as
+(lambda $0 /common/topic (/common/topic@alias:t /en/new_york_giants:/common/topic $0))
+
+what are the dimensions of the matrix reloaded image
+(lambda $0 /common/topic (/common/image@size:t /m/0kjl0q:/common/image $0))
+
+how tall is the you only live once image
+(lambda $0 /common/topic (/common/image@size:t /m/0kk92b:/common/image $0))
+
+how many other names is jerry seinfeld known by
+(count $0 (/common/topic@alias:t /en/jerry_seinfeld:/common/topic $0))
+
+how many other names are there for the usa_s currency
+(count $0 (/common/topic@alias:t /en/us:/common/topic $0))
+
+how many other names are there for jcpenney
+(count $0 (/common/topic@alias:t /en/j_c_penney:/common/topic $0))
+
+how many other names is prostate cancer known as
+(count $0 (/common/topic@alias:t /en/prostate_cancer:/common/topic $0))
+
+what other titles does 13 going on 30 have
+(lambda $0 /common/topic (/common/topic@alias:t /en/13_going_on_30:/common/topic $0))
+
+how many other names is omarion known by
+(count $0 (/common/topic@alias:t /en/omarion:/common/topic $0))
+
+how many other names is ron glass known by
+(count $0 (/common/topic@alias:t /en/ron_glass:/common/topic $0))
+
+how many other names is panasonic corporation known by
+(count $0 (/common/topic@alias:t /en/matsushita_electric_industrial_co:/common/topic $0))
+
+where was the 1st world science fiction convention held
+(lambda $0 /common/topic (/conferences/conference@venue:t /en/1st_world_science_fiction_convention:/conferences/conference $0))
+
+who sponsors the hoby seminars
+(lambda $0 /common/topic (/conferences/conference_series@sponsoring_organization:t /m/0hmwcy2:/conferences/conference_series $0))
+
+what is pycon about
+(lambda $0 /common/topic (/conferences/conference_series@subject:t /en/pycon:/conferences/conference_series $0))
+
+how many conferences have been held at the los angeles convention center
+(count $0 (/conferences/conference_venue@conferences:t /en/los_angeles_convention_center:/conferences/conference_venue $0))
+
+what conferences does google sponsor
+(lambda $0 /common/topic (/conferences/conference_sponsor@conferences:t /en/google:/conferences/conference_sponsor $0))
+
+how many conferences about mathematics are there
+(lambda $0 /common/topic (/conferences/conference_subject@series_of_conferences_about_this:t /en/mathematics:/conferences/conference_subject $0))
+
+how heavy is a panasonic lumix dmc-tz3
+(lambda $0 /common/topic (/digicams/digital_camera@weight:t /en/panasonic_lumix_dmc_tz3:/digicams/digital_camera $0))
+
+does the canon powershot a75 have an orientation sensor
+(lambda $0 /common/topic (/digicams/digital_camera@orientation_sensor:t /en/canon_powershot_a75:/digicams/digital_camera $0))
+
+what is the lcd screen resolution of a nikon d80
+(lambda $0 /common/topic (/digicams/digital_camera@lcd_pixels:t /en/nikon_d80:/digicams/digital_camera $0))
+
+what digital cameras take an sdhc card
+(lambda $0 /common/topic (/digicams/camera_storage_type@compatible_cameras:t /en/sdhc_card:/digicams/camera_storage_type $0))
+
+how many canon digital cameras are there
+(count $0 (/digicams/digital_camera_manufacturer@cameras:t /en/canon:/digicams/digital_camera_manufacturer $0))
+
+how big is the screen on a nikon coolpix s50
+(lambda $0 /common/topic (/digicams/digital_camera@lcd_screen_dimensions:t /en/nikon_coolpix_s50:/digicams/digital_camera $0))
+
+how much did a canon powershot tx1 cost when it was released
+(lambda $0 /common/topic (/digicams/digital_camera@street_price:t /en/canon_powershot_tx1:/digicams/digital_camera $0))
+
+when was the sony nex-5 released
+(lambda $0 /type/datetime (/digicams/digital_camera@released:t /m/0cp1pcv:/digicams/digital_camera $0))
+
+how many people died in the boston molasses disaster
+(lambda $0 /type/int (/event/disaster@fatalities:t /en/boston_molasses_disaster:/event/disaster $0))
+
+how much money in damages did the 1904 toronto fire cost
+(lambda $0 /common/topic (/event/disaster@damage:t /en/1904_toronto_fire:/event/disaster $0))
+
+what buildings were destroyed in september 11th
+(lambda $0 /common/topic (/event/disaster@structures_destroyed:t /en/september_11_2001_attacks:/event/disaster $0))
+
+how many people survived the sinking of the titanic
+(count $0 (/event/disaster@survivors:t /en/sinking_of_the_titanic:/event/disaster $0))
+
+in what disaster was old st paul_s cathedral destroyed
+(lambda $0 /common/topic (/event/disaster_affected_structure@destroyed_by_disaster:t /en/old_st_pauls_cathedral:/event/disaster_affected_structure $0))
+
+who presented the gettysburg address
+(lambda $0 /people/person (exists $1 (exists $2 (exists $3 (exists $4 (/event/speech_or_presentation@event@speech_topic@speaker_s@type_or_format_of_presentation@presented_work@date:t $1 $2 $0 $3 /en/gettysburg_address:/event/presented_work $4))))))
+
+where was the cross of gold speech presented
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (exists $4 (/event/speech_or_presentation@event@speech_topic@speaker_s@type_or_format_of_presentation@presented_work@date:t $0 $1 $2 $3 /en/cross_of_gold_speech:/event/presented_work $4))))))
+
+how many speeches did winston churchill give
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (/event/speech_or_presentation@event@speech_topic@speaker_s@type_or_format_of_presentation@presented_work@date:t $1 $2 /en/winston_churchill:/event/public_speaker $3 $0 $4))))))
+
+how many speeches have been given about world war ii
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (/event/speech_or_presentation@event@speech_topic@speaker_s@type_or_format_of_presentation@presented_work@date:t $1 /en/world_war_ii:/event/speech_topic $2 $3 $0 $4))))))
+
+what label does julien fournie design for
+(lambda $0 /common/topic (exists $1 (exists $2 (/fashion/designer_label_association@designer@label@from_date@to_date:t /en/julien_fournie:/fashion/fashion_designer $0 $1 $2))))
+
+when did martin margiela start designing for herm
+(lambda $0 /type/datetime (exists $1 (/fashion/designer_label_association@designer@label@from_date@to_date:t /en/martin_margiela:/fashion/fashion_designer /m/06dr8q:/fashion/fashion_label $0 $1)))
+
+who designs for bill blass limited
+(lambda $0 /common/topic (exists $1 (exists $2 (/fashion/designer_label_association@designer@label@from_date@to_date:t $0 /en/bill_blass_limited:/fashion/fashion_label $1 $2))))
+
+what textiles are made from cotton
+(lambda $0 /common/topic (/fashion/fiber@textiles_made_from_this_fiber:t /en/cotton:/fashion/fiber $0))
+
+what are some types of hats
+(lambda $0 /common/topic (/fashion/garment@more_specialized_forms:t /en/hat:/fashion/garment $0))
+
+what type of clothing are knickerbockers
+(lambda $0 /common/topic (/fashion/garment@specialization_of:t /fashion/garment:/fashion/garment $0))
+
+what is serge made out of
+(lambda $0 /common/topic (/fashion/textile@fiber:t /en/serge:/fashion/textile $0))
+
+what sort of weave is used to make tweed
+(lambda $0 /common/topic (/fashion/textile@weave:t /en/tweed:/fashion/textile $0))
+
+how many kinds of footwear are there
+(count $0 (/fashion/garment@more_specialized_forms:t /en/footwear:/fashion/garment $0))
+
+what powers does sonic the hedgehog have
+(lambda $0 /common/topic (/fictional_universe/fictional_character@powers_or_abilities:t /en/sonic_the_hedgehog:/fictional_universe/fictional_character $0))
+
+who created charlie brown
+(lambda $0 /people/person (/fictional_universe/fictional_character@character_created_by:t /en/charlie_brown:/fictional_universe/fictional_character $0))
+
+where was luke skywalker born
+(lambda $0 /common/topic (/fictional_universe/fictional_character@place_of_birth:t /en/luke_skywalker:/fictional_universe/fictional_character $0))
+
+what species is the doctor
+(lambda $0 /common/topic (/fictional_universe/fictional_character@species:t /en/the_doctor:/fictional_universe/fictional_character $0))
+
+what is the setting of the magician_s nephew
+(lambda $0 /common/topic (/fictional_universe/work_of_fiction@setting:t /en/the_magicians_nephew:/fictional_universe/work_of_fiction $0))
+
+where is the hobbit set
+(lambda $0 /common/topic (/fictional_universe/work_of_fiction@setting:t /en/the_hobbit:/fictional_universe/work_of_fiction $0))
+
+what species is spock
+(lambda $0 /common/topic (/fictional_universe/fictional_character@species:t /en/spock:/fictional_universe/fictional_character $0))
+
+what character was born in gotham city
+(lambda $0 /common/topic (/fictional_universe/fictional_setting@fictional_characters_born_here:t /en/gotham_city:/fictional_universe/fictional_setting $0))
+
+how many works have been set on the moon
+(count $0 (/fictional_universe/fictional_setting@works_set_here:t /en/moon:/fictional_universe/fictional_setting $0))
+
+what fictional characters have attended oxford
+(lambda $0 /common/topic (/fictional_universe/school_in_fiction@students_graduates:t /en/university_of_oxford:/fictional_universe/school_in_fiction $0))
+
+who destroyed the one ring
+(lambda $0 /common/topic (/fictional_universe/fictional_object@destroyed_by:t /en/one_ring:/fictional_universe/fictional_object $0))
+
+who created the philosopher_s stone
+(lambda $0 /common/topic (/fictional_universe/fictional_object@created_by:t /en/philosophers_stone:/fictional_universe/fictional_object $0))
+
+how many films has tim burton produced
+(count $0 (/film/film@produced_by:t $0 /en/tim_burton:/film/producer))
+
+who has portrayed james bond in film
+(lambda $0 /people/person (exists $1 (exists $2 (exists $3 (/film/performance@actor@film@special_performance_type@character@character_note:t $0 $1 $2 /m/0clpml:/film/film_character $3)))))
+
+what are some films on the apollo 11 mission
+(lambda $0 /common/topic (/film/film@subjects:t $0 /en/apollo_11:/film/film_subject))
+
+how many films has julie andrews been in
+(count $0 (exists $1 (exists $2 (exists $3 (/film/performance@actor@film@special_performance_type@character@character_note:t /en/julie_andrews:/film/actor $0 $1 $2 $3)))))
+
+when was 300 released
+(lambda $0 /type/datetime (/film/film@initial_release_date:t /en/300_2007:/film/film $0))
+
+who designed the costumes for alice in wonderland
+(lambda $0 /people/person (/film/film@costume_design_by:t /source/allocine/fr/film/132663:/film/film $0))
+
+what was the budget for edward scissorhands
+(lambda $0 /common/topic (exists $1 (exists $2 (/film/film/estimated_budget&/measurement_unit/dated_money_value@valid_date@amount@currency:t /en/edward_scissorhands:/film/film $1 $0 $2))))
+
+how many prosthetic makeup artists worked on 28 days later
+(count $0 (/film/film_crew_gig@film_crew_role@film@crewmember:t /en/prosthetic_makeup_artist:/film/film_job /en/28_weeks_later:/film/film $0))
+
+how many film performances does jerry seinfeld have
+(count $0 (exists $1 (exists $2 (exists $3 (/film/performance@actor@film@special_performance_type@character@character_note:t /en/jerry_seinfeld:/film/actor $0 $1 $2 $3)))))
+
+how many film performances did ron glass do
+(count $0 (exists $1 (exists $2 (exists $3 (/film/performance@actor@film@special_performance_type@character@character_note:t /en/ron_glass:/film/actor $0 $1 $2 $3)))))
+
+how many film performances did jack albertson do
+(count $0 (exists $1 (exists $2 (exists $3 (/film/performance@actor@film@special_performance_type@character@character_note:t /en/jack_albertson:/film/actor $0 $1 $2 $3)))))
+
+how many films are there on antarctica
+(count $0 (/film/film@subjects:t $0 /en/antarctica:/film/film_subject))
+
+how much did transformers cost to produce
+(lambda $0 /common/topic (exists $1 (exists $2 (/film/film/estimated_budget&/measurement_unit/dated_money_value@valid_date@amount@currency:t /en/transformers:/film/film $1 $0 $2))))
+
+who directed 2 fast 2 furious
+(lambda $0 /people/person (/film/film@directed_by:t /en/2_fast_2_furious:/film/film $0))
+
+what is the release date for 2 fast 2 furious
+(lambda $0 /type/datetime (/film/film@initial_release_date:t /en/2_fast_2_furious:/film/film $0))
+
+who was 8 mile directed by
+(lambda $0 /people/person (/film/film@directed_by:t /en/8_mile:/film/film $0))
+
+what genres did 8 mile consist of
+(lambda $0 /common/topic (/film/film@genre:t /en/8_mile:/film/film $0))
+
+how many main characters did charlie_s angels have
+(count $0 (exists $1 (exists $2 (exists $3 (/film/performance@actor@film@special_performance_type@character@character_note:t $1 /en/charlies_angels:/film/film $2 $0 $3)))))
+
+who was charlie_s angels produced by
+(lambda $0 /people/person (/film/film@produced_by:t /en/charlies_angels:/film/film $0))
+
+who directed charlie_s angels
+(lambda $0 /people/person (/film/film@directed_by:t /en/charlies_angels:/film/film $0))
+
+when was the release date for titanic
+(lambda $0 /type/datetime (/film/film@initial_release_date:t /en/titanic:/film/film $0))
+
+how long is titanic 's runtime
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/film/film_cut@film@runtime@note@type_of_film_cut@film_release_region:t /en/titanic:/film/film $0 $1 $2 $3)))))
+
+who was titanic produced by
+(lambda $0 /people/person (/film/film@produced_by:t /en/titanic:/film/film $0))
+
+when was 13 going on 30 released
+(lambda $0 /type/datetime (/film/film@initial_release_date:t /en/13_going_on_30:/film/film $0))
+
+who directed 13 going on 30
+(lambda $0 /people/person (/film/film@directed_by:t /en/13_going_on_30:/film/film $0))
+
+what is the subject of 13 going on 30
+(lambda $0 /common/topic (/film/film@subjects:t /en/13_going_on_30:/film/film $0))
+
+who is the music by in bruce almighty
+(lambda $0 /common/topic (/film/film@music:t /en/bruce_almighty:/film/film $0))
+
+who is the costume designer for bruce almighty
+(lambda $0 /people/person (/film/film@costume_design_by:t /en/bruce_almighty:/film/film $0))
+
+when was bruce almighty released
+(lambda $0 /type/datetime (/film/film@initial_release_date:t /en/bruce_almighty:/film/film $0))
+
+what is the runtime for meet the parents
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/film/film_cut@film@runtime@note@type_of_film_cut@film_release_region:t /en/meet_the_parents:/film/film $0 $1 $2 $3)))))
+
+who directed meet the parents
+(lambda $0 /people/person (/film/film@directed_by:t /en/meet_the_parents:/film/film $0))
+
+what genres does meet the parents consist of
+(lambda $0 /common/topic (/film/film@genre:t /en/meet_the_parents:/film/film $0))
+
+when was nutty professor released
+(lambda $0 /type/datetime (/film/film@initial_release_date:t /en/the_nutty_professor:/film/film $0))
+
+who was the director of the nutty professor
+(lambda $0 /people/person (/film/film@directed_by:t /en/the_nutty_professor:/film/film $0))
+
+what is the nutty professor rated
+(lambda $0 /common/topic (/film/film@rating:t /en/the_nutty_professor:/film/film $0))
+
+how many film performances did beyonce do
+(count $0 (exists $1 (exists $2 (exists $3 (/film/performance@actor@film@special_performance_type@character@character_note:t /en/beyonce:/film/actor $0 $1 $2 $3)))))
+
+how many film productions did hayden panettiere appear in
+(count $0 (exists $1 (exists $2 (exists $3 (/film/performance@actor@film@special_performance_type@character@character_note:t /en/hayden_panettiere:/film/actor $0 $1 $2 $3)))))
+
+when did charlie_s angels come out
+(lambda $0 /type/datetime (/film/film@initial_release_date:t /en/charlies_angels:/film/film $0))
+
+who was the story of charlie_s angels by
+(lambda $0 /people/person (/film/film@written_by:t /en/charlies_angels:/film/film $0))
+
+who was titanic directed by
+(lambda $0 /people/person (/film/film@directed_by:t /en/titanic:/film/film $0))
+
+who was the music by in titanic
+(lambda $0 /common/topic (/film/film@music:t /en/titanic:/film/film $0))
+
+who is the producer for 13 going on 30
+(lambda $0 /people/person (/film/film@produced_by:t /en/13_going_on_30:/film/film $0))
+
+who are the distributors for bruce almighty
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (exists $4 (/film/film_film_distributor_relationship@film_cut@film_distribution_medium@region@year@distributor@film:t $1 $2 $3 $4 $0 /en/bruce_almighty:/film/film))))))
+
+what is bruce almighty rated
+(lambda $0 /common/topic (/film/film@rating:t /en/bruce_almighty:/film/film $0))
+
+who was the casting director for meet the parents
+(lambda $0 /people/person (/film/film@film_casting_director:t /en/meet_the_parents:/film/film $0))
+
+when was the movie big daddy released
+(lambda $0 /type/datetime (/film/film@initial_release_date:t /en/big_daddy:/film/film $0))
+
+what is big daddy rated
+(lambda $0 /common/topic (/film/film@rating:t /en/big_daddy:/film/film $0))
+
+who was the nutty professor produced by
+(lambda $0 /people/person (/film/film@produced_by:t /en/the_nutty_professor:/film/film $0))
+
+who is the screenplay for the nutty professor by
+(lambda $0 /people/person (/film/film@written_by:t /en/the_nutty_professor:/film/film $0))
+
+what are some german beers
+(lambda $0 /common/topic (/food/beer_country_region@beers_from_here:t /en/germany:/food/beer_country_region $0))
+
+what type of beer is miller lite
+(lambda $0 /common/topic (/food/beer@beer_style:t /en/miller_lite:/food/beer $0))
+
+what animal does marscapone cheese come from
+(lambda $0 /common/topic (/food/cheese@source_of_milk:t /en/mascarpone:/food/cheese $0))
+
+what sizes does pilsner urquell come in
+(lambda $0 /common/topic (exists $1 (/food/beer_containment@size@container_type@beer:t $0 $1 /en/pilsner_urquell:/food/beer)))
+
+who brews pauwel kwak
+(lambda $0 /common/topic (/food/beer@brewery_brand:t /en/pauwel_kwak:/food/beer $0))
+
+how many beers come a can
+(count $0 (exists $1 (/food/beer_containment@size@container_type@beer:t $1 /en/beverage_can:/food/beer_container $0)))
+
+where is fry_s turkish delight sold
+(lambda $0 /location/location (/food/candy_bar@sold_in:t /en/frys_turkish_delight:/food/candy_bar $0))
+
+what is the texture of brie cheese
+(lambda $0 /common/topic (/food/cheese@texture:t /m/01482f:/food/cheese $0))
+
+how many cow's milk cheeses are there
+(count $0 (/food/cheese_milk_source@cheeses:t /en/cattle:/food/cheese_milk_source $0))
+
+how much protein is in quinoa
+(lambda $0 /type/float (exists $1 (/food/nutrition_fact@nutrient@food@quantity@ius:t /en/protein:/food/nutrient /en/quinoa:/food/food $0 $1)))
+
+what type of tea is gunpowder tea
+(lambda $0 /common/topic (/food/tea@tea_type:t /en/gunpowder_tea:/food/tea $0))
+
+what are some french restaurants
+(lambda $0 /common/topic (/dining/cuisine@restaurant:t /m/02z3r:/dining/cuisine $0))
+
+what are some cajun dishes
+(lambda $0 /common/topic (/dining/cuisine@dishes:t /m/01v7z:/dining/cuisine $0))
+
+what ingredients are in italian cuisine
+(lambda $0 /common/topic (/dining/cuisine@ingredients:t /m/09y2k2:/dining/cuisine $0))
+
+what spirits are produced in kentucky
+(lambda $0 /common/topic (/distilled_spirits/spirit_producing_region@distilleries:t /en/kentucky:/distilled_spirits/spirit_producing_region $0))
+
+what percentage of the grapes in a 1966 chateau latour grand vin are merlot
+(lambda $0 /type/int (/wine/grape_variety_composition@percentage@grape_variety@wine:t $0 /en/merlot:/wine/grape_variety /en/1966_chateau_latour:/wine/wine))
+
+what percent alcohol is a g.h. mumm cordon rouge brut
+(lambda $0 /common/topic (/wine/wine@percentage_alcohol:t /en/g_h_mumm_cordon_rouge_brut:/wine/wine $0))
+
+how many actors use their middle name or initial
+(count $0 (/freebase/list@entries:t /m/0599h7b:/freebase/list $0))
+
+how many film actors are there on freebase
+(lambda $0 /type/int (/freebase/type_profile@instance_count:t /film/film_actor:/freebase/type_profile $0))
+
+what topics are equivalent to us county
+(lambda $0 /common/topic (/freebase/type_profile@equivalent_topic:t /location/us_county:/freebase/type_profile $0))
+
+how many topics are equivalent to city/town/village
+(count $0 (/freebase/type_profile@equivalent_topic:t /location/citytown:/freebase/type_profile $0))
+
+how many locations are there on freebase
+(lambda $0 /type/int (/freebase/type_profile@instance_count:t /location/location:/freebase/type_profile $0))
+
+what category does the film domain belong to
+(lambda $0 /common/topic (/freebase/domain_profile@category:t /film:/freebase/domain_profile $0))
+
+how many domains are in the science & technology category
+(count $0 (/freebase/domain_category@domains:t /en/science_technology:/freebase/domain_category $0))
+
+how many beers are there on freebase
+(lambda $0 /type/int (/freebase/type_profile@instance_count:t /food/beer:/freebase/type_profile $0))
+
+how many people can play settlers of catan
+(lambda $0 /type/int (/games/game@number_of_players:t /en/settlers_of_catan:/games/game $0))
+
+how many cards do you need to play canasta
+(lambda $0 /type/int (/games/playing_card_game@number_of_cards:t /en/canasta:/games/playing_card_game $0))
+
+how many games has hasbro published
+(count $0 (/games/game_publisher@games_published:t /en/hasbro:/games/game_publisher $0))
+
+who designed the game of life
+(lambda $0 /common/topic (/games/game@designer:t /en/the_game_of_life:/games/game $0))
+
+how old do you have to be to play monopoly
+(lambda $0 /common/topic (/games/game@minimum_age_years:t /en/monopoly_boardgame:/games/game $0))
+
+who played in the game of the century
+(lambda $0 /people/person (exists $1 (exists $2 (/chess/chess_game_participation@game@player@color@outcome:t /en/the_game_of_the_century:/chess/chess_game $0 $1 $2))))
+
+what games has garry kasparov won
+(lambda $0 /common/topic (exists $1 (exists $2 (/chess/chess_game_participation@game@player@color@outcome:t $0 $1 $2 /m/0454vkd:/chess/chess_game_outcome))))
+
+what color did adolf anderssen play in the immortal game
+(lambda $0 /common/topic (exists $1 (/chess/chess_game_participation@game@player@color@outcome:t /en/immortal_game:/chess/chess_game /en/adolf_anderssen:/chess/chess_player $0 $1)))
+
+how tall is mount everest
+(lambda $0 /common/topic (/geography/mountain@elevation:t /en/mount_everest:/geography/mountain $0))
+
+when did mount fuji last erupt
+(lambda $0 /type/datetime (/geography/mountain@last_eruption:t /en/mount_fuji:/geography/mountain $0))
+
+what is the origin of the mississippi river
+(lambda $0 /location/location (/geography/river@origin:t /en/mississippi_river:/geography/river $0))
+
+how many islands are there in lake superior
+(count $0 (/geography/body_of_water@islands:t /en/lake_superior:/geography/body_of_water $0))
+
+what bridges go over the san francisco bay
+(lambda $0 /location/location (/geography/body_of_water@bridges:t /en/san_francisco_bay:/geography/body_of_water $0))
+
+how thick is the aletsch glacier
+(lambda $0 /common/topic (/geography/glacier@thickness:t /en/aletsch_glacier:/geography/glacier $0))
+
+what island group is jekyll island a part of
+(lambda $0 /location/location (/geography/island@island_group:t /en/jekyll_island:/geography/island $0))
+
+how many islands are in the antilles
+(count $0 (/geography/island_group@islands_in_group:t /en/antilles:/geography/island_group $0))
+
+what mountain range is king edward peak in
+(lambda $0 /location/location (/geography/mountain@mountain_range:t /en/king_edward_peak:/geography/mountain $0))
+
+how high is niagara falls
+(lambda $0 /common/topic (/geography/waterfall@height:t /en/niagara_falls:/geography/waterfall $0))
+
+what did elizabeth ii collect
+(lambda $0 /common/topic (exists $1 (/interests/collection@collector@category@items:t /en/elizabeth_ii_of_the_united_kingdom:/interests/collector $0 $1)))
+
+how many cars are in jay leno's car collection
+(count $0 (/interests/collection@collector@category@items:t /en/jay_leno:/interests/collector /en/automobile:/interests/collection_category $0))
+
+how many people collect automobiles
+(count $0 (exists $1 (/interests/collection@collector@category@items:t $0 /en/automobile:/interests/collection_category $1)))
+
+what is the collection of postcards called
+(lambda $0 /common/topic (/interests/collection_category@name_of_collection_activity:t /en/postcard:/interests/collection_category $0))
+
+what is sarah jessica parker's hobby
+(lambda $0 /common/topic (/interests/hobbyist@hobbies:t /en/sarah_jessica_parker:/interests/hobbyist $0))
+
+how many collections did barry halper have
+(count $0 (exists $1 (/interests/collection@collector@category@items:t /en/barry_halper:/interests/collector $0 $1)))
+
+how many people blog on beyond robson
+(count $0 (/internet/blog@blogger:t /en/beyond_robson:/internet/blog $0))
+
+who writes the dabble blog
+(lambda $0 /people/person (/internet/blog@blogger:t /en/the_dabble_blog:/internet/blog $0))
+
+what's the focus of the last minute blog
+(lambda $0 /common/topic (/internet/blog@focus:t /en/the_last_minute_blog:/internet/blog $0))
+
+when was techvibes started
+(lambda $0 /type/datetime (/internet/blog@started:t /en/techvibes:/internet/blog $0))
+
+what blogs are in german
+(lambda $0 /common/topic (/internet/blog@language:t $0 /en/german_language:/language/human_language))
+
+what language is tagliablog in
+(lambda $0 /common/topic (/internet/blog@language:t /en/tagliablog:/internet/blog $0))
+
+what blog does robert scoble write
+(lambda $0 /common/topic (/internet/blogger@blog:t /en/robert_scoble:/internet/blogger $0))
+
+who owns flickr
+(lambda $0 /common/topic (/internet/website@owner:t /en/flickr:/internet/website $0))
+
+what kind of website is bing
+(lambda $0 /common/topic (/internet/website@category:t /en/windows_live_search:/internet/website $0))
+
+when was facebook launched
+(lambda $0 /type/datetime (/internet/website@launched:t /en/facebook:/internet/website $0))
+
+what is the address of the mitchell public library
+(lambda $0 /location/location (/library/public_library@address:t /en/mitchell_public_library:/library/public_library $0))
+
+what library system is the sunset branch library in
+(lambda $0 /common/topic (/library/public_library@library_system:t /en/sunset_branch_library:/library/public_library $0))
+
+how many books does the detroit public library have
+(count $0 (/library/public_library_system@collection_size:t /en/detroit_public_library:/library/public_library_system $0))
+
+how many branches does the vancouver public library have
+(count $0 (/library/public_library_system@branches:t /en/vancouver_public_library:/library/public_library_system $0))
+
+how many people visit the new york public library annually
+(count $0 (/library/public_library_system@annual_visits:t /en/new_york_public_library:/library/public_library_system $0))
+
+what city is the ben may main library in
+(lambda $0 /location/location (exists $1 (exists $2 (exists $3 (exists $4 (exists $5 (/library/public_library/address&/location/mailing_address@street_address@street_address_2@citytown@postal_code@state_province_region@country:t /m/02ncllz:/library/public_library $1 $2 $0 $3 $4 $5)))))))
+
+who instructed steven seagal
+(lambda $0 /people/person (/martial_arts/martial_artist@instructor:t /en/steven_seagal:/martial_arts/martial_artist $0))
+
+what martial arts does chris maden practice
+(lambda $0 /common/topic (/martial_arts/martial_artist@martial_art:t /en/chris_maden:/martial_arts/martial_artist $0))
+
+who are the students of bruce lee
+(lambda $0 /people/person (/martial_arts/martial_artist@martial_arts_students:t /en/bruce_lee:/martial_arts/martial_artist $0))
+
+who studied martial arts under yip man
+(lambda $0 /people/person (/martial_arts/martial_artist@martial_arts_students:t /en/yip_man:/martial_arts/martial_artist $0))
+
+in what martial art does christopher adams have a black belt
+(lambda $0 /common/topic (exists $1 (exists $2 (/martial_arts/martial_arts_certification@person@qualification@certifying_body@date@art:t /en/christopher_adams:/martial_arts/martial_artist /en/black_belt:/martial_arts/martial_arts_qualification $1 $2 $0))))
+
+what qualification does woody strode have in seishindo kenpo
+(lambda $0 /common/topic (exists $1 (exists $2 (/martial_arts/martial_arts_certification@person@qualification@certifying_body@date@art:t /en/woody_strode:/martial_arts/martial_artist $0 $1 $2 /en/seishindo_kenpo:/martial_arts/martial_art))))
+
+when was cathy landers certified as a fifth degree black belt in seishindo kenpo
+(lambda $0 /type/datetime (exists $1 (/martial_arts/martial_arts_certification@person@qualification@certifying_body@date@art:t /en/cathy_landers:/martial_arts/martial_artist /en/fifth_degree:/martial_arts/martial_arts_qualification $1 $0 /en/seishindo_kenpo:/martial_arts/martial_art)))
+
+where did taekwondo originate
+(lambda $0 /location/location (/martial_arts/martial_art@origin:t /en/taekwondo:/martial_arts/martial_art $0))
+
+what category of martial arts is tai chi chuan
+(lambda $0 /common/topic (/martial_arts/martial_art@category:t /en/tai_chi_chuan:/martial_arts/martial_art $0))
+
+who are some practitioners of judo
+(lambda $0 /people/person (/martial_arts/martial_art@well_known_practitioner:t /en/judo:/martial_arts/martial_art $0))
+
+how many people practice karate
+(count $0 (/martial_arts/martial_art@well_known_practitioner:t /en/karate:/martial_arts/martial_art $0))
+
+how many politicians have served in the us navy
+(count $0 (/military/armed_force@personnel:t /en/united_states_navy:/military/armed_force $0))
+
+how many units does the us army have
+(count $0 (/military/armed_force@units:t /en/united_states_army:/military/armed_force $0))
+
+what country does the royal navy belong to
+(lambda $0 /common/topic (/military/armed_force@military_combatant:t /en/royal_navy:/military/armed_force $0))
+
+what armed forces does thailand have
+(lambda $0 /common/topic (/military/military_combatant@armed_forces:t /en/thailand:/military/military_combatant $0))
+
+in how many military conflicts did mussolini command
+(count $0 (exists $1 (/military/military_command@military_conflict@military_commander@military_combatant:t $0 /en/benito_mussolini:/military/military_commander $1)))
+
+how many commanders were there in the civil war
+(count $0 (exists $1 (/military/military_command@military_conflict@military_commander@military_combatant:t /en/american_civil_war:/military/military_conflict $0 $1)))
+
+how many military units originated in delaware
+(count $0 (/military/military_unit_place_of_origin@military_units:t /en/delaware:/military/military_unit_place_of_origin $0))
+
+for what country did bernard lagat play in the 2000 summer olympics
+(lambda $0 /common/topic (exists $1 (/olympics/olympic_athlete_affiliation@athlete@country@olympics@sport:t /en/bernard_lagat:/olympics/olympic_athlete $0 /en/2000_summer_olympics:/olympics/olympic_games $1)))
+
+in what events did ian thorpe compete in the 2004 summer olympics
+(lambda $0 /common/topic (exists $1 (exists $2 (/olympics/olympic_medal_honor@country@event@medal@medalist@olympics:t $1 $0 $2 /en/ian_thorpe:/olympics/olympic_athlete /en/2004_summer_olympics:/olympics/olympic_games))))
+
+what sport did scott anderson play in the 1992 summer olympics
+(lambda $0 /common/topic (exists $1 (/olympics/olympic_athlete_affiliation@athlete@country@olympics@sport:t /m/04dnjr9:/olympics/olympic_athlete $1 /en/1992_summer_olympics:/olympics/olympic_games $0)))
+
+what medal did graeme brown receive at the 2004 summer olympics
+(lambda $0 /common/topic (exists $1 (exists $2 (/olympics/olympic_medal_honor@country@event@medal@medalist@olympics:t $1 $2 $0 /en/graeme_brown:/olympics/olympic_athlete /en/2004_summer_olympics:/olympics/olympic_games))))
+
+who got the gold medal in men_s singles tennis at the 1896 summer olympics
+(lambda $0 /people/person (exists $1 (exists $2 (/olympics/olympic_medal_honor@country@event@medal@medalist@olympics:t $1 /view/en/tennis_at_the_1896_summer_olympics_mens_singles:/olympics/olympic_event_competition /en/gold_medal:/olympics/olympic_medal $0 $2))))
+
+what german athletes have participated in the olympics
+(lambda $0 /people/person (exists $1 (exists $2 (/olympics/olympic_athlete_affiliation@athlete@country@olympics@sport:t $0 /en/germany:/olympics/olympic_participating_country $1 $2))))
+
+what olympics has egypt participated in
+(lambda $0 /common/topic (/olympics/olympic_participating_country@olympics_participated_in:t /en/egypt:/olympics/olympic_participating_country $0))
+
+what city hosted the 1948 summer olympics
+(lambda $0 /location/location (/olympics/olympic_games@host_city:t /en/1948_summer_olympics:/olympics/olympic_games $0))
+
+how many countries participated in the 2006 winter olympics
+(lambda $0 /type/int (/olympics/olympic_games@number_of_countries:t /en/2006_winter_olympics:/olympics/olympic_games $0))
+
+how many athletes have gotten an olympic gold medal
+(count $0 (exists $1 (exists $2 (exists $3 (/olympics/olympic_medal_honor@country@event@medal@medalist@olympics:t $1 $2 /en/gold_medal:/olympics/olympic_medal $0 $3)))))
+
+how many tennis events are there at the olympics
+(count $0 (/olympics/olympic_sport@events:t /m/07bs0:/olympics/olympic_sport $0))
+
+what characters sing soprano in tristan and isolde
+(lambda $0 /common/topic (/opera/opera_character_voice@character@opera@voice:t $0 /en/tristan_und_isolde:/opera/opera /en/soprano:/music/voice))
+
+who was the librettist for the magic flute
+(lambda $0 /common/topic (/opera/opera@librettist:t /en/the_magic_flute:/opera/opera $0))
+
+when was porgy and bess first performed
+(lambda $0 /type/datetime (/opera/opera@date_of_first_performance:t /en/porgy_and_bess:/opera/opera $0))
+
+what language is lohengrin in
+(lambda $0 /common/topic (/opera/opera@language:t /base/imslp/65847:/opera/opera $0))
+
+how many french operas are there
+(count $0 (/opera/opera@language:t $0 /en/french:/language/human_language))
+
+how many libretti did wagner write
+(count $0 (/opera/librettist@libretti:t /en/richard_wagner:/opera/librettist $0))
+
+what opera did jonathan miller direct
+(lambda $0 /common/topic (/opera/opera_director@operas_directed:t /en/jonathan_miller:/opera/opera_director $0))
+
+where was liam gallagher born
+(lambda $0 /location/location (/people/person@place_of_birth:t /en/liam_gallagher:/people/person $0))
+
+when was mark mckinney born
+(lambda $0 /type/datetime (/people/person@date_of_birth:t /en/mark_mckinney:/people/person $0))
+
+what religion was pablo picasso
+(lambda $0 /common/topic (/people/person@religion:t /en/pablo_picasso:/people/person $0))
+
+when did tutankhamun die
+(lambda $0 /type/datetime (/people/deceased_person@date_of_death:t /en/tutankhamun:/people/deceased_person $0))
+
+where was henry iii buried
+(lambda $0 /location/location (/people/deceased_person@place_of_burial:t /en/henry_iii_of_england:/people/deceased_person $0))
+
+who were the parents of ferdinand ii
+(lambda $0 /people/person (/people/person@parents:t /en/ferdinand_ii_holy_roman_emperor:/people/person $0))
+
+how did samuel beckett die
+(lambda $0 /common/topic (/people/deceased_person@cause_of_death:t /en/samuel_beckett:/people/deceased_person $0))
+
+what did bertrand russel die of
+(lambda $0 /common/topic (/people/deceased_person@cause_of_death:t /en/bertrand_russell:/people/deceased_person $0))
+
+what musicians have died of lung cancer
+(lambda $0 /people/person (/people/deceased_person@cause_of_death:t $0 /en/lung_cancer:/people/cause_of_death))
+
+what is jerry seinfeld religion
+(lambda $0 /common/topic (/people/person@religion:t /en/jerry_seinfeld:/people/person $0))
+
+how tall is jerry seinfeld
+(lambda $0 /common/topic (/people/person@height_meters:t /en/jerry_seinfeld:/people/person $0))
+
+how many children does jerry seinfeld have
+(count $0 (/people/person@children:t /en/jerry_seinfeld:/people/person $0))
+
+what is ron glass 's religion
+(lambda $0 /common/topic (/people/person@religion:t /en/ron_glass:/people/person $0))
+
+what year was danny devito born
+(lambda $0 /type/datetime (/people/person@date_of_birth:t /en/danny_devito:/people/person $0))
+
+what is danny devito 's religion
+(lambda $0 /common/topic (/people/person@religion:t /en/danny_devito:/people/person $0))
+
+how many children does danny devito have
+(count $0 (/people/person@children:t /en/danny_devito:/people/person $0))
+
+when did jack albertson die
+(lambda $0 /type/datetime (/people/deceased_person@date_of_death:t /en/jack_albertson:/people/deceased_person $0))
+
+what was jack albertson 's cause of death
+(lambda $0 /common/topic (/people/deceased_person@cause_of_death:t /en/jack_albertson:/people/deceased_person $0))
+
+where was william shakespeare born
+(lambda $0 /location/location (/people/person@place_of_birth:t /en/william_shakespeare:/people/person $0))
+
+when did john f kennedy die
+(lambda $0 /type/datetime (/people/deceased_person@date_of_death:t /en/john_f_kennedy:/people/deceased_person $0))
+
+what was john f kennedy 's cause of death
+(lambda $0 /common/topic (/people/deceased_person@cause_of_death:t /en/john_f_kennedy:/people/deceased_person $0))
+
+how many people died of a skiing accident
+(count $0 (/people/deceased_person@cause_of_death:t $0 /en/skiing_accident:/people/cause_of_death))
+
+when is jerry seinfeld 's birthday
+(lambda $0 /type/datetime (/people/person@date_of_birth:t /en/jerry_seinfeld:/people/person $0))
+
+where was jerry seinfeld born
+(lambda $0 /location/location (/people/person@place_of_birth:t /en/jerry_seinfeld:/people/person $0))
+
+what is ron glass 's place of birth
+(lambda $0 /location/location (/people/person@place_of_birth:t /en/ron_glass:/people/person $0))
+
+where did nathan smith die
+(lambda $0 /location/location (/people/deceased_person@place_of_death:t /en/nathan_smith_1770:/people/deceased_person $0))
+
+how many notable people died by poisoning
+(count $0 (/people/deceased_person@cause_of_death:t $0 /en/poison:/people/cause_of_death))
+
+when was omarion born
+(lambda $0 /type/datetime (/people/person@date_of_birth:t /en/omarion:/people/person $0))
+
+where was omarion born
+(lambda $0 /location/location (/people/person@place_of_birth:t /en/omarion:/people/person $0))
+
+when was yosemite national park designated as a protected place
+(lambda $0 /type/datetime (/protected_sites/protected_site@date_established:t /en/yosemite_national_park:/protected_sites/protected_site $0))
+
+how many visitors does mammoth cave national park get in a year
+(lambda $0 /type/int (/protected_sites/protected_site@annual_visitors:t /en/mammoth_cave_national_park:/protected_sites/protected_site $0))
+
+how many national parks does the national wildlife refuge have
+(count $0 (/protected_sites/park_system@member_parks:t /en/national_wildlife_refuge:/protected_sites/park_system $0))
+
+what parks are in the canadian national parks system
+(lambda $0 /location/location (/protected_sites/park_system@member_parks:t /en/canadian_national_parks:/protected_sites/park_system $0))
+
+how many sites are on the national register of historic places
+(count $0 (exists $1 (exists $2 (/protected_sites/natural_or_cultural_site_listing@listed_site@designation@date_listed@category_or_criteria:t $0 /en/national_register_of_historic_places:/protected_sites/natural_or_cultural_site_designation $1 $2))))
+
+when was the abbey of st. gall listed as an unesco world heritage site
+(lambda $0 /type/datetime (exists $1 (/protected_sites/natural_or_cultural_site_listing@listed_site@designation@date_listed@category_or_criteria:t /en/abbey_of_st_gall:/protected_sites/listed_site /en/world_heritage_site:/protected_sites/natural_or_cultural_site_designation $0 $1)))
+
+how many protected sites does the u.s. national park service govern
+(count $0 (/protected_sites/governing_body_of_protected_sites@protected_sites_governed:t /en/national_park_service:/protected_sites/governing_body_of_protected_sites $0))
+
+who is the lyricist for spamalot
+(lambda $0 /people/person (/theater/play@lyricist:t /en/spamalot:/theater/play $0))
+
+﻿who is the head coach of the pittsburgh steelers
+(lambda $0 /people/person (/american_football/football_team@current_head_coach:t /en/pittsburgh_steelers:/american_football/football_team $0))
+
+how many teams has curly lambeau coached
+(count $0 (exists $1 (exists $2 (exists $3 (/american_football/football_historical_coach_position@team@coach@position@from@to:t $0 /en/curly_lambeau:/american_football/football_coach $1 $2 $3)))))
+
+what football team does andy reid currently coach
+(lambda $0 /common/topic (/american_football/football_coach@current_team_head_coached:t /en/andy_reid:/american_football/football_coach $0))
+
+how many teams did jim thorpe play for
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (/american_football/football_historical_roster_position@player@team@from@to@number@position_s:t /en/jim_thorpe:/american_football/football_player $0 $1 $2 $3 $4))))))
+
+who are the linebackers on the chicago bears
+(lambda $0 /people/person (exists $1 (/american_football/football_roster_position@team@player@position@number:t /en/chicago_bears:/american_football/football_team $0 /en/linebacker:/american_football/football_position $1)))
+
+who used to be quarterback for the green bay packers
+(lambda $0 /people/person (exists $1 (exists $2 (exists $3 (/american_football/football_historical_roster_position@player@team@from@to@number@position_s:t $0 /en/green_bay_packers:/american_football/football_team $1 $2 $3 /en/quarterback:/american_football/football_position)))))
+
+how many games did donovan mcnabb play in the 2008 season
+(lambda $0 /type/int (exists $1 (exists $2 (exists $3 (/american_football/player_game_statistics@player@season@team@games@starts@as_of_week:t /en/donovan_mcnabb:/american_football/football_player /en/2008_nfl_season:/sports/sports_league_season $1 $0 $2 $3)))))
+
+what positon does ray lewis currently play for the baltimore ravens
+(lambda $0 /common/topic (exists $1 (/american_football/football_roster_position@team@player@position@number:t /en/baltimore_ravens:/american_football/football_team /en/ray_lewis:/american_football/football_player $0 $1)))
+
+what number was david akers on the philadelphia eagles
+(lambda $0 /type/int (exists $1 (exists $2 (exists $3 (/american_football/football_historical_roster_position@player@team@from@to@number@position_s:t /en/david_akers:/american_football/football_player /en/philadelphia_eagles:/american_football/football_team $1 $2 $0 $3)))))
+
+what area of disneyland is space mountain in
+(lambda $0 /common/topic (/amusement_parks/ride@area:t /en/space_mountain:/amusement_parks/ride $0))
+
+what is the max speed of kingda ka
+(lambda $0 /common/topic (/amusement_parks/ride@max_speed:t /en/kingda_ka:/amusement_parks/ride $0))
+
+how many inversions does the mind eraser have
+(count $0 (/amusement_parks/ride@inversions:t /en/the_mind_eraser:/amusement_parks/ride $0))
+
+who designed the giant dipper
+(lambda $0 /common/topic (/amusement_parks/ride@designer:t /en/giant_dipper:/amusement_parks/ride $0))
+
+what is the highest drop on stealth
+(lambda $0 /common/topic (/amusement_parks/ride@drop:t /m/0b6_sx:/amusement_parks/ride $0))
+
+what was the cost of building the magnum xl-200
+(lambda $0 /common/topic (/amusement_parks/ride@cost:t /en/magnum_xl-200:/amusement_parks/ride $0))
+
+how long is the haunted mansion ride at disneyland
+(lambda $0 /common/topic (/amusement_parks/ride@duration:t /en/haunted_mansion:/amusement_parks/ride $0))
+
+when did invertigo open
+(lambda $0 /type/datetime (/amusement_parks/ride@opened:t /m/03mfjrv:/amusement_parks/ride $0))
+
+who manufactured millennium force
+(lambda $0 /common/topic (/amusement_parks/ride@manufacturer:t /en/millennium_force:/amusement_parks/ride $0))
+
+in what park is splash mountain
+(lambda $0 /location/location (/amusement_parks/park@rides:t $0 /en/splash_mountain:/amusement_parks/ride))
+
+what are the theme areas at disneyland
+(lambda $0 /common/topic (/amusement_parks/park@areas:t /en/disneyland:/amusement_parks/park $0))
+
+how many visits does the magic kingdom get per year
+(count $0 (/amusement_parks/park@annual_visits:t /en/magic_kingdom:/amusement_parks/park $0))
+
+what are the rides at six flags america
+(lambda $0 /common/topic (/amusement_parks/park@rides:t /en/six_flags_america:/amusement_parks/park $0))
+
+when was universal studios japan opened
+(lambda $0 /type/datetime (/amusement_parks/park@opened:t /en/universal_studios_japan:/amusement_parks/park $0))
+
+what is the height restriction on the roller soaker
+(lambda $0 /common/topic (/amusement_parks/ride@height_restriction:t /en/roller_soaker:/amusement_parks/ride $0))
+
+how tall do you have to be to ride the american eagle
+(lambda $0 /common/topic (/amusement_parks/ride@height_restriction:t /m/0cdlng:/amusement_parks/ride $0))
+
+what is the orbital period of the moon
+(lambda $0 /common/topic (/astronomy/orbital_relationship@orbital_period:t /en/moon:/astronomy/orbital_relationship $0))
+
+what are the moons of jupiter
+(lambda $0 /common/topic (/astronomy/orbital_relationship@orbited_by:t /en/jupiter:/astronomy/orbital_relationship $0))
+
+what is the temperature of polaris
+(lambda $0 /common/topic (/astronomy/star@temperature_k:t /en/polaris:/astronomy/star $0))
+
+where was the 3 juno asteroid discovered
+(lambda $0 /common/topic (/astronomy/astronomical_discovery@discovery_site:t /en/3_juno:/astronomy/astronomical_discovery $0))
+
+who discovered the rings of saturn
+(lambda $0 /people/person (/astronomy/astronomical_discovery@discoverer:t /en/rings_of_saturn:/astronomy/astronomical_discovery $0))
+
+how was pluto discovered
+(lambda $0 /common/topic (/astronomy/astronomical_discovery@discovery_technique:t /en/pluto:/astronomy/astronomical_discovery $0))
+
+what telescopes does the lowell observatory have
+(lambda $0 /common/topic (/astronomy/astronomical_observatory@telescope_s:t /en/lowell_observatory:/astronomy/astronomical_observatory $0))
+
+what meteor showers has the comet halley spawned
+(lambda $0 /common/topic (/astronomy/comet@meteor_shower_spawned:t /en/comet_halley:/astronomy/comet $0))
+
+what starts are in ursa minor
+(lambda $0 /common/topic (/astronomy/constellation@contains:t /en/ursa_minor:/astronomy/constellation $0))
+
+what military branches use the f-5 freedom fighter
+(lambda $0 /common/topic (exists $1 (/aviation/aircraft_ownership_count@aircraft_model@aircraft_owner@number_owned:t /en/f-5_freedom_fighter:/aviation/aircraft_model $0 $1)))
+
+who manufactures the t-38 talon
+(lambda $0 /common/topic (/aviation/aircraft_model@manufacturer:t /en/t-38_talon:/aviation/aircraft_model $0))
+
+what is the passenger capacity of a cessna citation x
+(lambda $0 /type/int (/aviation/aircraft_model@passengers:t /en/cessna_citation_x:/aviation/aircraft_model $0))
+
+what is the max speed of a gloster meteor
+(lambda $0 /common/topic (/aviation/aircraft_model@maximum_speed_km_h:t /en/gloster_meteor:/aviation/aircraft_model $0))
+
+what is the wingspan of an eclipse 500
+(lambda $0 /common/topic (/aviation/aircraft_model@wingspan:t /en/eclipse_500:/aviation/aircraft_model $0))
+
+who designed the hawker sea hawk
+(lambda $0 /common/topic (/aviation/aircraft_model@designed_by:t /en/hawker_sea_hawk:/aviation/aircraft_model $0))
+
+when was the airspeed oxford first flown
+(lambda $0 /type/datetime (/aviation/aircraft_model@maiden_flight:t /en/airspeed_oxford:/aviation/aircraft_model $0))
+
+how many runways does the san francisco international airport have
+(lambda $0 /type/int (/aviation/airport@number_of_runways:t /en/san_francisco_international_airport:/aviation/airport $0))
+
+what airlines is the london heathrow airport a hub for
+(lambda $0 /common/topic (/aviation/airport@hub_for:t /en/london_heathrow_airport:/aviation/airport $0))
+
+how many dinosaur species are from africa
+(count $0 (/base/dinosaur/dinosaur_location@dinosaur_s:t /en/africa:/base/dinosaur/dinosaur_location $0))
+
+what diet did ceratopsia have
+(lambda $0 /common/topic (/base/dinosaur/dinosaur@diet:t /en/ceratopsia/-/base/dinosaur:/base/dinosaur/dinosaur $0))
+
+where did barosaurus live
+(lambda $0 /location/location (/base/dinosaur/dinosaur_location@dinosaur_s:t $0 /en/barosaurus/-/base/dinosaur:/base/dinosaur/dinosaur))
+
+what labels does sarah jessica parker wear
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (exists $4 (/base/popstra/fashion_choice@heat@interest@source@designer@fashion_wearer@date:t $1 $2 $3 $0 /en/sarah_jessica_parker:/base/popstra/celebrity $4))))))
+
+what episode of snl did ben stiller host
+(lambda $0 /common/topic (/base/saturdaynightlive/snl_host@episodes_hosted:t /en/ben_stiller:/base/saturdaynightlive/snl_host $0))
+
+how many oscar shows did frank sinatra host
+(count $0 (/base/academyawards/host_of_oscar_show@oscar_show_hosted:t /en/frank_sinatra:/base/academyawards/host_of_oscar_show $0))
+
+what conventions has hillary clinton spoken at
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/base/politicalconventions/convention_speech@speaker@date@introduced_by@venue@conventions_spoken_at:t /en/hillary_rodham_clinton:/base/politicalconventions/convention_speaker $1 $2 $3 $0)))))
+
+how many pets did john f kennedy own
+(count $0 (exists $1 (exists $2 (/base/famouspets/pet_ownership@pet@owner@to@from:t $0 /en/john_f_kennedy:/base/famouspets/pet_owner $1 $2))))
+
+what weight class was the fight of the century
+(lambda $0 /common/topic (/base/boxing/boxing_match@weight_class:t /en/fight_of_the_century:/base/boxing/boxing_match $0))
+
+what titles were at stake in the the rumble in the jungle
+(lambda $0 /common/topic (/base/boxing/boxing_match@titles_at_stake:t /en/the_rumble_in_the_jungle:/base/boxing/boxing_match $0))
+
+who won aliÃ¢â‚¬â€œfrazier ii
+(lambda $0 /people/person (exists $1 (exists $2 (exists $3 (/base/boxing/match_boxer_relationship@match@boxer@winner_won@points:t $1 $0 $2 $3)))))
+
+what decision did manny pacquiao vs. timothy bradley end with
+(lambda $0 /common/topic (/base/boxing/boxing_match@decision:t /m/0j24b7h:/base/boxing/boxing_match $0))
+
+what round did thrilla in manila end
+(lambda $0 /type/int (/base/boxing/boxing_match@round_match_ended:t /en/thrilla_in_manila:/base/boxing/boxing_match $0))
+
+who fought in the the battle of the champions
+(lambda $0 /people/person (exists $1 (exists $2 (exists $3 (/base/boxing/match_boxer_relationship@match@boxer@winner_won@points:t $1 $0 $2 $3)))))
+
+did jack dempsey win the long count fight
+(lambda $0 /common/topic (exists $1 (exists $2 (/base/boxing/match_boxer_relationship@match@boxer@winner_won@points:t $1 /en/jack_dempsey:/sports/boxer $0 $2))))
+
+what titles does the world boxing association have
+(lambda $0 /common/topic (/base/boxing/boxing_sanctioning_body@titles:t /en/world_boxing_association:/base/boxing/boxing_sanctioning_body $0))
+
+who has held the title of wba world champion
+(lambda $0 /people/person (exists $1 (exists $2 (exists $3 (exists $4 (exists $5 (exists $6 (/base/boxing/boxing_title_tenure@champion@weight@from@to@defenses@title@notes:t $0 $1 $2 $3 $4 $5 $6))))))))
+
+what matches have had the wbc world champion title at stake
+(lambda $0 /common/topic (/base/boxing/boxing_title@matches_with_this_title_at_stake:t /m/0cj52b7:/base/boxing/boxing_title $0))
+
+how many types of dinosaurs were there in africa
+(count $0 (/base/dinosaur/dinosaur_location@dinosaur_s:t /en/africa:/base/dinosaur/dinosaur_location $0))
+
+how many dinosaur species are there in north america
+(count $0 (/base/dinosaur/dinosaur_location@dinosaur_s:t /en/north_america:/base/dinosaur/dinosaur_location $0))
+
+what team does richard hamilton play for
+(lambda $0 /common/topic (exists $1 (exists $2 (/basketball/basketball_roster_position@number@player@position@team:t $1 /en/richard_hamilton:/basketball/basketball_player $2 $0))))
+
+what position does keyon dooling play
+(lambda $0 /common/topic (exists $1 (exists $2 (/basketball/basketball_roster_position@number@player@position@team:t $1 /en/keyon_dooling:/basketball/basketball_player $0 $2))))
+
+what is lamarcus aldridge's number
+(lambda $0 /type/int (exists $1 (exists $2 (/basketball/basketball_roster_position@number@player@position@team:t $0 /en/lamarcus_aldridge:/basketball/basketball_player $1 $2))))
+
+what team does mike brown coach
+(lambda $0 /common/topic (/basketball/basketball_coach@team:t /en/mike_brown_1970:/basketball/basketball_coach $0))
+
+how many wins has larry bird had in his career
+(lambda $0 /type/int (/basketball/basketball_coach@season_wins:t /en/larry_bird:/basketball/basketball_coach $0))
+
+how many losses has sean miller had in his career
+(lambda $0 /type/int (/basketball/basketball_coach@season_losses:t /en/sean_miller_1968:/basketball/basketball_coach $0))
+
+what team did rick carlisle coach in 2002
+(lambda $0 /common/topic (/basketball/basketball_historical_coach_position@to@from@coach@team:t /type/datetime/2002:/type/datetime /type/datetime/2002:/type/datetime /en/rick_carlisle:/basketball/basketball_coach $0))
+
+who is the head coach of the chicago bulls
+(lambda $0 /people/person (/basketball/basketball_team@head_coach:t /en/chicago_bulls:/basketball/basketball_team $0))
+
+who is currently number 6 on the washington wizards
+(lambda $0 /people/person (exists $1 (/basketball/basketball_roster_position@number@player@position@team:t /type/int/6:/type/int $0 $1 /en/washington_wizards:/basketball/basketball_team)))
+
+how many speeds does a panasonic dx3000 have
+(lambda $0 /type/int (/bicycles/bicycle_model@speeds:t /en/panasonic_dx3000:/bicycles/bicycle_model $0))
+
+what type of bicycle is a bianchi pista
+(lambda $0 /common/topic (/bicycles/bicycle_model@bicycle_type:t /en/bianchi_pista:/bicycles/bicycle_model $0))
+
+who manufactures the specialized stumpjumper
+(lambda $0 /common/topic (/bicycles/bicycle_model@manufacturer:t /en/stumpjumper:/bicycles/bicycle_model $0))
+
+what bicycle models does raleigh manufacture
+(lambda $0 /common/topic (/bicycles/bicycle_manufacturer@bicycle_models:t /en/raleigh_bicycle_company:/bicycles/bicycle_manufacturer $0))
+
+what are some mountain bike models
+(lambda $0 /common/topic (/bicycles/bicycle_type@bicycle_models_of_this_type:t /en/mountain_bike:/bicycles/bicycle_type $0))
+
+what are some examples of a road bike
+(lambda $0 /common/topic (/bicycles/bicycle_type@bicycle_models_of_this_type:t /en/road_bicycle:/bicycles/bicycle_type $0))
+
+where does the chow chow originate
+(lambda $0 /location/location (/biology/animal_breed@place_of_origin:t /en/chow_chow:/biology/animal_breed $0))
+
+what is the scientific name for a horse
+(lambda $0 /common/topic (/biology/organism_classification@scientific_name:t /en/domesticated_horse:/biology/organism_classification $0))
+
+what are the dna codons of glutamine
+(lambda $0 /common/topic (/biology/amino_acid@codons:t /en/glutamine:/biology/amino_acid $0))
+
+how many rna codons does glycine have
+(count $0 (/biology/amino_acid@rna_codons:t /en/glycine:/biology/amino_acid $0))
+
+what is the single letter abreviation for tryptophan
+(lambda $0 /common/topic (/biology/amino_acid@single_letter_abbreviation:t /en/tryptophan:/biology/amino_acid $0))
+
+what breed group is a shar pei in the american kennel club
+(lambda $0 /common/topic (exists $1 (exists $2 (/biology/breed_registration@from@to@breed@registry@breed_group:t $1 $2 /en/shar_pei:/biology/animal_breed /en/american_kennel_club:/biology/breed_registry $0))))
+
+how many breeds are in the sporting group of the american kennel club
+(count $0 (exists $1 (exists $2 (/biology/breed_registration@from@to@breed@registry@breed_group:t $1 $2 $0 /en/american_kennel_club:/biology/breed_registry /en/sporting_group:/biology/breed_group))))
+
+how tall was seabiscuit
+(lambda $0 /common/topic (/biology/organism@height_meters:t /en/seabiscuit:/biology/organism $0))
+
+when did secretariat die
+(lambda $0 /type/datetime (/biology/deceased_organism@date_of_death:t /en/secretariat:/biology/deceased_organism $0))
+
+what type of organism was lucy a fossil of
+(lambda $0 /common/topic (/biology/fossil_specimen@organism:t /m/0gd2g7:/biology/fossil_specimen $0))
+
+where was neanderthal 1 found
+(lambda $0 /location/location (/biology/fossil_specimen@found_at_site:t /m/026lz95:/biology/fossil_specimen $0))
+
+what is rna binding
+(lambda $0 /common/topic (/biology/gene_ontology_group@description:t /en/rna_binding:/biology/gene_ontology_group $0))
+
+how many employees does nintendo have
+(count $0 (/business/employer@employees:t /en/nintendo:/business/employer $0))
+
+who was the editor in chief of die welt in 2000
+(lambda $0 /people/person (/business/employment_tenure@person@company@title@from@to:t $0 /en/die_welt:/business/employer /en/editor_in_chief:/business/job_title /type/datetime/2000:/type/datetime /type/datetime/2000:/type/datetime))
+
+what company owns nutter butter
+(lambda $0 /common/topic (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/nutter_butter:/business/brand $0 $1 $2))))
+
+in what year did motorola have the most revenue
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/business_operation/revenue&/measurement_unit/dated_money_value@valid_date@amount@currency:t /en/motorola:/business/business_operation $0 $1 $2))))
+
+who is the president of gap, inc.
+(lambda $0 /people/person (exists $1 (exists $2 (/business/employment_tenure@person@company@title@from@to:t $0 /en/gap_inc:/business/employer /en/president:/business/job_title $1 $2))))
+
+what companies produce smartphones
+(lambda $0 /common/topic (exists $1 (exists $2 (/business/competitive_space_mediator@company@space@portion@brand:t $0 /en/smartphone:/business/competitive_space $1 $2))))
+
+how many brands does sara lee own
+(count $0 (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t $0 /en/sara_lee:/business/consumer_company $1 $2))))
+
+what was procter & gamble's net profit in 1955
+(lambda $1 /common/topic (exists $2 (exists $3 (/business/business_operation/net_profit&/measurement_unit/dated_money_value@valid_date@amount@currency:t /en/procter_gamble:/business/business_operation $1 $2 $3))))
+
+how many products has mattel produced
+(count $0 (/business/consumer_company@products:t /en/mattel:/business/consumer_company $0))
+
+how many organizations are in the automobile industry
+(count $0 (/business/business_operation@industry:t $0 /en/automobile:/business/industry))
+
+what product lines does ipod include
+(lambda $0 /common/topic (/business/product_line@includes_product_lines:t /en/ipod:/business/product_line $0))
+
+how many stores are in nittany mall
+(count $0 (/business/shopping_center@store:t /en/nittany_mall:/business/shopping_center $0))
+
+what is the retail floor space of the dubai marina mall
+(lambda $0 /type/int (/business/shopping_center@retail_floor_space_m_2:t /m/06zl3_x:/business/shopping_center $0))
+
+how many malls does oxford properties own
+(count $0 (/business/shopping_center_owner@shopping_centers_owned:t /en/oxford_properties:/business/shopping_center_owner $0))
+
+how many generations of the ipod are there
+(count $0 (/business/consumer_product@product_line:t /en/ipod:/business/consumer_product $0))
+
+when was scope introduced
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /m/02r3cjp:/business/brand $1 $0 $2))))
+
+who developed capri sun
+(lambda $0 /common/topic (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/capri_sun:/business/brand $0 $1 $2))))
+
+when was capri sun developed
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/capri_sun:/business/brand $1 $0 $2))))
+
+who invented koolaid
+(lambda $0 /common/topic (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/kool-aid:/business/brand $0 $1 $2))))
+
+when was koolaid invented
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/kool-aid:/business/brand $1 $0 $2))))
+
+who is the owner of easy cheese
+(lambda $0 /common/topic (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/easy_cheese:/business/brand $0 $1 $2))))
+
+when were ritz crackers introduced
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/ritz_cracker:/business/brand $1 $0 $2))))
+
+when was stove top stuffing introduced
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/stove_top_stuffing:/business/brand $1 $0 $2))))
+
+when was the oreo cookie introduced
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/oreo:/business/brand $1 $0 $2))))
+
+when gatorade was first developed
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/gatorade:/business/brand $1 $0 $2))))
+
+who are gatorade 's major sponsors
+(lambda $0 /common/topic (exists $1 (exists $2 (/business/sponsorship@sponsored_by@from@to@sponsored_recipient:t $0 $1 $2 /en/gatorade:/business/sponsored_recipient))))
+
+when was doritos produced
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/doritos:/business/brand $1 $0 $2))))
+
+when was diet mountain dew created
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/mountain_dew:/business/brand $1 $0 $2))))
+
+when was tostitos introduced
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/tostitos:/business/brand $1 $0 $2))))
+
+when was cap'n crunch introduced
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/capn_crunch:/business/brand $1 $0 $2))))
+
+who founded gsusa
+(lambda $0 /common/topic (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/girl_scouts_of_the_usa:/business/brand $0 $1 $2))))
+
+how many different products does gsusa produce
+(count $0 (/business/brand@products:t /en/girl_scouts_of_the_usa:/business/brand $0))
+
+who is wells fargo 's supplier
+(lambda $0 /common/topic (/business/customer@supplier:t /en/wells_fargo:/business/customer $0))
+
+how many industries does walmart consist of
+(count $0 (/business/business_operation@industry:t /en/wal-mart:/business/business_operation $0))
+
+what is target 's industry
+(lambda $0 /common/topic (/business/business_operation@industry:t /en/target_corporation:/business/business_operation $0))
+
+how many different industries are there in home depot
+(count $0 (/business/business_operation@industry:t /en/home_depot:/business/business_operation $0))
+
+what was viacom 's revenue in 2009
+(lambda $0 /common/topic (exists $1 (/business/business_operation/revenue&/measurement_unit/dated_money_value@valid_date@amount@currency:t /en/viacom:/business/business_operation /un/2009:/type/datetime $0 $1)))
+
+who produced country time
+(lambda $0 /common/topic (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/country_time:/business/brand $0 $1 $2))))
+
+when was country time produced
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/country_time:/business/brand $1 $0 $2))))
+
+when was crystal light originally marketed
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/crystal_light:/business/brand $1 $0 $2))))
+
+when did chips ahoy debut
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/chips_ahoy:/business/brand $1 $0 $2))))
+
+who owned doritos
+(lambda $0 /common/topic (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/doritos:/business/brand $0 $1 $2))))
+
+when was barbie launched
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/barbie:/business/brand $1 $0 $2))))
+
+when was girl scouts of the usa founded
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/girl_scouts_of_the_usa:/business/brand $1 $0 $2))))
+
+what is jcpenney 's operating income
+(lambda $0 /common/topic (exists $1 (exists $2 (/business/business_operation/operating_income&/measurement_unit/dated_money_value@valid_date@amount@currency:t /en/j_c_penney:/business/business_operation $1 $0 $2))))
+
+how many people does borders employ
+(count $0 (/business/employer@employees:t /en/borders_group:/business/employer $0))
+
+what is the boiling point of water
+(lambda $0 /common/topic (/chemistry/chemical_compound@boiling_point:t /en/water:/chemistry/chemical_compound $0))
+
+what is the chemical formula for butane
+(lambda $0 /common/topic (/chemistry/chemical_compound@formula:t /en/butane:/chemistry/chemical_compound $0))
+
+what is the atomic number of silicon
+(lambda $0 /type/int (/chemistry/chemical_element@atomic_number:t /en/silicon:/chemistry/chemical_element $0))
+
+who discovered neon
+(lambda $0 /common/topic (/chemistry/chemical_element@discoverer:t /en/neon:/chemistry/chemical_element $0))
+
+what's the symbol for mercury
+(lambda $0 /common/topic (/chemistry/chemical_element@symbol:t /authority/us/gov/hhs/fda/srs-unii/fxs1by2pgl:/chemistry/chemical_element $0))
+
+what is the melting point of gold
+(lambda $0 /common/topic (/chemistry/chemical_element@melting_point:t /quotationsbook/subject/gold:/chemistry/chemical_element $0))
+
+what chemical series is tungsten in
+(lambda $0 /common/topic (/chemistry/chemical_element@chemical_series:t /en/tungsten:/chemistry/chemical_element $0))
+
+what are the isotopes of zinc
+(lambda $0 /common/topic (/chemistry/chemical_element@isotopes:t /en/zinc:/chemistry/chemical_element $0))
+
+when was oxygen discovered
+(lambda $0 /type/datetime (/chemistry/chemical_element@discovery_date:t /en/oxygen:/chemistry/chemical_element $0))
+
+where was polonium discovered
+(lambda $0 /location/location (/chemistry/chemical_element@discovering_country:t /en/polonium:/chemistry/chemical_element $0))
+
+who published the amazing spider-man
+(lambda $0 /common/topic (/comic_books/comic_book_series@publisher:t /en/the_amazing_spider-man:/comic_books/comic_book_series $0))
+
+how many issues are there in the x-men
+(lambda $0 /type/int (/comic_books/comic_book_series@number_of_issues:t /m/02hqp38:/comic_books/comic_book_series $0))
+
+who created the runaways comic book series
+(lambda $0 /people/person (/comic_books/comic_book_series@created_by:t /en/runaways:/comic_books/comic_book_series $0))
+
+what characters are featured in batman: the dark knight returns
+(lambda $0 /common/topic (/comic_books/comic_book_series@featured_characters:t /en/batman_the_dark_knight_returns:/comic_books/comic_book_series $0))
+
+in which comic book issue did kitty pryde first appear
+(lambda $0 /common/topic (/comic_books/comic_book_character@first_appearance:t /en/kitty_pryde:/comic_books/comic_book_character $0))
+
+which issues of x-men have iceman on the cover
+(lambda $0 /common/topic (/comic_books/comic_book_character@cover_appearances:t /en/iceman:/comic_books/comic_book_character $0))
+
+who created superman
+(lambda $0 /people/person (/comic_books/comic_book_character@created_by:t /en/superman:/comic_books/comic_book_character $0))
+
+how many comic stories has adrienne roy colored
+(count $0 (/comic_books/comic_book_colorist@comic_stories_colored:t /en/adrienne_roy:/comic_books/comic_book_colorist $0))
+
+what was the cover price of the x-men issue 1
+(lambda $0 /common/topic (/comic_books/comic_book_issue@cover_price:t /en/the_x_men_1:/comic_books/comic_book_issue $0))
+
+what characters were on the cover of batman #1
+(lambda $0 /common/topic (/comic_books/comic_book_issue@characters_on_cover:t /en/batman_1:/comic_books/comic_book_issue $0))
+
+what issue of sandman is a dream of a thousand cats
+(lambda $0 /type/int (/comic_books/comic_book_issue@issue_number:t /en/a_dream_of_a_thousand_cats:/comic_books/comic_book_issue $0))
+
+who are the characters in peanuts
+(lambda $0 /common/topic (/comic_strips/comic_strip@characters:t /en/peanuts:/comic_strips/comic_strip $0))
+
+who created the far side
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/comic_strips/comic_strip_creator_duration@comic_strip@creator_of_strip@from@to@creator_role:t /en/the_far_side:/comic_strips/comic_strip $0 $1 $2 $3)))))
+
+what genre is doonesbury
+(lambda $0 /common/topic (/comic_strips/comic_strip@genre:t /en/doonesbury:/comic_strips/comic_strip $0))
+
+what bowling technique does matthew hayden use
+(lambda $0 /common/topic (/cricket/cricket_bowler@technique:t /en/matthew_hayden:/cricket/cricket_bowler $0))
+
+how many test conferences has rudi koertzen refereed
+(lambda $0 /type/int (/cricket/cricket_umpire@test_matches_refereed:t /en/rudi_koertzen:/cricket/cricket_umpire $0))
+
+who hosted the 2003 cricket world cup
+(lambda $0 /location/location (/cricket/cricket_tournament_event@host:t /en/2003_cricket_world_cup:/cricket/cricket_tournament_event $0))
+
+how many teams participated in the 1979 cricket world cup
+(count $0 (/cricket/cricket_tournament_event@teams:t /en/1979_cricket_world_cup:/cricket/cricket_tournament_event $0))
+
+who coaches the australian cricket team
+(lambda $0 /people/person (/cricket/cricket_team@coach:t /en/australian_cricket_team:/cricket/cricket_team $0))
+
+what team does alan butcher coach
+(lambda $0 /common/topic (/cricket/cricket_coach@current_team:t /en/alan_butcher:/cricket/cricket_coach $0))
+
+what is ashok malhotra's bowling pace
+(lambda $0 /common/topic (/cricket/cricket_bowler@pace:t /en/ashok_malhotra:/cricket/cricket_bowler $0))
+
+how many cricket bowlers use fast bowling
+(count $0 (/cricket/cricket_bowler@technique:t $0 /en/fast_bowling:/cricket/cricket_bowling_technique))
+
+what newspapers does carnegie mellon publish
+(lambda $0 /common/topic (/education/educational_institution@newspaper:t /en/carnegie_mellon_university:/education/educational_institution $0))
+
+what are columbia university's colors
+(lambda $0 /common/topic (/education/educational_institution@colors:t /en/columbia_university:/education/educational_institution $0))
+
+how many students are there at the university of iceland
+(lambda $0 /type/int (/education/educational_institution@total_enrollment:t /en/university_of_iceland:/education/educational_institution $0))
+
+is the university of lima public or private
+(lambda $0 /common/topic (/education/educational_institution@school_type:t /en/university_of_lima:/education/educational_institution $0))
+
+what are some psychology journals
+(lambda $0 /common/topic (/education/field_of_study@journals_in_this_discipline:t /en/psychology:/education/field_of_study $0))
+
+what are the subdisciplines of engineering
+(lambda $0 /common/topic (/education/field_of_study@subdisciplines:t /en/engineering:/education/field_of_study $0))
+
+at what institutions was marshall hall a professor
+(lambda $0 /common/topic (exists $1 (exists $2 (/education/academic_post@person@institution@position_or_title@from@to:t /en/marshall_hall:/education/academic $0 /en/professor:/education/academic_post_title $1 $2))))
+
+how many schools have a beaver as their mascot
+(count $0 (/education/school_mascot@school:t /en/beaver:/education/school_mascot $0))
+
+how many schools are in the school district of philadelphia
+(count $0 (/education/school_district@schools:t /en/school_district_of_philadelphia:/education/school_district $0))
+
+at what age to kids usually start second grade
+(lambda $0 /type/int (/education/grade_level@typical_age_minimum:t /en/second_grade:/education/grade_level $0))
+
+at what school was delta delta delta founded
+(lambda $0 /common/topic (/education/fraternity_sorority@founded_location:t /en/delta_delta_delta:/education/fraternity_sorority $0))
+
+how many schools have a chapter of sigma phi epsilon
+(count $0 (/education/fraternity_sorority@colleges_and_universities:t /en/sigma_phi_epsilon:/education/fraternity_sorority $0))
+
+are lithium batteries rechargable
+(lambda $0 /common/topic (/engineering/battery_cell_type@rechargeable:t /en/lithium_battery:/engineering/battery_cell_type $0))
+
+what is the voltage of a aa alkaline battery
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (exists $4 (/engineering/battery_size_cell_variation@size@cell_type@voltage@capacity@energy@iec_60086_name@ansi_neda_name:t /en/aa_battery:/engineering/battery_size /en/alkaline_battery:/engineering/battery_cell_type $0 $1 $2 $3 $4))))))
+
+what fuel does an internal combustion engine use
+(lambda $0 /common/topic (/engineering/engine@energy_source:t /en/internal_combustion_engine:/engineering/engine $0))
+
+who designed the rolls-royce welland
+(lambda $0 /common/topic (/engineering/engine@designer:t /en/rolls-royce_welland:/engineering/engine $0))
+
+what is the piston configuration of a ford model t engine
+(lambda $0 /common/topic (/engineering/piston_engine@piston_configuration:t /en/ford_model_t_engine:/engineering/piston_engine $0))
+
+what is the capacity of a rolls royce merlin
+(lambda $0 /common/topic (/engineering/piston_engine@capacity:t /en/rolls-royce_merlin:/engineering/piston_engine $0))
+
+how many engines have a straight-4 piston configuration
+(count $0 (/engineering/piston_configuration@engines:t /en/straight-4:/engineering/piston_configuration $0))
+
+how many turbojet engines are there
+(count $0 (/engineering/engine_category@engines:t /en/turbojet:/engineering/engine_category $0))
+
+where was the armory show exhibited
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (exists $4 (/exhibitions/exhibition_run@opened_on@closed_on@admission_fee@exhibition@venue@sponsor:t $1 $2 $3 /en/armory_show:/exhibitions/exhibition $0 $4))))))
+
+did the big bang exhibit at the science museum cost money
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/exhibitions/exhibition_run@opened_on@closed_on@admission_fee@exhibition@venue@sponsor:t $1 $2 $0 /m/046chwc:/exhibitions/exhibition /en/science_museum_great_britain:/exhibitions/exhibition_venue $3)))))
+
+when was the frida kahlo exhibit at the philadelphia art museum
+(lambda $0 /type/datetime (exists $1 (exists $2 (exists $3 (/exhibitions/exhibition_run@opened_on@closed_on@admission_fee@exhibition@venue@sponsor:t $0 $1 $2 /m/04d14h7:/exhibitions/exhibition /en/philadelphia_museum_of_art:/exhibitions/exhibition_venue $3)))))
+
+what was the science of survival exhibit about
+(lambda $0 /common/topic (/exhibitions/exhibition@subjects:t /m/046chvq:/exhibitions/exhibition $0))
+
+how many free exhibits have there been at the science museum
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (/exhibitions/exhibition_run@opened_on@closed_on@admission_fee@exhibition@venue@sponsor:t $1 $2 $3 $0 /en/science_museum_great_britain:/exhibitions/exhibition_venue $4))))))
+
+who were the curators for renoir in the 20th century
+(lambda $0 /common/topic (/exhibitions/exhibition@curators:t /en/renoir_in_the_20th_century:/exhibitions/exhibition $0))
+
+how many exhibitions have there been about leonardo da vinci
+(count $0 (/exhibitions/exhibition_subject@exhibitions_created_about_this_subject:t /en/leonardo_da_vinci:/exhibitions/exhibition_subject $0))
+
+what exhibitions has the gross clinic been in
+(lambda $0 /common/topic (/exhibitions/exhibit@exhibitions_displayed_in:t /en/the_gross_clinic:/exhibitions/exhibit $0))
+
+what artists are influenced by lead belly
+(lambda $0 /common/topic (/influence/influence_node@influenced:t /en/leadbelly:/influence/influence_node $0))
+
+who has influenced stephen fry
+(lambda $0 /common/topic (/influence/influence_node@influenced_by:t /en/stephen_fry:/influence/influence_node $0))
+
+how many people influenced karl marx
+(count $0 (/influence/influence_node@influenced_by:t /en/karl_marx:/influence/influence_node $0))
+
+how many people have been influenced by socrates
+(count $0 (/influence/influence_node@influenced:t /en/socrates:/influence/influence_node $0))
+
+who invented scrabble
+(lambda $0 /people/person (/law/invention@inventor:t /en/scrabble:/law/invention $0))
+
+what area did the meiji constitution govern
+(lambda $0 /location/location (/law/constitution@country:t /en/meiji_constitution:/law/constitution $0))
+
+when was the first amendment ratified
+(lambda $0 /type/datetime (/law/constitutional_amendment@ratification_completed_on:t /en/first_amendment_to_the_united_states_constitution:/law/constitutional_amendment $0))
+
+who proposed the fifth amendment
+(lambda $0 /common/topic (/law/constitutional_amendment@proposed_by:t /en/fifth_amendment_to_the_united_states_constitution:/law/constitutional_amendment $0))
+
+how many us supreme court cases have there been
+(count $0 (/law/court@legal_cases:t /en/supreme_court_of_the_united_states:/law/court/legal_cases $0))
+
+over what area does the court of chancery have jurisdiction
+(lambda $0 /location/location (/law/court@jurisdiction:t /en/court_of_chancery:/law/court $0))
+
+how many judges has the high court of justice had
+(count $0 (exists $1 (exists $2 (exists $3 (/law/judicial_tenure@court@judge@from_date@to_date@title:t /en/high_court_of_justice:/law/court $0 $1 $2 $3)))))
+
+when was the high court of australia founded
+(lambda $0 /type/datetime (/law/court@founded:t /en/high_court_of_australia:/law/court $0))
+
+what was roe v. wade about
+(lambda $0 /common/topic (/law/legal_case@subject:t /en/roe_v_wade:/law/legal_case $0))
+
+what judge presided over state v. kelly
+(lambda $0 /people/person (/law/legal_case@judges:t /en/state_v_kelly:/law/judge $0))
+
+when was the printing press invented
+(lambda $0 /type/datetime (/law/invention@date_of_invention:t /en/printing_press:/law/invention $0))
+
+what is the population of belgium
+(lambda $0 /type/int (exists $1 (exists $2 (/location/statistical_region/population&/measurement_unit/dated_integer@number@year@source:t /en/belgium:/location/statistical_region $0 $1 $2))))
+
+what is the capital of iceland
+(lambda $0 /location/location (/location/country@capital:t /en/iceland:/location/country $0))
+
+what is the official language of mauritania
+(lambda $0 /common/topic (/location/country@official_language:t /en/mauritania:/location/country $0))
+
+what are the latitude and longitude of the eiffel tower
+(lambda $0 /common/topic (/location/location@geolocation:t /en/eiffel_tower:/location/location $0))
+
+where is walden pond located
+(lambda $0 /location/location (/location/location@containedby:t /en/walden_pond:/location/location $0))
+
+where is the uss alabama currently moored
+(lambda $0 /location/location (/location/location@containedby:t /base/usnris/item/86000083:/location/location $0))
+
+where is independence hall located
+(lambda $0 /location/location (/location/location@containedby:t /en/independence_hall:/location/location $0))
+
+where is the tempelhof international airport located
+(lambda $0 /location/location (/location/location@containedby:t /en/tempelhof_international_airport:/location/location $0))
+
+what is the population in iowa
+(lambda $0 /type/int (exists $1 (exists $2 (/location/statistical_region/population&/measurement_unit/dated_integer@number@year@source:t /en/iowa:/location/statistical_region $0 $1 $2))))
+
+in what time zone is illinois
+(lambda $0 /common/topic (/location/location@time_zones:t /en/illinois:/location/location $0))
+
+what are the neighborhoods in new york city
+(lambda $0 /location/location (/location/place_with_neighborhoods@neighborhoods:t /en/new_york:/location/place_with_neighborhoods $0))
+
+what are the major exports of madagascar
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/location/statistical_region/major_exports&/location/imports_exports_by_industry@amount@currency@date@industry:t /en/madagascar:/location/statistical_region $1 $2 $3 $0)))))
+
+what is africa 's population
+(lambda $0 /type/int (exists $1 (exists $2 (/location/statistical_region/population&/measurement_unit/dated_integer@number@year@source:t /en/africa:/location/statistical_region $0 $1 $2))))
+
+what is africa 's area
+(lambda $0 /common/topic (/location/location@area:t /en/africa:/location/location $0))
+
+what is the area of antarctica
+(lambda $0 /common/topic (/location/location@area:t /en/antarctica:/location/location $0))
+
+what is the population of asia
+(lambda $0 /type/int (exists $1 (exists $2 (/location/statistical_region/population&/measurement_unit/dated_integer@number@year@source:t /en/asia:/location/statistical_region $0 $1 $2))))
+
+how many major events happened in australia
+(count $0 (/location/location@events:t /en/australia:/location/location $0))
+
+what is europe 's area
+(lambda $0 /common/topic (/location/location@area:t /en/europe:/location/location $0))
+
+what is the area of north america
+(lambda $0 /common/topic (/location/location@area:t /en/north_america:/location/location $0))
+
+what is the population estimated in the world
+(lambda $0 /type/int (exists $1 (exists $2 (/location/statistical_region/population&/measurement_unit/dated_integer@number@year@source:t /en/earth:/location/statistical_region $0 $1 $2))))
+
+how many countries are within north america
+(count $0 (/location/location@containedby:t $0 /en/north_america:/location/location))
+
+what is the area of south america
+(lambda $0 /common/topic (/location/location@area:t /en/south_america:/location/location $0))
+
+how many countries are in south america
+(count $0 (/location/location@containedby:t $0 /en/south_america:/location/location))
+
+how many historical events happened in south america
+(count $0 (/location/location@events:t /en/south_america:/location/location $0))
+
+what is the earth 's area
+(lambda $0 /common/topic (/location/location@area:t /en/earth:/location/location $0))
+
+what major events in history happened in africa
+(lambda $0 /common/topic (/location/location@events:t /en/africa:/location/location $0))
+
+what is the area of australia
+(lambda $0 /common/topic (/location/location@area:t /en/australia:/location/location $0))
+
+what is the population of europe
+(lambda $0 /type/int (exists $1 (exists $2 (/location/statistical_region/population&/measurement_unit/dated_integer@number@year@source:t /en/europe:/location/statistical_region $0 $1 $2))))
+
+what is the population of the people on the earth
+(lambda $0 /type/int (exists $1 (exists $2 (/location/statistical_region/population&/measurement_unit/dated_integer@number@year@source:t /en/earth:/location/statistical_region $0 $1 $2))))
+
+how many types of cumulus clouds are there
+(count $0 (/meteorology/cloud@varieties:t /m/0csh5:/meteorology/cloud $0))
+
+what is the maximum altitude of stratus clouds
+(lambda $0 /common/topic (/meteorology/cloud@maximum_altitude_m:t /en/stratus:/meteorology/cloud $0))
+
+what do cirrus clouds look like
+(lambda $0 /common/topic (/meteorology/cloud@appearance:t /m/0cs96:/meteorology/cloud $0))
+
+when did hurricane andrew form
+(lambda $0 /type/datetime (/meteorology/tropical_cyclone@formed:t /en/hurricane_andrew:/meteorology/tropical_cyclone $0))
+
+what were the highest wind speeds in hurricane katrina
+(lambda $0 /common/topic (/meteorology/tropical_cyclone@highest_winds:t /en/hurricane_katrina:/meteorology/tropical_cyclone $0))
+
+how many people died in hurricane wilma
+(lambda $0 /type/int (/meteorology/tropical_cyclone@direct_fatalities:t /en/hurricane_wilma:/meteorology/tropical_cyclone $0))
+
+how many areas were affected by hurricane ivan
+(count $0 (/meteorology/tropical_cyclone@affected_areas:t /en/hurricane_ivan:/meteorology/tropical_cyclone $0))
+
+how many storms were in the 2005 atlantic hurricane season
+(lambda $0 /type/int (/meteorology/tropical_cyclone_season@total_storms:t /en/2005_atlantic_hurricane_season:/meteorology/tropical_cyclone_season $0))
+
+what was the strongest storm in the 1992 atlantic hurricane season
+(lambda $0 /common/topic (/meteorology/tropical_cyclone_season@strongest_storm:t /en/1992_atlantic_hurricane_season:/meteorology/tropical_cyclone_season $0))
+
+when was the united nations founded
+(lambda $0 /type/datetime (/organization/organization@date_founded:t /en/united_nations:/organization/organization $0))
+
+who founded the red cross
+(lambda $0 /common/topic (/organization/organization@founders:t /en/american_red_cross:/organization/organization $0))
+
+what is the address of the apple, inc. headquarters
+(lambda $0 /location/location (/organization/organization@headquarters:t /en/apple_inc:/organization/organization $0))
+
+how many countries are in the european union
+(count $0 (exists $1 (exists $2 (/organization/organization_membership@from@member@organization@to:t $1 $0 /en/european_union:/organization/membership_organization $2))))
+
+when was the green party founded
+(lambda $0 /type/datetime (/organization/organization@date_founded:t /en/green_party:/organization/organization $0))
+
+what is yahoo!'s slogan
+(lambda $0 /common/topic (/organization/organization@slogan:t /business/cik/0001011006:/organization/organization $0))
+
+what is the slogan of bmw
+(lambda $0 /common/topic (/organization/organization@slogan:t /en/bmw:/organization/organization $0))
+
+who started starbucks
+(lambda $0 /common/topic (/organization/organization@founders:t /en/starbucks:/organization/organization $0))
+
+in what city is h&r block headquartered
+(lambda $0 /location/location (/organization/organization@headquarters:t /en/h_r_block:/organization/organization $0))
+
+who founded nivea
+(lambda $0 /common/topic (/organization/organization@founders:t /en/nivea:/organization/organization $0))
+
+when was savealot founded
+(lambda $0 /type/datetime (/organization/organization@date_founded:t /en/save-a-lot:/organization/organization $0))
+
+who is the ceo of savealot
+(lambda $0 /people/person (exists $1 (exists $2 (exists $3 (exists $4 (/organization/leadership@person@title@as_of_date@organization@role@from@to:t $0 /en/chief_executive_officer:/type/text $1 /en/save-a-lot:/organization/organization $2 $3 $4))))))
+
+when was walmart founded
+(lambda $0 /type/datetime (/organization/organization@date_founded:t /en/wal-mart:/organization/organization $0))
+
+when was starbucks founded
+(lambda $0 /type/datetime (/organization/organization@date_founded:t /en/starbucks:/organization/organization $0))
+
+when was panasonic corporation founded
+(lambda $0 /type/datetime (/organization/organization@date_founded:t /en/matsushita_electric_industrial_co:/organization/organization $0))
+
+when was home depot founded
+(lambda $0 /type/datetime (/organization/organization@date_founded:t /en/home_depot:/organization/organization $0))
+
+who are the founders of home depot
+(lambda $0 /common/topic (/organization/organization@founders:t /en/home_depot:/organization/organization $0))
+
+when was borders founded
+(lambda $0 /type/datetime (/organization/organization@date_founded:t /en/borders_group:/organization/organization $0))
+
+when was sigmod founded
+(lambda $0 /type/datetime (/organization/organization@date_founded:t /en/sigmod:/organization/organization $0))
+
+who is the ceo of apple
+(lambda $0 /people/person (exists $1 (exists $2 (exists $3 (exists $4 (/organization/leadership@person@title@as_of_date@organization@role@from@to:t $0 /en/chief_executive_officer:/type/text $1 /en/apple_inc:/organization/organization $2 $3 $4))))))
+
+who is the founder of savealot
+(lambda $0 /common/topic (/organization/organization@founders:t /en/save-a-lot:/organization/organization $0))
+
+when was jcpenney founded
+(lambda $0 /type/datetime (/organization/organization@date_founded:t /en/j_c_penney:/organization/organization $0))
+
+when was wells fargo founded
+(lambda $0 /type/datetime (/organization/organization@date_founded:t /en/wells_fargo:/organization/organization $0))
+
+when was target founded
+(lambda $0 /type/datetime (/organization/organization@date_founded:t /en/target_corporation:/organization/organization $0))
+
+when was kid_s corner first broadcast
+(lambda $0 /type/datetime (/radio/radio_program@first_broadcast:t /m/05v47f_:/radio/radio_program $0))
+
+when was letter from america last broadcast
+(lambda $0 /type/datetime (/radio/radio_program@final_broadcast:t /en/letter_from_america:/radio/radio_program $0))
+
+what was the american past about
+(lambda $0 /common/topic (/radio/radio_program@subjects:t /m/05v0tbd:/radio/radio_program $0))
+
+what is the subject of the source report
+(lambda $0 /common/topic (/radio/radio_program@subjects:t /en/the_source_report:/radio/radio_program $0))
+
+when did a prairie home companion first air
+(lambda $0 /type/datetime (/radio/radio_program@first_broadcast:t /en/a_prairie_home_companion:/radio/radio_program $0))
+
+how many episodes of taylor made piano were there
+(count $0 (/radio/radio_program@episodes:t /en/taylor_made_piano_a_jazz_history:/radio/radio_program $0))
+
+what was the final air date of lux radio theater
+(lambda $0 /type/datetime (/radio/radio_program@final_broadcast:t /en/lux_radio_theater:/radio/radio_program $0))
+
+how many radio programs about science are there
+(count $0 (/radio/radio_subject@programs_with_this_subject:t /m/06mq7:/radio/radio_subject $0))
+
+what radio program is a right to death an episode of
+(lambda $0 /common/topic (/radio/radio_program_episode@program:t /en/a_right_to_death:/radio/radio_program_episode $0))
+
+how many people practice buddhism
+(lambda $0 /type/int (/religion/religion@number_of_adherents:t /en/buddhism:/religion/religion $0))
+
+what are the christian holidays
+(lambda $0 /common/topic (/religion/religion@holidays:t /en/christianity:/religion/religion $0))
+
+what are the texts of taoism
+(lambda $0 /common/topic (/religion/religion@texts:t /en/taoism:/religion/religion $0))
+
+who are some notable agnostic figures
+(lambda $0 /people/person (/religion/religion@notable_figures:t /en/agnosticism:/religion/religion $0))
+
+what types of judaism are there
+(lambda $0 /common/topic (/religion/religion@includes:t /en/judaism:/religion/religion $0))
+
+what are the deities of hinduism
+(lambda $0 /common/topic (/religion/religion@deities:t /en/hinduism:/religion/religion $0))
+
+what are the practices of sikhism
+(lambda $0 /common/topic (/religion/religion@practices:t /en/sikhism:/religion/religion $0))
+
+what religions branched from roman catholicism
+(lambda $0 /common/topic (/religion/religion@branched_into:t /en/catholicism:/religion/religion $0))
+
+what are sacred sites in sunni islam
+(lambda $0 /location/location (/religion/religion@sacred_sites:t /en/sunni_islam:/religion/religion $0))
+
+how many religions believe in reincarnation
+(count $0 (/religion/belief@belief_of:t /en/reincarnation:/religion/belief $0))
+
+how many religions worship god
+(count $0 (/religion/deity@deity_of:t /en/god:/religion/deity $0))
+
+what religion did martin luther found
+(lambda $0 /common/topic (/religion/founding_figure@religion_founded:t /en/martin_luther:/religion/founding_figure $0))
+
+what religious order belongs to kirkstall abbey
+(lambda $0 /common/topic (/religion/monastery@religious_order:t /en/kirkstall_abbey:/religion/monastery $0))
+
+how many religions use the bible
+(count $0 (/religion/religious_text@religious_text_of:t /en/bible:/religion/religious_text $0))
+
+what guidebooks are there for san francisco
+(lambda $0 /common/topic (/travel/travel_destination@guidebooks:t /en/san_francisco:/travel/travel_destination $0))
+
+what public transportation is there in tokyo
+(lambda $0 /common/topic (/travel/travel_destination@local_transportation:t /en/tokyo:/travel/travel_destination $0))
+
+what is the average temperature in sydney in august
+(lambda $0 /common/topic (exists $1 (exists $2 (/travel/travel_destination_monthly_climate@month@average_max_temp_c@average_min_temp_c@average_rainfall_mm@travel_destination:t /en/august:/time/month $0 $1 $2 /en/sydney:/travel/travel_destination))))
+
+what bus operators run buses to paris
+(lambda $0 /common/topic (exists $1 (exists $2 (/travel/transportation@travel_destination@mode_of_transportation@transport_operator@transport_terminus:t /en/paris:/travel/travel_destination $1 $0 $2))))
+
+what are some hotels in vancouver
+(lambda $0 /location/location (/travel/travel_destination@accommodation:t /en/vancouver_british_columbia:/travel/travel_destination $0))
+
+what tourist attractions are in rome
+(lambda $0 /location/location (/travel/travel_destination@tourist_attractions:t /en/rome:/travel/travel_destination $0))
+
+who painted the mona lisa
+(lambda $0 /people/person (/visual_art/artwork@artist:t /en/mona_lisa:/visual_art/artwork $0))
+
+when was starry night painted
+(lambda $0 /type/datetime (/visual_art/artwork@date_completed:t /en/the_starry_night:/visual_art/artwork $0))
+
+what is the thinker made of
+(lambda $0 /common/topic (/visual_art/artwork@media:t /en/the_thinker:/visual_art/artwork $0))
+
+how many animals are there at the london zoo
+(lambda $0 /type/int (/zoos/zoo@num_animals:t /en/london_zoo:/zoos/zoo $0))
+
+when was the san diego zoo opened
+(lambda $0 /type/datetime (/zoos/zoo@opened:t /en/san_diego_zoo:/zoos/zoo $0))
+
+how many species does the san francisco zoo have
+(lambda $0 /type/int (/zoos/zoo@num_species:t /en/san_francisco_zoo:/zoos/zoo $0))
+
+in what zoo was knut kept
+(lambda $0 /location/location (exists $1 (exists $2 (exists $3 (/zoos/animal_captivity@zoo@animal@exhibit@from@to:t $0 /m/02q470c:/zoos/zoo_animal $1 $2 $3)))))
+
+what exhibits are there at the arignar anna zoological park
+(lambda $0 /common/topic (/zoos/zoo@exhibits:t /en/arignar_anna_zoological_park:/zoos/zoo $0))
+

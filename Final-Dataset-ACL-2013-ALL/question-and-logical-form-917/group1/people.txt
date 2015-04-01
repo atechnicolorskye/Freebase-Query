@@ -1,0 +1,87 @@
+where was liam gallagher born
+(lambda $0 /location/location (/people/person@place_of_birth:t /en/liam_gallagher:/people/person $0))
+
+when was mark mckinney born
+(lambda $0 /type/datetime (/people/person@date_of_birth:t /en/mark_mckinney:/people/person $0))
+
+what religion was pablo picasso
+(lambda $0 /common/topic (/people/person@religion:t /en/pablo_picasso:/people/person $0))
+
+when did tutankhamun die
+(lambda $0 /type/datetime (/people/deceased_person@date_of_death:t /en/tutankhamun:/people/deceased_person $0))
+
+where was henry iii buried
+(lambda $0 /location/location (/people/deceased_person@place_of_burial:t /en/henry_iii_of_england:/people/deceased_person $0))
+
+who were the parents of ferdinand ii
+(lambda $0 /people/person (/people/person@parents:t /en/ferdinand_ii_holy_roman_emperor:/people/person $0))
+
+how did samuel beckett die
+(lambda $0 /common/topic (/people/deceased_person@cause_of_death:t /en/samuel_beckett:/people/deceased_person $0))
+
+what did bertrand russel die of
+(lambda $0 /common/topic (/people/deceased_person@cause_of_death:t /en/bertrand_russell:/people/deceased_person $0))
+
+what musicians have died of lung cancer
+(lambda $0 /people/person (/people/deceased_person@cause_of_death:t $0 /en/lung_cancer:/people/cause_of_death))
+
+what is jerry seinfeld religion
+(lambda $0 /common/topic (/people/person@religion:t /en/jerry_seinfeld:/people/person $0))
+
+how tall is jerry seinfeld
+(lambda $0 /common/topic (/people/person@height_meters:t /en/jerry_seinfeld:/people/person $0))
+
+how many children does jerry seinfeld have
+(count $0 (/people/person@children:t /en/jerry_seinfeld:/people/person $0))
+
+what is ron glass 's religion
+(lambda $0 /common/topic (/people/person@religion:t /en/ron_glass:/people/person $0))
+
+what year was danny devito born
+(lambda $0 /type/datetime (/people/person@date_of_birth:t /en/danny_devito:/people/person $0))
+
+what is danny devito 's religion
+(lambda $0 /common/topic (/people/person@religion:t /en/danny_devito:/people/person $0))
+
+how many children does danny devito have
+(count $0 (/people/person@children:t /en/danny_devito:/people/person $0))
+
+when did jack albertson die
+(lambda $0 /type/datetime (/people/deceased_person@date_of_death:t /en/jack_albertson:/people/deceased_person $0))
+
+what was jack albertson 's cause of death
+(lambda $0 /common/topic (/people/deceased_person@cause_of_death:t /en/jack_albertson:/people/deceased_person $0))
+
+where was william shakespeare born
+(lambda $0 /location/location (/people/person@place_of_birth:t /en/william_shakespeare:/people/person $0))
+
+when did john f kennedy die
+(lambda $0 /type/datetime (/people/deceased_person@date_of_death:t /en/john_f_kennedy:/people/deceased_person $0))
+
+what was john f kennedy 's cause of death
+(lambda $0 /common/topic (/people/deceased_person@cause_of_death:t /en/john_f_kennedy:/people/deceased_person $0))
+
+how many people died of a skiing accident
+(count $0 (/people/deceased_person@cause_of_death:t $0 /en/skiing_accident:/people/cause_of_death))
+
+when is jerry seinfeld 's birthday
+(lambda $0 /type/datetime (/people/person@date_of_birth:t /en/jerry_seinfeld:/people/person $0))
+
+where was jerry seinfeld born
+(lambda $0 /location/location (/people/person@place_of_birth:t /en/jerry_seinfeld:/people/person $0))
+
+what is ron glass 's place of birth
+(lambda $0 /location/location (/people/person@place_of_birth:t /en/ron_glass:/people/person $0))
+
+where did nathan smith die
+(lambda $0 /location/location (/people/deceased_person@place_of_death:t /en/nathan_smith_1770:/people/deceased_person $0))
+
+how many notable people died by poisoning
+(count $0 (/people/deceased_person@cause_of_death:t $0 /en/poison:/people/cause_of_death))
+
+when was omarion born
+(lambda $0 /type/datetime (/people/person@date_of_birth:t /en/omarion:/people/person $0))
+
+where was omarion born
+(lambda $0 /location/location (/people/person@place_of_birth:t /en/omarion:/people/person $0))
+

@@ -1,0 +1,24 @@
+are lithium batteries rechargable
+(lambda $0 /common/topic (/engineering/battery_cell_type@rechargeable:t /en/lithium_battery:/engineering/battery_cell_type $0))
+
+what is the voltage of a aa alkaline battery
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (exists $4 (/engineering/battery_size_cell_variation@size@cell_type@voltage@capacity@energy@iec_60086_name@ansi_neda_name:t /en/aa_battery:/engineering/battery_size /en/alkaline_battery:/engineering/battery_cell_type $0 $1 $2 $3 $4))))))
+
+what fuel does an internal combustion engine use
+(lambda $0 /common/topic (/engineering/engine@energy_source:t /en/internal_combustion_engine:/engineering/engine $0))
+
+who designed the rolls-royce welland
+(lambda $0 /common/topic (/engineering/engine@designer:t /en/rolls-royce_welland:/engineering/engine $0))
+
+what is the piston configuration of a ford model t engine
+(lambda $0 /common/topic (/engineering/piston_engine@piston_configuration:t /en/ford_model_t_engine:/engineering/piston_engine $0))
+
+what is the capacity of a rolls royce merlin
+(lambda $0 /common/topic (/engineering/piston_engine@capacity:t /en/rolls-royce_merlin:/engineering/piston_engine $0))
+
+how many engines have a straight-4 piston configuration
+(count $0 (/engineering/piston_configuration@engines:t /en/straight-4:/engineering/piston_configuration $0))
+
+how many turbojet engines are there
+(count $0 (/engineering/engine_category@engines:t /en/turbojet:/engineering/engine_category $0))
+

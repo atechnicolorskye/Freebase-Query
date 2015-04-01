@@ -1,0 +1,27 @@
+how many languages has jrr tolkein created
+(count $0 (/language/language_creator@languages_created:t /en/j_r_r_tolkien:/language/language_creator $0))
+
+how many writing systems are used in japanese
+(count $0 (/language/human_language@writing_system:t /en/japanese:/language/human_language $0))
+
+how many countries is spanish spoken in
+(count $0 (/language/human_language@countries_spoken_in:t /en/spanish:/language/human_language $0))
+
+what language family is afrikaans part of
+(lambda $0 /common/topic (/language/human_language@language_family:t /en/afrikaans:/language/human_language $0))
+
+how many dialects of arabic are there
+(count $0 (/language/human_language@dialects:t /en/arabic_language:/language/human_language $0))
+
+where are dravidian languages spoken
+(lambda $0 /location/location (/language/language_family@geographic_distribution:t /en/dravidian_languages:/language/language_family $0))
+
+what are the celtic languages
+(lambda $0 /common/topic (/language/language_family@languages:t /en/celtic_languages:/language/language_family $0))
+
+since when has the arabic alphabet been used
+(lambda $0 /type/datetime (/language/language_writing_system@used_from:t /en/arabic_alphabet:/language/language_writing_system $0))
+
+what languages use bengali script
+(lambda $0 /common/topic (/language/language_writing_system@languages:t /en/bengali_script:/language/language_writing_system $0))
+

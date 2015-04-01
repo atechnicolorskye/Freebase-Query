@@ -1,0 +1,33 @@
+what are some german beers
+(lambda $0 /common/topic (/food/beer_country_region@beers_from_here:t /en/germany:/food/beer_country_region $0))
+
+what type of beer is miller lite
+(lambda $0 /common/topic (/food/beer@beer_style:t /en/miller_lite:/food/beer $0))
+
+what animal does marscapone cheese come from
+(lambda $0 /common/topic (/food/cheese@source_of_milk:t /en/mascarpone:/food/cheese $0))
+
+what sizes does pilsner urquell come in
+(lambda $0 /common/topic (exists $1 (/food/beer_containment@size@container_type@beer:t $0 $1 /en/pilsner_urquell:/food/beer)))
+
+who brews pauwel kwak
+(lambda $0 /common/topic (/food/beer@brewery_brand:t /en/pauwel_kwak:/food/beer $0))
+
+how many beers come a can
+(count $0 (exists $1 (/food/beer_containment@size@container_type@beer:t $1 /en/beverage_can:/food/beer_container $0)))
+
+where is fry_s turkish delight sold
+(lambda $0 /location/location (/food/candy_bar@sold_in:t /en/frys_turkish_delight:/food/candy_bar $0))
+
+what is the texture of brie cheese
+(lambda $0 /common/topic (/food/cheese@texture:t /m/01482f:/food/cheese $0))
+
+how many cow's milk cheeses are there
+(count $0 (/food/cheese_milk_source@cheeses:t /en/cattle:/food/cheese_milk_source $0))
+
+how much protein is in quinoa
+(lambda $0 /type/float (exists $1 (/food/nutrition_fact@nutrient@food@quantity@ius:t /en/protein:/food/nutrient /en/quinoa:/food/food $0 $1)))
+
+what type of tea is gunpowder tea
+(lambda $0 /common/topic (/food/tea@tea_type:t /en/gunpowder_tea:/food/tea $0))
+

@@ -1,0 +1,42 @@
+what are nicknames for new york
+(lambda $0 /common/topic (/common/topic@alias:t /en/new_york_state:/common/topic $0))
+
+how many nicknames does shaquille o'neal have
+(count $0 (/common/topic@alias:t /en/shaquille_oneal:/common/topic $0))
+
+what other names is the united nations known by
+(lambda $0 /common/topic (/common/topic@alias:t /en/united_nations:/common/topic $0))
+
+what are the new york giants also known as
+(lambda $0 /common/topic (/common/topic@alias:t /en/new_york_giants:/common/topic $0))
+
+what are the dimensions of the matrix reloaded image
+(lambda $0 /common/topic (/common/image@size:t /m/0kjl0q:/common/image $0))
+
+how tall is the you only live once image
+(lambda $0 /common/topic (/common/image@size:t /m/0kk92b:/common/image $0))
+
+how many other names is jerry seinfeld known by
+(count $0 (/common/topic@alias:t /en/jerry_seinfeld:/common/topic $0))
+
+how many other names are there for the usa_s currency
+(count $0 (/common/topic@alias:t /en/us:/common/topic $0))
+
+how many other names are there for jcpenney
+(count $0 (/common/topic@alias:t /en/j_c_penney:/common/topic $0))
+
+how many other names is prostate cancer known as
+(count $0 (/common/topic@alias:t /en/prostate_cancer:/common/topic $0))
+
+what other titles does 13 going on 30 have
+(lambda $0 /common/topic (/common/topic@alias:t /en/13_going_on_30:/common/topic $0))
+
+how many other names is omarion known by
+(count $0 (/common/topic@alias:t /en/omarion:/common/topic $0))
+
+how many other names is ron glass known by
+(count $0 (/common/topic@alias:t /en/ron_glass:/common/topic $0))
+
+how many other names is panasonic corporation known by
+(count $0 (/common/topic@alias:t /en/matsushita_electric_industrial_co:/common/topic $0))
+

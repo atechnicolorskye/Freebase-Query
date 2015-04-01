@@ -1,0 +1,36 @@
+when was kid_s corner first broadcast
+(lambda $0 /type/datetime (/radio/radio_program@first_broadcast:t /m/05v47f_:/radio/radio_program $0))
+
+when was letter from america last broadcast
+(lambda $0 /type/datetime (/radio/radio_program@final_broadcast:t /en/letter_from_america:/radio/radio_program $0))
+
+what was the american past about
+(lambda $0 /common/topic (/radio/radio_program@subjects:t /m/05v0tbd:/radio/radio_program $0))
+
+what is the subject of the source report
+(lambda $0 /common/topic (/radio/radio_program@subjects:t /en/the_source_report:/radio/radio_program $0))
+
+when did a prairie home companion first air
+(lambda $0 /type/datetime (/radio/radio_program@first_broadcast:t /en/a_prairie_home_companion:/radio/radio_program $0))
+
+how many episodes of taylor made piano were there
+(count $0 (/radio/radio_program@episodes:t /en/taylor_made_piano_a_jazz_history:/radio/radio_program $0))
+
+what was the final air date of lux radio theater
+(lambda $0 /type/datetime (/radio/radio_program@final_broadcast:t /en/lux_radio_theater:/radio/radio_program $0))
+
+how many radio programs about science are there
+(count $0 (/radio/radio_subject@programs_with_this_subject:t /m/06mq7:/radio/radio_subject $0))
+
+what radio program is a right to death an episode of
+(lambda $0 /common/topic (/radio/radio_program_episode@program:t /en/a_right_to_death:/radio/radio_program_episode $0))
+
+what are some french restaurants
+(lambda $0 /common/topic (/dining/cuisine@restaurant:t /m/02z3r:/dining/cuisine $0))
+
+what are some cajun dishes
+(lambda $0 /common/topic (/dining/cuisine@dishes:t /m/01v7z:/dining/cuisine $0))
+
+what ingredients are in italian cuisine
+(lambda $0 /common/topic (/dining/cuisine@ingredients:t /m/09y2k2:/dining/cuisine $0))
+

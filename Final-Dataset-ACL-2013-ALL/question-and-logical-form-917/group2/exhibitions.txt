@@ -1,0 +1,24 @@
+where was the armory show exhibited
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (exists $4 (/exhibitions/exhibition_run@opened_on@closed_on@admission_fee@exhibition@venue@sponsor:t $1 $2 $3 /en/armory_show:/exhibitions/exhibition $0 $4))))))
+
+did the big bang exhibit at the science museum cost money
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/exhibitions/exhibition_run@opened_on@closed_on@admission_fee@exhibition@venue@sponsor:t $1 $2 $0 /m/046chwc:/exhibitions/exhibition /en/science_museum_great_britain:/exhibitions/exhibition_venue $3)))))
+
+when was the frida kahlo exhibit at the philadelphia art museum
+(lambda $0 /type/datetime (exists $1 (exists $2 (exists $3 (/exhibitions/exhibition_run@opened_on@closed_on@admission_fee@exhibition@venue@sponsor:t $0 $1 $2 /m/04d14h7:/exhibitions/exhibition /en/philadelphia_museum_of_art:/exhibitions/exhibition_venue $3)))))
+
+what was the science of survival exhibit about
+(lambda $0 /common/topic (/exhibitions/exhibition@subjects:t /m/046chvq:/exhibitions/exhibition $0))
+
+how many free exhibits have there been at the science museum
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (/exhibitions/exhibition_run@opened_on@closed_on@admission_fee@exhibition@venue@sponsor:t $1 $2 $3 $0 /en/science_museum_great_britain:/exhibitions/exhibition_venue $4))))))
+
+who were the curators for renoir in the 20th century
+(lambda $0 /common/topic (/exhibitions/exhibition@curators:t /en/renoir_in_the_20th_century:/exhibitions/exhibition $0))
+
+how many exhibitions have there been about leonardo da vinci
+(count $0 (/exhibitions/exhibition_subject@exhibitions_created_about_this_subject:t /en/leonardo_da_vinci:/exhibitions/exhibition_subject $0))
+
+what exhibitions has the gross clinic been in
+(lambda $0 /common/topic (/exhibitions/exhibit@exhibitions_displayed_in:t /en/the_gross_clinic:/exhibitions/exhibit $0))
+

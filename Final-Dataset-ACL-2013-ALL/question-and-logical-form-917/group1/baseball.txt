@@ -1,0 +1,27 @@
+what position did mike schmidt play
+(lambda $0 /common/topic (/baseball/baseball_player@position_s:t /en/mike_schmidt:/baseball/baseball_player $0))
+
+when was hank aaron inducted into the hall of fame
+(lambda $0 /type/datetime (/baseball/baseball_player@hall_of_fame_induction:t /en/henry_aaron:/baseball/baseball_player $0))
+
+who are the players currently on the los angeles dodgers
+(lambda $0 /people/person (exists $1 (exists $2 (/baseball/baseball_roster_position@position@team@player@number:t $1 /en/los_angeles_dodgers:/baseball/baseball_team $0 $2))))
+
+in what division are the st. louis cardinals
+(lambda $0 /common/topic (/baseball/baseball_team@division:t /en/st_louis_cardinals:/baseball/baseball_team $0))
+
+how many teams did joe torre manage
+(count $0 (exists $1 (exists $2 (/baseball/baseball_historical_managerial_position@manager@team@from@to:t /en/joe_torre:/baseball/baseball_manager $0 $1 $2))))
+
+what team does joe girardi currently manage
+(lambda $0 /common/topic (/baseball/baseball_manager@current_team_managed:t /en/joe_girardi:/baseball/baseball_manager $0))
+
+how many players are in the current roster of the new york mets
+(count $0 (exists $1 (exists $2 (/baseball/baseball_roster_position@position@team@player@number:t $1 /en/new_york_mets:/baseball/baseball_team $0 $2))))
+
+what teams did babe ruth play for
+(lambda $0 /common/topic (exists $1 (exists $2 (/baseball/baseball_historical_roster_position@to@from@player@team:t $1 $2 /en/babe_ruth:/baseball/baseball_player $0))))
+
+what number is kevin youkilis on the boston red sox
+(lambda $0 /type/int (exists $1 (/baseball/baseball_roster_position@position@team@player@number:t $1 /en/boston_red_sox:/baseball/baseball_team /en/kevin_youkilis:/baseball/baseball_player $0)))
+

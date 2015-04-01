@@ -1,0 +1,27 @@
+what team does richard hamilton play for
+(lambda $0 /common/topic (exists $1 (exists $2 (/basketball/basketball_roster_position@number@player@position@team:t $1 /en/richard_hamilton:/basketball/basketball_player $2 $0))))
+
+what position does keyon dooling play
+(lambda $0 /common/topic (exists $1 (exists $2 (/basketball/basketball_roster_position@number@player@position@team:t $1 /en/keyon_dooling:/basketball/basketball_player $0 $2))))
+
+what is lamarcus aldridge's number
+(lambda $0 /type/int (exists $1 (exists $2 (/basketball/basketball_roster_position@number@player@position@team:t $0 /en/lamarcus_aldridge:/basketball/basketball_player $1 $2))))
+
+what team does mike brown coach
+(lambda $0 /common/topic (/basketball/basketball_coach@team:t /en/mike_brown_1970:/basketball/basketball_coach $0))
+
+how many wins has larry bird had in his career
+(lambda $0 /type/int (/basketball/basketball_coach@season_wins:t /en/larry_bird:/basketball/basketball_coach $0))
+
+how many losses has sean miller had in his career
+(lambda $0 /type/int (/basketball/basketball_coach@season_losses:t /en/sean_miller_1968:/basketball/basketball_coach $0))
+
+what team did rick carlisle coach in 2002
+(lambda $0 /common/topic (/basketball/basketball_historical_coach_position@to@from@coach@team:t /type/datetime/2002:/type/datetime /type/datetime/2002:/type/datetime /en/rick_carlisle:/basketball/basketball_coach $0))
+
+who is the head coach of the chicago bulls
+(lambda $0 /people/person (/basketball/basketball_team@head_coach:t /en/chicago_bulls:/basketball/basketball_team $0))
+
+who is currently number 6 on the washington wizards
+(lambda $0 /people/person (exists $1 (/basketball/basketball_roster_position@number@player@position@team:t /type/int/6:/type/int $0 $1 /en/washington_wizards:/basketball/basketball_team)))
+

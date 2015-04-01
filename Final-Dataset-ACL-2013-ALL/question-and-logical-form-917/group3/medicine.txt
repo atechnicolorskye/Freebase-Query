@@ -1,0 +1,72 @@
+what are the symptoms of motor neuron disease
+(lambda $0 /common/topic (/medicine/disease@symptoms:t /en/motor_neuron_disease:/medicine/disease $0))
+
+what causes bipolar disorder
+(lambda $0 /common/topic (/medicine/disease@causes:t /en/bipolar_disorder:/medicine/disease $0))
+
+what treatments are there for leukemia
+(lambda $0 /common/topic (/medicine/disease@treatments:t /en/leukemia:/medicine/disease $0))
+
+what diseases cause leukemia
+(lambda $0 /common/topic (/medicine/disease@causes:t /en/leukemia:/medicine/disease $0))
+
+what are the causes of a heart attack
+(lambda $0 /common/topic (/medicine/disease@causes:t /en/myocardial_infarction:/medicine/disease $0))
+
+how many stages of breast cancer are there
+(count $0 (/medicine/disease@stages:t /en/breast_cancer:/medicine/disease $0))
+
+what conditions does aspirin treat
+(lambda $0 /common/topic (/medicine/medical_treatment@used_to_treat:t /en/aspirin:/medicine/medical_treatment $0))
+
+what are the side effects of morphine
+(lambda $0 /common/topic (/medicine/medical_treatment@side_effects:t /en/morphine:/medicine/medical_treatment $0))
+
+how many beds does mclean hospital have
+(count $0 (/medicine/hospital@beds:t /en/mclean_hospital:/medicine/hospital $0))
+
+what diseases is fatigue a symptom of
+(lambda $0 /common/topic (/medicine/disease@symptoms:t $0 /en/fatigue:/medicine/symptom))
+
+what hospitals specialize in cardiology
+(lambda $0 /location/location (/medicine/medical_specialty@hospitals_with_this_specialty:t /en/cardiology:/medicine/medical_specialty $0))
+
+how many cancer centers are comprehensive
+(count $0 (/medicine/cancer_center@comprehensive:t $0 /type/boolean/true:/type/boolean))
+
+what are some research only cancer centers
+(lambda $0 /common/topic (/medicine/cancer_center_type@centers_of_this_kind:t /en/research_only:/medicine/cancer_center_type $0))
+
+what conditions have symptoms including headache
+(lambda $0 /common/topic (/medicine/disease@symptoms:t $0 /en/headache:/medicine/symptom))
+
+who developed the polio vaccine
+(lambda $0 /common/topic (/medicine/vaccine@developed_by:t /en/polio_vaccine:/medicine/vaccine $0))
+
+what causes prostate cancer
+(lambda $0 /common/topic (/medicine/disease@causes:t /en/prostate_cancer:/medicine/disease $0))
+
+what are the causes of syphilis
+(lambda $0 /common/topic (/medicine/disease@causes:t /en/syphillis:/medicine/disease $0))
+
+what are the treatments of prostate cancer
+(lambda $0 /common/topic (/medicine/disease@treatments:t /en/prostate_cancer:/medicine/disease $0))
+
+how is syphilis transmitted
+(lambda $0 /common/topic (/medicine/infectious_disease@transmission:t /en/syphillis:/medicine/infectious_disease $0))
+
+what type of infection is syphilis
+(lambda $0 /common/topic (/medicine/infectious_disease@infectious_agent_type:t /en/syphillis:/medicine/infectious_disease $0))
+
+what is the parent disease of a stroke
+(lambda $0 /common/topic (/medicine/disease@parent_disease:t /en/stroke:/medicine/disease $0))
+
+what are the symptoms of prostate cancer
+(lambda $0 /common/topic (/medicine/disease@symptoms:t /en/prostate_cancer:/medicine/disease $0))
+
+what causes syphilis
+(lambda $0 /common/topic (/medicine/disease@causes:t /en/syphillis:/medicine/disease $0))
+
+what are the survival rates for prostate cancer
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (exists $4 (/medicine/disease/survival_rates&/medicine/survival_rate@gender@race@years@rate@disease_stage:t /en/prostate_cancer:/medicine/disease $1 $2 $0 $3 $4))))))
+

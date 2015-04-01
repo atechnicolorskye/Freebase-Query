@@ -1,0 +1,33 @@
+what play was west side story adapted from
+(lambda $0 /common/topic (/media_common/adaptation@adapted_from:t /en/west_side_story:/media_common/adaptation $0))
+
+who said that_s one small step for man, one giant leap for mankind
+(lambda $0 /people/person (/media_common/quotation@author:t /m/06gj5j3:/media_common/quotation $0))
+
+to whom is invisible man dedicated
+(lambda $0 /common/topic (exists $1 (exists $2 (/media_common/dedication@dedicated_by@dedicated_to@work_dedicated@notes:t $1 $0 /en/invisible_man:/media_common/dedicated_work $2))))
+
+what series was game of thrones adapted from
+(lambda $0 /common/topic (/media_common/adaptation@adapted_from:t /en/game_of_thrones:/media_common/adaptation $0))
+
+what are some adaptations of the wonderful wizard of oz
+(lambda $0 /common/topic (/media_common/adapted_work@adaptations:t /en/the_wonderful_wizard_of_oz:/media_common/adapted_work $0))
+
+how many works have been lost due to theft
+(count $0 (/media_common/cause_of_loss@works_lost_this_way:t /en/theft:/media_common/cause_of_loss $0))
+
+who completed mozart_s requiem
+(lambda $0 /people/person (exists $1 (/media_common/completion_of_unfinished_work@unfinished_work@finisher@finished_work:t /m/02xtrr:/media_common/unfinished_work $0 $1)))
+
+what works did anthony payne finish
+(lambda $0 /common/topic (exists $1 (/media_common/completion_of_unfinished_work@unfinished_work@finisher@finished_work:t $0 /en/anthony_payne:/media_common/completer_of_unfinished_work $1)))
+
+how many documentaries are there on netflix
+(count $0 (/media_common/netflix_genre@titles:t /en/documentary:/media_common/netflix_genre $0))
+
+what character says "i'll be back"
+(lambda $0 /common/topic (/media_common/quotation@spoken_by_character:t /m/06zh9s:/media_common/quotation $0))
+
+how many works did mozart dedicate to joseph haydn
+(count $0 (exists $1 (exists $2 (/media_common/dedication@dedicated_by@dedicated_to@work_dedicated@notes:t /en/joseph_haydn:/media_common/dedicator $1 $0 $2))))
+

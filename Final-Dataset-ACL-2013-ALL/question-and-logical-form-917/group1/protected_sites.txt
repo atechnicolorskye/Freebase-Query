@@ -1,0 +1,21 @@
+when was yosemite national park designated as a protected place
+(lambda $0 /type/datetime (/protected_sites/protected_site@date_established:t /en/yosemite_national_park:/protected_sites/protected_site $0))
+
+how many visitors does mammoth cave national park get in a year
+(lambda $0 /type/int (/protected_sites/protected_site@annual_visitors:t /en/mammoth_cave_national_park:/protected_sites/protected_site $0))
+
+how many national parks does the national wildlife refuge have
+(count $0 (/protected_sites/park_system@member_parks:t /en/national_wildlife_refuge:/protected_sites/park_system $0))
+
+what parks are in the canadian national parks system
+(lambda $0 /location/location (/protected_sites/park_system@member_parks:t /en/canadian_national_parks:/protected_sites/park_system $0))
+
+how many sites are on the national register of historic places
+(count $0 (exists $1 (exists $2 (/protected_sites/natural_or_cultural_site_listing@listed_site@designation@date_listed@category_or_criteria:t $0 /en/national_register_of_historic_places:/protected_sites/natural_or_cultural_site_designation $1 $2))))
+
+when was the abbey of st. gall listed as an unesco world heritage site
+(lambda $0 /type/datetime (exists $1 (/protected_sites/natural_or_cultural_site_listing@listed_site@designation@date_listed@category_or_criteria:t /en/abbey_of_st_gall:/protected_sites/listed_site /en/world_heritage_site:/protected_sites/natural_or_cultural_site_designation $0 $1)))
+
+how many protected sites does the u.s. national park service govern
+(count $0 (/protected_sites/governing_body_of_protected_sites@protected_sites_governed:t /en/national_park_service:/protected_sites/governing_body_of_protected_sites $0))
+

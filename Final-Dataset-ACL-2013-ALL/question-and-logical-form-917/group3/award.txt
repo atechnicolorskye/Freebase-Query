@@ -1,0 +1,96 @@
+what year did sgt. pepper's lonely hearts club band win a grammy
+(lambda $0 /type/datetime (exists $1 (exists $2 (exists $3 (exists $4 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $0 $2 $3 /en/sgt_peppers_lonely_hearts_club_band:/award/award_winning_work $4))))))
+
+when did everything is illuminated win the guardian first book award
+(lambda $0 /type/datetime (exists $1 (exists $2 (exists $3 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $0 /en/guardian_first_book_award:/award/award_category $2 /en/everything_is_illuminated:/award/award_winning_work $3)))))
+
+what award does the royal institute of british architects present
+(lambda $0 /common/topic (/award/award_presenting_organization@awards_presented:t /en/royal_institute_of_british_architects:/award/award_presenting_organization $0))
+
+what awards has lost won
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (exists $4 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $2 $0 $3 /en/lost:/award/award_winning_work $4))))))
+
+what awards has the english patient won
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (exists $4 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $2 $0 $3 /en/the_english_patient:/award/award_winning_work $4))))))
+
+in what year did harry potter and the goblet of fire win the hugo award for best novel
+(lambda $0 /type/datetime (exists $1 (exists $2 (exists $3 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $0 /en/hugo_award_for_best_novel:/award/award_category $2 /en/harry_potter_and_the_goblet_of_fire:/award/award_winning_work $3)))))
+
+where did monsanto rank on the forune 500 in 2000
+(lambda $0 /type/int (exists $1 (/award/ranking@rank@year@note@list@item:t $0 /type/datetime/2000:/type/datetime $1 /en/fortune_500:/award/ranked_list /en/monsanto:/award/ranked_item)))
+
+when was joni mitchell inducted into the rock and roll hall of fame
+(lambda $0 /type/datetime (exists $1 (exists $2 (/award/hall_of_fame_induction@date@note@hall_of_fame@inductee@category:t $0 $1 /en/rock_and_roll_hall_of_fame:/award/hall_of_fame /en/joni_mitchell:/award/hall_of_fame_inductee $2))))
+
+how many people have won the nobel peace prize
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $2 /en/nobel_peace_prize:/award/award_category $0 $3 $4))))))
+
+who was nominated for the academy award for best director in 2011
+(lambda $0 /common/topic (exists $1 (exists $2 (/award/award_nomination@award@year@award_nominee@nominated_for@notes_description:t /en/academy_award_for_best_director:/award/award_category /type/datetime/2011:/type/datetime $0 $1 $2))))
+
+for what albums did barack obama win a grammy award for best spoken word album
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $2 /en/grammy_award_for_best_spoken_word_album:/award/award_category /en/barack_obama:/award/award_winner $0 $3)))))
+
+who was rolling stones' greatest guitarist of all time in 2003
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/award/ranking@rank@year@note@list@item:t $1 $2 $3 /en/rolling_stones_100_greatest_guitarists_of_all_time:/award/ranked_list $0)))))
+
+how many awards did sesame street win
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $2 $0 $3 /en/sesame_street:/award/award_winning_work $4))))))
+
+how many peabody award winners are there
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $2 /en/peabody_award:/award/award_category $0 $3 $4))))))
+
+what year was ron glass an award nominee
+(lambda $0 /type/datetime (exists $1 (exists $2 (exists $3 (/award/award_nomination@award@year@award_nominee@nominated_for@notes_description:t $1 $0 /en/ron_glass:/award/award_nominee $2 $3)))))
+
+in 1981 what award did danny devito win
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 /type/datetime/1981:/type/datetime $0 /en/danny_devito:/award/award_winner $2 $3)))))
+
+in 1982 who were the primetieme emmy award for comedy series nominees
+(lambda $0 /common/topic (exists $1 (exists $2 (/award/award_nomination@award@year@award_nominee@nominated_for@notes_description:t /en/primetime_emmy_award_for_outstanding_comedy_series:/award/award_category /type/datetime/1982:/type/datetime $0 $1 $2))))
+
+how many awards did jack albertson win
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $2 $0 /en/jack_albertson:/award/award_winner $3 $4))))))
+
+what award did jack albertson win in 1968
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 /type/datetime/1968:/type/datetime $0 /en/jack_albertson:/award/award_winner $2 $3)))))
+
+what was target 's rank in the fortune 500 in 2010
+(lambda $0 /type/int (exists $1 (/award/ranking@rank@year@note@list@item:t $0 /type/datetime/2010:/type/datetime $1 /en/fortune_500:/award/ranked_list /en/target_corporation:/award/ranked_item)))
+
+who won best movie of 2010
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 /type/datetime/2010:/type/datetime /en/academy_award_for_best_picture:/award/award_category $0 $2 $3)))))
+
+how many awards did the movie 8 mile win
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $2 $0 $3 /en/8_mile:/award/award_winning_work $4))))))
+
+how many awards did titanic win
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $2 $0 $3 /en/titanic:/award/award_winning_work $4))))))
+
+what movies won the golden globe award for best drama film
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (exists $4 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $2 /en/golden_globe_award_for_best_motion_picture_-_drama:/award/award_category $3 $0 $4))))))
+
+what movies won ascap film and television music awards for most performed songs from motion pictures
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (exists $4 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $2 /m/04d215m:/award/award_category $3 $0 $4))))))
+
+how many awards did big daddy win
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $2 $0 $3 /en/big_daddy:/award/award_winning_work $4))))))
+
+how many nominations did nutty professor have
+(count $0 (exists $1 (exists $2 (exists $3 (/award/award_nomination@award@year@award_nominee@nominated_for@notes_description:t $0 $1 $2 /en/the_nutty_professor:/award/award_nominated_work $3)))))
+
+how many awards did danny devito win
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $2 $0 /en/danny_devito:/award/award_winner $3 $4))))))
+
+what movie did danny devito win an award for in 1981
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 /type/datetime/1981:/type/datetime $2 /en/danny_devito:/award/award_winner $0 $3)))))
+
+how many award nominations did danny devito have
+(count $0 (exists $1 (exists $2 (exists $3 (/award/award_nomination@award@year@award_nominee@nominated_for@notes_description:t $0 $1 /en/danny_devito:/award/award_nominee $2 $3)))))
+
+what movies were nominated for favorite comedy movie
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/award/award_nomination@award@year@award_nominee@nominated_for@notes_description:t /en/peoples_choice_award_for_favorite_comedy_movie:/award/award_category $1 $2 $0 $3)))))
+
+how many grammy awards did beyonce receive in her singing career
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (/award/award_honor@notes_description@year@award@award_winner@honored_for@ceremony:t $1 $2 $0 /en/beyonce:/award/award_winner $3 $4))))))
+

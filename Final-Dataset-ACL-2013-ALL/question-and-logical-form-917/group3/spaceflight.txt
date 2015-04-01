@@ -1,0 +1,18 @@
+who manufactured the space shuttle discovery
+(lambda $0 /common/topic (/spaceflight/spacecraft@manufacturer:t /en/space_shuttle_discovery:/spaceflight/spacecraft $0))
+
+when was the galileo spacecraft launched
+(lambda $0 /type/datetime (/spaceflight/satellite@launch_date:t /en/galileo_spacecraft:/spaceflight/satellite $0))
+
+where was the kepler spacecraft launched
+(lambda $0 /location/location (/spaceflight/satellite@launch_site:t /en/kepler_mission:/spaceflight/satellite $0))
+
+who were the astronauts in the apollo 12 mission
+(lambda $0 /people/person (/spaceflight/space_mission@astronauts:t /en/apollo_12:/spaceflight/space_mission $0))
+
+what is the dry mass of the hubble space telescope
+(lambda $0 /common/topic (/spaceflight/satellite@dry_mass_kg:t /en/hubble_space_telescope:/spaceflight/satellite $0))
+
+how much time did alan shepard spend in space
+(lambda $0 /common/topic (/spaceflight/astronaut@space_time_minutes:t /en/alan_shepard:/spaceflight/astronaut $0))
+

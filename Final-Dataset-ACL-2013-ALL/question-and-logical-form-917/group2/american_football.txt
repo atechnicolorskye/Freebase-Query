@@ -1,0 +1,36 @@
+﻿who is the head coach of the pittsburgh steelers
+(lambda $0 /people/person (/american_football/football_team@current_head_coach:t /en/pittsburgh_steelers:/american_football/football_team $0))
+
+how many teams has curly lambeau coached
+(count $0 (exists $1 (exists $2 (exists $3 (/american_football/football_historical_coach_position@team@coach@position@from@to:t $0 /en/curly_lambeau:/american_football/football_coach $1 $2 $3)))))
+
+what football team does andy reid currently coach
+(lambda $0 /common/topic (/american_football/football_coach@current_team_head_coached:t /en/andy_reid:/american_football/football_coach $0))
+
+how many teams did jim thorpe play for
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (/american_football/football_historical_roster_position@player@team@from@to@number@position_s:t /en/jim_thorpe:/american_football/football_player $0 $1 $2 $3 $4))))))
+
+who are the linebackers on the chicago bears
+(lambda $0 /people/person (exists $1 (/american_football/football_roster_position@team@player@position@number:t /en/chicago_bears:/american_football/football_team $0 /en/linebacker:/american_football/football_position $1)))
+
+who used to be quarterback for the green bay packers
+(lambda $0 /people/person (exists $1 (exists $2 (exists $3 (/american_football/football_historical_roster_position@player@team@from@to@number@position_s:t $0 /en/green_bay_packers:/american_football/football_team $1 $2 $3 /en/quarterback:/american_football/football_position)))))
+
+how many games did donovan mcnabb play in the 2008 season
+(lambda $0 /type/int (exists $1 (exists $2 (exists $3 (/american_football/player_game_statistics@player@season@team@games@starts@as_of_week:t /en/donovan_mcnabb:/american_football/football_player /en/2008_nfl_season:/sports/sports_league_season $1 $0 $2 $3)))))
+
+what positon does ray lewis currently play for the baltimore ravens
+(lambda $0 /common/topic (exists $1 (/american_football/football_roster_position@team@player@position@number:t /en/baltimore_ravens:/american_football/football_team /en/ray_lewis:/american_football/football_player $0 $1)))
+
+what number was david akers on the philadelphia eagles
+(lambda $0 /type/int (exists $1 (exists $2 (exists $3 (/american_football/football_historical_roster_position@player@team@from@to@number@position_s:t /en/david_akers:/american_football/football_player /en/philadelphia_eagles:/american_football/football_team $1 $2 $0 $3)))))
+
+who are the characters in peanuts
+(lambda $0 /common/topic (/comic_strips/comic_strip@characters:t /en/peanuts:/comic_strips/comic_strip $0))
+
+who created the far side
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/comic_strips/comic_strip_creator_duration@comic_strip@creator_of_strip@from@to@creator_role:t /en/the_far_side:/comic_strips/comic_strip $0 $1 $2 $3)))))
+
+what genre is doonesbury
+(lambda $0 /common/topic (/comic_strips/comic_strip@genre:t /en/doonesbury:/comic_strips/comic_strip $0))
+

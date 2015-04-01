@@ -1,0 +1,21 @@
+what characters sing soprano in tristan and isolde
+(lambda $0 /common/topic (/opera/opera_character_voice@character@opera@voice:t $0 /en/tristan_und_isolde:/opera/opera /en/soprano:/music/voice))
+
+who was the librettist for the magic flute
+(lambda $0 /common/topic (/opera/opera@librettist:t /en/the_magic_flute:/opera/opera $0))
+
+when was porgy and bess first performed
+(lambda $0 /type/datetime (/opera/opera@date_of_first_performance:t /en/porgy_and_bess:/opera/opera $0))
+
+what language is lohengrin in
+(lambda $0 /common/topic (/opera/opera@language:t /base/imslp/65847:/opera/opera $0))
+
+how many french operas are there
+(count $0 (/opera/opera@language:t $0 /en/french:/language/human_language))
+
+how many libretti did wagner write
+(count $0 (/opera/librettist@libretti:t /en/richard_wagner:/opera/librettist $0))
+
+what opera did jonathan miller direct
+(lambda $0 /common/topic (/opera/opera_director@operas_directed:t /en/jonathan_miller:/opera/opera_director $0))
+

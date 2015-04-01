@@ -1,0 +1,6 @@
+when did the renaissance begin
+(lambda $0 /type/datetime (/time/event@start_date:t /en/renaissance:/time/event $0))
+
+where did the rolling stones 2009 concert tour take place
+(lambda $0 /location/location (/time/event@locations:t /en/the_rolling_stones_2009_concert_tour:/time/event $0))
+

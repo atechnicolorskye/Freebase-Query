@@ -1,0 +1,36 @@
+what newspapers does carnegie mellon publish
+(lambda $0 /common/topic (/education/educational_institution@newspaper:t /en/carnegie_mellon_university:/education/educational_institution $0))
+
+what are columbia university's colors
+(lambda $0 /common/topic (/education/educational_institution@colors:t /en/columbia_university:/education/educational_institution $0))
+
+how many students are there at the university of iceland
+(lambda $0 /type/int (/education/educational_institution@total_enrollment:t /en/university_of_iceland:/education/educational_institution $0))
+
+is the university of lima public or private
+(lambda $0 /common/topic (/education/educational_institution@school_type:t /en/university_of_lima:/education/educational_institution $0))
+
+what are some psychology journals
+(lambda $0 /common/topic (/education/field_of_study@journals_in_this_discipline:t /en/psychology:/education/field_of_study $0))
+
+what are the subdisciplines of engineering
+(lambda $0 /common/topic (/education/field_of_study@subdisciplines:t /en/engineering:/education/field_of_study $0))
+
+at what institutions was marshall hall a professor
+(lambda $0 /common/topic (exists $1 (exists $2 (/education/academic_post@person@institution@position_or_title@from@to:t /en/marshall_hall:/education/academic $0 /en/professor:/education/academic_post_title $1 $2))))
+
+how many schools have a beaver as their mascot
+(count $0 (/education/school_mascot@school:t /en/beaver:/education/school_mascot $0))
+
+how many schools are in the school district of philadelphia
+(count $0 (/education/school_district@schools:t /en/school_district_of_philadelphia:/education/school_district $0))
+
+at what age to kids usually start second grade
+(lambda $0 /type/int (/education/grade_level@typical_age_minimum:t /en/second_grade:/education/grade_level $0))
+
+at what school was delta delta delta founded
+(lambda $0 /common/topic (/education/fraternity_sorority@founded_location:t /en/delta_delta_delta:/education/fraternity_sorority $0))
+
+how many schools have a chapter of sigma phi epsilon
+(count $0 (/education/fraternity_sorority@colleges_and_universities:t /en/sigma_phi_epsilon:/education/fraternity_sorority $0))
+

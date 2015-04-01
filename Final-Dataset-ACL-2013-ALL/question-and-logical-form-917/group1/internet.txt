@@ -1,0 +1,30 @@
+how many people blog on beyond robson
+(count $0 (/internet/blog@blogger:t /en/beyond_robson:/internet/blog $0))
+
+who writes the dabble blog
+(lambda $0 /people/person (/internet/blog@blogger:t /en/the_dabble_blog:/internet/blog $0))
+
+what's the focus of the last minute blog
+(lambda $0 /common/topic (/internet/blog@focus:t /en/the_last_minute_blog:/internet/blog $0))
+
+when was techvibes started
+(lambda $0 /type/datetime (/internet/blog@started:t /en/techvibes:/internet/blog $0))
+
+what blogs are in german
+(lambda $0 /common/topic (/internet/blog@language:t $0 /en/german_language:/language/human_language))
+
+what language is tagliablog in
+(lambda $0 /common/topic (/internet/blog@language:t /en/tagliablog:/internet/blog $0))
+
+what blog does robert scoble write
+(lambda $0 /common/topic (/internet/blogger@blog:t /en/robert_scoble:/internet/blogger $0))
+
+who owns flickr
+(lambda $0 /common/topic (/internet/website@owner:t /en/flickr:/internet/website $0))
+
+what kind of website is bing
+(lambda $0 /common/topic (/internet/website@category:t /en/windows_live_search:/internet/website $0))
+
+when was facebook launched
+(lambda $0 /type/datetime (/internet/website@launched:t /en/facebook:/internet/website $0))
+

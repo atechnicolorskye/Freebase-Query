@@ -1,0 +1,18 @@
+what city is the ben may main library in
+(lambda $0 /location/location (exists $1 (exists $2 (exists $3 (exists $4 (exists $5 (/library/public_library/address&/location/mailing_address@street_address@street_address_2@citytown@postal_code@state_province_region@country:t /m/02ncllz:/library/public_library $1 $2 $0 $3 $4 $5)))))))
+
+what is the address of the mitchell public library
+(lambda $0 /location/location (/library/public_library@address:t /en/mitchell_public_library:/library/public_library $0))
+
+what library system is the sunset branch library in
+(lambda $0 /common/topic (/library/public_library@library_system:t /en/sunset_branch_library:/library/public_library $0))
+
+how many books does the detroit public library have
+(count $0 (/library/public_library_system@collection_size:t /en/detroit_public_library:/library/public_library_system $0))
+
+how many branches does the vancouver public library have
+(count $0 (/library/public_library_system@branches:t /en/vancouver_public_library:/library/public_library_system $0))
+
+how many people visit the new york public library annually
+(count $0 (/library/public_library_system@annual_visits:t /en/new_york_public_library:/library/public_library_system $0))
+

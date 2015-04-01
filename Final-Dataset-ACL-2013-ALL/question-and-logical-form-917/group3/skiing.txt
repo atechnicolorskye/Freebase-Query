@@ -1,0 +1,15 @@
+how many runs does the thunder ridge ski area have
+(count $0 (/skiing/ski_area@number_of_runs:t /en/thunder_ridge_ski_area:/skiing/ski_area $0))
+
+what is the highest elevation at the elk mountain ski area
+(lambda $0 /common/topic (/skiing/ski_area@top_elevation:t /en/elk_mountain_ski_area:/skiing/ski_area $0))
+
+what lodges are in the alta ski area
+(lambda $0 /location/location (/skiing/ski_area@lodges:t /en/alta_ski_area:/skiing/ski_area $0))
+
+what is the closet city to snowshoe mountain
+(lambda $0 /location/location (/skiing/ski_area@closest_city:t /en/snowshoe_mountain:/skiing/ski_area $0))
+
+when did coronet peak open
+(lambda $0 /type/datetime (/skiing/ski_area@opening_date:t /en/coronet_peak:/skiing/ski_area $0))
+

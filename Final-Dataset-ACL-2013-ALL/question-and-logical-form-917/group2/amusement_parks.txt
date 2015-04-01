@@ -1,0 +1,48 @@
+what area of disneyland is space mountain in
+(lambda $0 /common/topic (/amusement_parks/ride@area:t /en/space_mountain:/amusement_parks/ride $0))
+
+what is the max speed of kingda ka
+(lambda $0 /common/topic (/amusement_parks/ride@max_speed:t /en/kingda_ka:/amusement_parks/ride $0))
+
+how many inversions does the mind eraser have
+(count $0 (/amusement_parks/ride@inversions:t /en/the_mind_eraser:/amusement_parks/ride $0))
+
+who designed the giant dipper
+(lambda $0 /common/topic (/amusement_parks/ride@designer:t /en/giant_dipper:/amusement_parks/ride $0))
+
+what is the highest drop on stealth
+(lambda $0 /common/topic (/amusement_parks/ride@drop:t /m/0b6_sx:/amusement_parks/ride $0))
+
+what was the cost of building the magnum xl-200
+(lambda $0 /common/topic (/amusement_parks/ride@cost:t /en/magnum_xl-200:/amusement_parks/ride $0))
+
+how long is the haunted mansion ride at disneyland
+(lambda $0 /common/topic (/amusement_parks/ride@duration:t /en/haunted_mansion:/amusement_parks/ride $0))
+
+when did invertigo open
+(lambda $0 /type/datetime (/amusement_parks/ride@opened:t /m/03mfjrv:/amusement_parks/ride $0))
+
+who manufactured millennium force
+(lambda $0 /common/topic (/amusement_parks/ride@manufacturer:t /en/millennium_force:/amusement_parks/ride $0))
+
+in what park is splash mountain
+(lambda $0 /location/location (/amusement_parks/park@rides:t $0 /en/splash_mountain:/amusement_parks/ride))
+
+what are the theme areas at disneyland
+(lambda $0 /common/topic (/amusement_parks/park@areas:t /en/disneyland:/amusement_parks/park $0))
+
+how many visits does the magic kingdom get per year
+(count $0 (/amusement_parks/park@annual_visits:t /en/magic_kingdom:/amusement_parks/park $0))
+
+what are the rides at six flags america
+(lambda $0 /common/topic (/amusement_parks/park@rides:t /en/six_flags_america:/amusement_parks/park $0))
+
+when was universal studios japan opened
+(lambda $0 /type/datetime (/amusement_parks/park@opened:t /en/universal_studios_japan:/amusement_parks/park $0))
+
+what is the height restriction on the roller soaker
+(lambda $0 /common/topic (/amusement_parks/ride@height_restriction:t /en/roller_soaker:/amusement_parks/ride $0))
+
+how tall do you have to be to ride the american eagle
+(lambda $0 /common/topic (/amusement_parks/ride@height_restriction:t /m/0cdlng:/amusement_parks/ride $0))
+

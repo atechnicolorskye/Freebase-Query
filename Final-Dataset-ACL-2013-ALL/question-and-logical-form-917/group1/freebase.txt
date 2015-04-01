@@ -1,0 +1,24 @@
+how many actors use their middle name or initial
+(count $0 (/freebase/list@entries:t /m/0599h7b:/freebase/list $0))
+
+how many film actors are there on freebase
+(lambda $0 /type/int (/freebase/type_profile@instance_count:t /film/film_actor:/freebase/type_profile $0))
+
+what topics are equivalent to us county
+(lambda $0 /common/topic (/freebase/type_profile@equivalent_topic:t /location/us_county:/freebase/type_profile $0))
+
+how many topics are equivalent to city/town/village
+(count $0 (/freebase/type_profile@equivalent_topic:t /location/citytown:/freebase/type_profile $0))
+
+how many locations are there on freebase
+(lambda $0 /type/int (/freebase/type_profile@instance_count:t /location/location:/freebase/type_profile $0))
+
+what category does the film domain belong to
+(lambda $0 /common/topic (/freebase/domain_profile@category:t /film:/freebase/domain_profile $0))
+
+how many domains are in the science & technology category
+(count $0 (/freebase/domain_category@domains:t /en/science_technology:/freebase/domain_category $0))
+
+how many beers are there on freebase
+(lambda $0 /type/int (/freebase/type_profile@instance_count:t /food/beer:/freebase/type_profile $0))
+

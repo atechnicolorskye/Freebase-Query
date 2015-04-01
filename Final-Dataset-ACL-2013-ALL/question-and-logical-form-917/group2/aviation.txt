@@ -1,0 +1,27 @@
+what military branches use the f-5 freedom fighter
+(lambda $0 /common/topic (exists $1 (/aviation/aircraft_ownership_count@aircraft_model@aircraft_owner@number_owned:t /en/f-5_freedom_fighter:/aviation/aircraft_model $0 $1)))
+
+who manufactures the t-38 talon
+(lambda $0 /common/topic (/aviation/aircraft_model@manufacturer:t /en/t-38_talon:/aviation/aircraft_model $0))
+
+what is the passenger capacity of a cessna citation x
+(lambda $0 /type/int (/aviation/aircraft_model@passengers:t /en/cessna_citation_x:/aviation/aircraft_model $0))
+
+what is the max speed of a gloster meteor
+(lambda $0 /common/topic (/aviation/aircraft_model@maximum_speed_km_h:t /en/gloster_meteor:/aviation/aircraft_model $0))
+
+what is the wingspan of an eclipse 500
+(lambda $0 /common/topic (/aviation/aircraft_model@wingspan:t /en/eclipse_500:/aviation/aircraft_model $0))
+
+who designed the hawker sea hawk
+(lambda $0 /common/topic (/aviation/aircraft_model@designed_by:t /en/hawker_sea_hawk:/aviation/aircraft_model $0))
+
+when was the airspeed oxford first flown
+(lambda $0 /type/datetime (/aviation/aircraft_model@maiden_flight:t /en/airspeed_oxford:/aviation/aircraft_model $0))
+
+how many runways does the san francisco international airport have
+(lambda $0 /type/int (/aviation/airport@number_of_runways:t /en/san_francisco_international_airport:/aviation/airport $0))
+
+what airlines is the london heathrow airport a hub for
+(lambda $0 /common/topic (/aviation/airport@hub_for:t /en/london_heathrow_airport:/aviation/airport $0))
+

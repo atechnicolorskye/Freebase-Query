@@ -1,0 +1,147 @@
+what was the budget for edward scissorhands
+(lambda $0 /common/topic (exists $1 (exists $2 (/film/film/estimated_budget&/measurement_unit/dated_money_value@valid_date@amount@currency:t /en/edward_scissorhands:/film/film $1 $0 $2))))
+
+how much did transformers cost to produce
+(lambda $0 /common/topic (exists $1 (exists $2 (/film/film/estimated_budget&/measurement_unit/dated_money_value@valid_date@amount@currency:t /en/transformers:/film/film $1 $0 $2))))
+
+how many films has tim burton produced
+(count $0 (/film/film@produced_by:t $0 /en/tim_burton:/film/producer))
+
+who has portrayed james bond in film
+(lambda $0 /people/person (exists $1 (exists $2 (exists $3 (/film/performance@actor@film@special_performance_type@character@character_note:t $0 $1 $2 /m/0clpml:/film/film_character $3)))))
+
+what are some films on the apollo 11 mission
+(lambda $0 /common/topic (/film/film@subjects:t $0 /en/apollo_11:/film/film_subject))
+
+how many films has julie andrews been in
+(count $0 (exists $1 (exists $2 (exists $3 (/film/performance@actor@film@special_performance_type@character@character_note:t /en/julie_andrews:/film/actor $0 $1 $2 $3)))))
+
+when was 300 released
+(lambda $0 /type/datetime (/film/film@initial_release_date:t /en/300_2007:/film/film $0))
+
+who designed the costumes for alice in wonderland
+(lambda $0 /people/person (/film/film@costume_design_by:t /source/allocine/fr/film/132663:/film/film $0))
+
+how many prosthetic makeup artists worked on 28 days later
+(count $0 (/film/film_crew_gig@film_crew_role@film@crewmember:t /en/prosthetic_makeup_artist:/film/film_job /en/28_weeks_later:/film/film $0))
+
+how many film performances does jerry seinfeld have
+(count $0 (exists $1 (exists $2 (exists $3 (/film/performance@actor@film@special_performance_type@character@character_note:t /en/jerry_seinfeld:/film/actor $0 $1 $2 $3)))))
+
+how many film performances did ron glass do
+(count $0 (exists $1 (exists $2 (exists $3 (/film/performance@actor@film@special_performance_type@character@character_note:t /en/ron_glass:/film/actor $0 $1 $2 $3)))))
+
+how many film performances did jack albertson do
+(count $0 (exists $1 (exists $2 (exists $3 (/film/performance@actor@film@special_performance_type@character@character_note:t /en/jack_albertson:/film/actor $0 $1 $2 $3)))))
+
+how many films are there on antarctica
+(count $0 (/film/film@subjects:t $0 /en/antarctica:/film/film_subject))
+
+who directed 2 fast 2 furious
+(lambda $0 /people/person (/film/film@directed_by:t /en/2_fast_2_furious:/film/film $0))
+
+what is the release date for 2 fast 2 furious
+(lambda $0 /type/datetime (/film/film@initial_release_date:t /en/2_fast_2_furious:/film/film $0))
+
+who was 8 mile directed by
+(lambda $0 /people/person (/film/film@directed_by:t /en/8_mile:/film/film $0))
+
+what genres did 8 mile consist of
+(lambda $0 /common/topic (/film/film@genre:t /en/8_mile:/film/film $0))
+
+how many main characters did charlie_s angels have
+(count $0 (exists $1 (exists $2 (exists $3 (/film/performance@actor@film@special_performance_type@character@character_note:t $1 /en/charlies_angels:/film/film $2 $0 $3)))))
+
+who was charlie_s angels produced by
+(lambda $0 /people/person (/film/film@produced_by:t /en/charlies_angels:/film/film $0))
+
+who directed charlie_s angels
+(lambda $0 /people/person (/film/film@directed_by:t /en/charlies_angels:/film/film $0))
+
+when was the release date for titanic
+(lambda $0 /type/datetime (/film/film@initial_release_date:t /en/titanic:/film/film $0))
+
+how long is titanic 's runtime
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/film/film_cut@film@runtime@note@type_of_film_cut@film_release_region:t /en/titanic:/film/film $0 $1 $2 $3)))))
+
+who was titanic produced by
+(lambda $0 /people/person (/film/film@produced_by:t /en/titanic:/film/film $0))
+
+when was 13 going on 30 released
+(lambda $0 /type/datetime (/film/film@initial_release_date:t /en/13_going_on_30:/film/film $0))
+
+who directed 13 going on 30
+(lambda $0 /people/person (/film/film@directed_by:t /en/13_going_on_30:/film/film $0))
+
+what is the subject of 13 going on 30
+(lambda $0 /common/topic (/film/film@subjects:t /en/13_going_on_30:/film/film $0))
+
+who is the music by in bruce almighty
+(lambda $0 /common/topic (/film/film@music:t /en/bruce_almighty:/film/film $0))
+
+who is the costume designer for bruce almighty
+(lambda $0 /people/person (/film/film@costume_design_by:t /en/bruce_almighty:/film/film $0))
+
+when was bruce almighty released
+(lambda $0 /type/datetime (/film/film@initial_release_date:t /en/bruce_almighty:/film/film $0))
+
+what is the runtime for meet the parents
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/film/film_cut@film@runtime@note@type_of_film_cut@film_release_region:t /en/meet_the_parents:/film/film $0 $1 $2 $3)))))
+
+who directed meet the parents
+(lambda $0 /people/person (/film/film@directed_by:t /en/meet_the_parents:/film/film $0))
+
+what genres does meet the parents consist of
+(lambda $0 /common/topic (/film/film@genre:t /en/meet_the_parents:/film/film $0))
+
+when was nutty professor released
+(lambda $0 /type/datetime (/film/film@initial_release_date:t /en/the_nutty_professor:/film/film $0))
+
+who was the director of the nutty professor
+(lambda $0 /people/person (/film/film@directed_by:t /en/the_nutty_professor:/film/film $0))
+
+what is the nutty professor rated
+(lambda $0 /common/topic (/film/film@rating:t /en/the_nutty_professor:/film/film $0))
+
+how many film performances did beyonce do
+(count $0 (exists $1 (exists $2 (exists $3 (/film/performance@actor@film@special_performance_type@character@character_note:t /en/beyonce:/film/actor $0 $1 $2 $3)))))
+
+how many film productions did hayden panettiere appear in
+(count $0 (exists $1 (exists $2 (exists $3 (/film/performance@actor@film@special_performance_type@character@character_note:t /en/hayden_panettiere:/film/actor $0 $1 $2 $3)))))
+
+when did charlie_s angels come out
+(lambda $0 /type/datetime (/film/film@initial_release_date:t /en/charlies_angels:/film/film $0))
+
+who was the story of charlie_s angels by
+(lambda $0 /people/person (/film/film@written_by:t /en/charlies_angels:/film/film $0))
+
+who was titanic directed by
+(lambda $0 /people/person (/film/film@directed_by:t /en/titanic:/film/film $0))
+
+who was the music by in titanic
+(lambda $0 /common/topic (/film/film@music:t /en/titanic:/film/film $0))
+
+who is the producer for 13 going on 30
+(lambda $0 /people/person (/film/film@produced_by:t /en/13_going_on_30:/film/film $0))
+
+who are the distributors for bruce almighty
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (exists $4 (/film/film_film_distributor_relationship@film_cut@film_distribution_medium@region@year@distributor@film:t $1 $2 $3 $4 $0 /en/bruce_almighty:/film/film))))))
+
+what is bruce almighty rated
+(lambda $0 /common/topic (/film/film@rating:t /en/bruce_almighty:/film/film $0))
+
+who was the casting director for meet the parents
+(lambda $0 /people/person (/film/film@film_casting_director:t /en/meet_the_parents:/film/film $0))
+
+when was the movie big daddy released
+(lambda $0 /type/datetime (/film/film@initial_release_date:t /en/big_daddy:/film/film $0))
+
+what is big daddy rated
+(lambda $0 /common/topic (/film/film@rating:t /en/big_daddy:/film/film $0))
+
+who was the nutty professor produced by
+(lambda $0 /people/person (/film/film@produced_by:t /en/the_nutty_professor:/film/film $0))
+
+who is the screenplay for the nutty professor by
+(lambda $0 /people/person (/film/film@written_by:t /en/the_nutty_professor:/film/film $0))
+

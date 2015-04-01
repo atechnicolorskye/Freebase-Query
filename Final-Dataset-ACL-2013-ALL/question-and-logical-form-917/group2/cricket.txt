@@ -1,0 +1,24 @@
+what bowling technique does matthew hayden use
+(lambda $0 /common/topic (/cricket/cricket_bowler@technique:t /en/matthew_hayden:/cricket/cricket_bowler $0))
+
+how many test conferences has rudi koertzen refereed
+(lambda $0 /type/int (/cricket/cricket_umpire@test_matches_refereed:t /en/rudi_koertzen:/cricket/cricket_umpire $0))
+
+who hosted the 2003 cricket world cup
+(lambda $0 /location/location (/cricket/cricket_tournament_event@host:t /en/2003_cricket_world_cup:/cricket/cricket_tournament_event $0))
+
+how many teams participated in the 1979 cricket world cup
+(count $0 (/cricket/cricket_tournament_event@teams:t /en/1979_cricket_world_cup:/cricket/cricket_tournament_event $0))
+
+who coaches the australian cricket team
+(lambda $0 /people/person (/cricket/cricket_team@coach:t /en/australian_cricket_team:/cricket/cricket_team $0))
+
+what team does alan butcher coach
+(lambda $0 /common/topic (/cricket/cricket_coach@current_team:t /en/alan_butcher:/cricket/cricket_coach $0))
+
+what is ashok malhotra's bowling pace
+(lambda $0 /common/topic (/cricket/cricket_bowler@pace:t /en/ashok_malhotra:/cricket/cricket_bowler $0))
+
+how many cricket bowlers use fast bowling
+(count $0 (/cricket/cricket_bowler@technique:t $0 /en/fast_bowling:/cricket/cricket_bowling_technique))
+

@@ -1,0 +1,72 @@
+when was the united nations founded
+(lambda $0 /type/datetime (/organization/organization@date_founded:t /en/united_nations:/organization/organization $0))
+
+who founded the red cross
+(lambda $0 /common/topic (/organization/organization@founders:t /en/american_red_cross:/organization/organization $0))
+
+what is the address of the apple, inc. headquarters
+(lambda $0 /location/location (/organization/organization@headquarters:t /en/apple_inc:/organization/organization $0))
+
+how many countries are in the european union
+(count $0 (exists $1 (exists $2 (/organization/organization_membership@from@member@organization@to:t $1 $0 /en/european_union:/organization/membership_organization $2))))
+
+when was the green party founded
+(lambda $0 /type/datetime (/organization/organization@date_founded:t /en/green_party:/organization/organization $0))
+
+what is yahoo!'s slogan
+(lambda $0 /common/topic (/organization/organization@slogan:t /business/cik/0001011006:/organization/organization $0))
+
+what is the slogan of bmw
+(lambda $0 /common/topic (/organization/organization@slogan:t /en/bmw:/organization/organization $0))
+
+who started starbucks
+(lambda $0 /common/topic (/organization/organization@founders:t /en/starbucks:/organization/organization $0))
+
+in what city is h&r block headquartered
+(lambda $0 /location/location (/organization/organization@headquarters:t /en/h_r_block:/organization/organization $0))
+
+who founded nivea
+(lambda $0 /common/topic (/organization/organization@founders:t /en/nivea:/organization/organization $0))
+
+when was savealot founded
+(lambda $0 /type/datetime (/organization/organization@date_founded:t /en/save-a-lot:/organization/organization $0))
+
+who is the ceo of savealot
+(lambda $0 /people/person (exists $1 (exists $2 (exists $3 (exists $4 (/organization/leadership@person@title@as_of_date@organization@role@from@to:t $0 /en/chief_executive_officer:/type/text $1 /en/save-a-lot:/organization/organization $2 $3 $4))))))
+
+when was walmart founded
+(lambda $0 /type/datetime (/organization/organization@date_founded:t /en/wal-mart:/organization/organization $0))
+
+when was starbucks founded
+(lambda $0 /type/datetime (/organization/organization@date_founded:t /en/starbucks:/organization/organization $0))
+
+when was panasonic corporation founded
+(lambda $0 /type/datetime (/organization/organization@date_founded:t /en/matsushita_electric_industrial_co:/organization/organization $0))
+
+when was home depot founded
+(lambda $0 /type/datetime (/organization/organization@date_founded:t /en/home_depot:/organization/organization $0))
+
+who are the founders of home depot
+(lambda $0 /common/topic (/organization/organization@founders:t /en/home_depot:/organization/organization $0))
+
+when was borders founded
+(lambda $0 /type/datetime (/organization/organization@date_founded:t /en/borders_group:/organization/organization $0))
+
+when was sigmod founded
+(lambda $0 /type/datetime (/organization/organization@date_founded:t /en/sigmod:/organization/organization $0))
+
+who is the ceo of apple
+(lambda $0 /people/person (exists $1 (exists $2 (exists $3 (exists $4 (/organization/leadership@person@title@as_of_date@organization@role@from@to:t $0 /en/chief_executive_officer:/type/text $1 /en/apple_inc:/organization/organization $2 $3 $4))))))
+
+who is the founder of savealot
+(lambda $0 /common/topic (/organization/organization@founders:t /en/save-a-lot:/organization/organization $0))
+
+when was jcpenney founded
+(lambda $0 /type/datetime (/organization/organization@date_founded:t /en/j_c_penney:/organization/organization $0))
+
+when was wells fargo founded
+(lambda $0 /type/datetime (/organization/organization@date_founded:t /en/wells_fargo:/organization/organization $0))
+
+when was target founded
+(lambda $0 /type/datetime (/organization/organization@date_founded:t /en/target_corporation:/organization/organization $0))
+

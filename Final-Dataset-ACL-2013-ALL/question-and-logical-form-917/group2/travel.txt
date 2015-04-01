@@ -1,0 +1,18 @@
+what guidebooks are there for san francisco
+(lambda $0 /common/topic (/travel/travel_destination@guidebooks:t /en/san_francisco:/travel/travel_destination $0))
+
+what public transportation is there in tokyo
+(lambda $0 /common/topic (/travel/travel_destination@local_transportation:t /en/tokyo:/travel/travel_destination $0))
+
+what is the average temperature in sydney in august
+(lambda $0 /common/topic (exists $1 (exists $2 (/travel/travel_destination_monthly_climate@month@average_max_temp_c@average_min_temp_c@average_rainfall_mm@travel_destination:t /en/august:/time/month $0 $1 $2 /en/sydney:/travel/travel_destination))))
+
+what bus operators run buses to paris
+(lambda $0 /common/topic (exists $1 (exists $2 (/travel/transportation@travel_destination@mode_of_transportation@transport_operator@transport_terminus:t /en/paris:/travel/travel_destination $1 $0 $2))))
+
+what are some hotels in vancouver
+(lambda $0 /location/location (/travel/travel_destination@accommodation:t /en/vancouver_british_columbia:/travel/travel_destination $0))
+
+what tourist attractions are in rome
+(lambda $0 /location/location (/travel/travel_destination@tourist_attractions:t /en/rome:/travel/travel_destination $0))
+

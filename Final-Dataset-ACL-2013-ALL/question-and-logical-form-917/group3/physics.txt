@@ -1,0 +1,18 @@
+what is the electric charge of a proton
+(lambda $0 /common/topic (/physics/particle@electric_charge:t /en/proton:/physics/particle $0))
+
+what generation of matter is a down quark
+(lambda $0 /common/topic (/physics/particle@generation:t /en/down_quark:/physics/particle $0))
+
+what is the spin of a positron
+(lambda $0 /common/topic (/physics/particle@spin:t /en/positron:/physics/particle $0))
+
+what particles are in the lepton family
+(lambda $0 /common/topic (/physics/particle_family@particles:t /en/lepton:/physics/particle_family $0))
+
+what are the subclasses of the boson class
+(lambda $0 /common/topic (/physics/particle_family@subclasses:t /en/boson:/physics/particle_family $0))
+
+how many first generation particles are there
+(count $0 (/physics/subatomic_particle_generation@particles:t /m/0b66f5g:/physics/subatomic_particle_generation $0))
+

@@ -1,0 +1,3 @@
+who is the lyricist for spamalot
+(lambda $0 /people/person (/theater/play@lyricist:t /en/spamalot:/theater/play $0))
+

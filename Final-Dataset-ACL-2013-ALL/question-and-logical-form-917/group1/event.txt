@@ -1,0 +1,27 @@
+how many people died in the boston molasses disaster
+(lambda $0 /type/int (/event/disaster@fatalities:t /en/boston_molasses_disaster:/event/disaster $0))
+
+how much money in damages did the 1904 toronto fire cost
+(lambda $0 /common/topic (/event/disaster@damage:t /en/1904_toronto_fire:/event/disaster $0))
+
+what buildings were destroyed in september 11th
+(lambda $0 /common/topic (/event/disaster@structures_destroyed:t /en/september_11_2001_attacks:/event/disaster $0))
+
+how many people survived the sinking of the titanic
+(count $0 (/event/disaster@survivors:t /en/sinking_of_the_titanic:/event/disaster $0))
+
+in what disaster was old st paul_s cathedral destroyed
+(lambda $0 /common/topic (/event/disaster_affected_structure@destroyed_by_disaster:t /en/old_st_pauls_cathedral:/event/disaster_affected_structure $0))
+
+who presented the gettysburg address
+(lambda $0 /people/person (exists $1 (exists $2 (exists $3 (exists $4 (/event/speech_or_presentation@event@speech_topic@speaker_s@type_or_format_of_presentation@presented_work@date:t $1 $2 $0 $3 /en/gettysburg_address:/event/presented_work $4))))))
+
+where was the cross of gold speech presented
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (exists $4 (/event/speech_or_presentation@event@speech_topic@speaker_s@type_or_format_of_presentation@presented_work@date:t $0 $1 $2 $3 /en/cross_of_gold_speech:/event/presented_work $4))))))
+
+how many speeches did winston churchill give
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (/event/speech_or_presentation@event@speech_topic@speaker_s@type_or_format_of_presentation@presented_work@date:t $1 $2 /en/winston_churchill:/event/public_speaker $3 $0 $4))))))
+
+how many speeches have been given about world war ii
+(count $0 (exists $1 (exists $2 (exists $3 (exists $4 (/event/speech_or_presentation@event@speech_topic@speaker_s@type_or_format_of_presentation@presented_work@date:t $1 /en/world_war_ii:/event/speech_topic $2 $3 $0 $4))))))
+

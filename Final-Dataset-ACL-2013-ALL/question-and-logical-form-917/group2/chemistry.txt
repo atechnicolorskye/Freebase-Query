@@ -1,0 +1,30 @@
+what is the boiling point of water
+(lambda $0 /common/topic (/chemistry/chemical_compound@boiling_point:t /en/water:/chemistry/chemical_compound $0))
+
+what is the chemical formula for butane
+(lambda $0 /common/topic (/chemistry/chemical_compound@formula:t /en/butane:/chemistry/chemical_compound $0))
+
+what is the atomic number of silicon
+(lambda $0 /type/int (/chemistry/chemical_element@atomic_number:t /en/silicon:/chemistry/chemical_element $0))
+
+who discovered neon
+(lambda $0 /common/topic (/chemistry/chemical_element@discoverer:t /en/neon:/chemistry/chemical_element $0))
+
+what's the symbol for mercury
+(lambda $0 /common/topic (/chemistry/chemical_element@symbol:t /authority/us/gov/hhs/fda/srs-unii/fxs1by2pgl:/chemistry/chemical_element $0))
+
+what is the melting point of gold
+(lambda $0 /common/topic (/chemistry/chemical_element@melting_point:t /quotationsbook/subject/gold:/chemistry/chemical_element $0))
+
+what chemical series is tungsten in
+(lambda $0 /common/topic (/chemistry/chemical_element@chemical_series:t /en/tungsten:/chemistry/chemical_element $0))
+
+what are the isotopes of zinc
+(lambda $0 /common/topic (/chemistry/chemical_element@isotopes:t /en/zinc:/chemistry/chemical_element $0))
+
+when was oxygen discovered
+(lambda $0 /type/datetime (/chemistry/chemical_element@discovery_date:t /en/oxygen:/chemistry/chemical_element $0))
+
+where was polonium discovered
+(lambda $0 /location/location (/chemistry/chemical_element@discovering_country:t /en/polonium:/chemistry/chemical_element $0))
+

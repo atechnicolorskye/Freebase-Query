@@ -1,0 +1,33 @@
+who instructed steven seagal
+(lambda $0 /people/person (/martial_arts/martial_artist@instructor:t /en/steven_seagal:/martial_arts/martial_artist $0))
+
+what martial arts does chris maden practice
+(lambda $0 /common/topic (/martial_arts/martial_artist@martial_art:t /en/chris_maden:/martial_arts/martial_artist $0))
+
+who are the students of bruce lee
+(lambda $0 /people/person (/martial_arts/martial_artist@martial_arts_students:t /en/bruce_lee:/martial_arts/martial_artist $0))
+
+who studied martial arts under yip man
+(lambda $0 /people/person (/martial_arts/martial_artist@martial_arts_students:t /en/yip_man:/martial_arts/martial_artist $0))
+
+in what martial art does christopher adams have a black belt
+(lambda $0 /common/topic (exists $1 (exists $2 (/martial_arts/martial_arts_certification@person@qualification@certifying_body@date@art:t /en/christopher_adams:/martial_arts/martial_artist /en/black_belt:/martial_arts/martial_arts_qualification $1 $2 $0))))
+
+what qualification does woody strode have in seishindo kenpo
+(lambda $0 /common/topic (exists $1 (exists $2 (/martial_arts/martial_arts_certification@person@qualification@certifying_body@date@art:t /en/woody_strode:/martial_arts/martial_artist $0 $1 $2 /en/seishindo_kenpo:/martial_arts/martial_art))))
+
+when was cathy landers certified as a fifth degree black belt in seishindo kenpo
+(lambda $0 /type/datetime (exists $1 (/martial_arts/martial_arts_certification@person@qualification@certifying_body@date@art:t /en/cathy_landers:/martial_arts/martial_artist /en/fifth_degree:/martial_arts/martial_arts_qualification $1 $0 /en/seishindo_kenpo:/martial_arts/martial_art)))
+
+where did taekwondo originate
+(lambda $0 /location/location (/martial_arts/martial_art@origin:t /en/taekwondo:/martial_arts/martial_art $0))
+
+what category of martial arts is tai chi chuan
+(lambda $0 /common/topic (/martial_arts/martial_art@category:t /en/tai_chi_chuan:/martial_arts/martial_art $0))
+
+who are some practitioners of judo
+(lambda $0 /people/person (/martial_arts/martial_art@well_known_practitioner:t /en/judo:/martial_arts/martial_art $0))
+
+how many people practice karate
+(count $0 (/martial_arts/martial_art@well_known_practitioner:t /en/karate:/martial_arts/martial_art $0))
+

@@ -1,0 +1,33 @@
+who manages fulham f. c.
+(lambda $0 /people/person (exists $1 (exists $2 (/soccer/football_team_management_tenure@manager@team@from@to:t $0 /en/fulham_fc:/soccer/football_team $1 $2))))
+
+who managed liverpool f.c. from 2004 to june 2010
+(lambda $0 /people/person (/soccer/football_team_management_tenure@manager@team@from@to:t $0 /en/liverpool_fc:/soccer/football_team /type/datetime/2004:/type/datetime /type/datetime/2004:/type/datetime))
+
+how many soccer players are goalkeepers
+(count $0 (/soccer/football_position@players:t /m/0dgrmp:/soccer/football_position $0))
+
+who played in the 1973 fa cup final
+(lambda $0 /common/topic (/soccer/football_match@teams:t /en/fa_cup_final_1973:/soccer/football_match $0))
+
+how many teams participate in the uefa
+(count $0 (exists $1 (exists $2 (/soccer/football_league_participation@team@league@from@to:t $0 /en/uefa:/soccer/football_league $1 $2))))
+
+how many people were at the 2006 fifa world cup final
+(count $0 (/soccer/football_match@attendance:t /en/2006_fifa_world_cup_final:/soccer/football_match $0))
+
+what players scored in the 2006 fifa world cup final
+(lambda $0 /people/person (exists $1 (exists $2 (/soccer/football_goal@match@scorer@point_awarded_to@minute:t /en/2006_fifa_world_cup_final:/soccer/football_match $0 $1 $2))))
+
+how many people played in the 2010 fifa world cup final
+(count $0 (exists $1 (exists $2 (exists $3 (/soccer/football_player_match_participation@match@player@team@part_of_starting_lineup@shirt_number:t /en/2010_fifa_world_cup_final:/soccer/football_match $0 $1 $2 $3)))))
+
+what team does dennis bergkamp play for
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (exists $4 (exists $5 (exists $6 (/soccer/football_roster_position@position@team@player@number@from@to@appearances@total_goals:t $1 $0 /en/dennis_bergkamp:/soccer/football_player $2 $3 $4 $5 $6))))))))
+
+what position does cristiano ronaldo play
+(lambda $0 /common/topic (/soccer/football_player@position_s:t /en/cristiano_ronaldo:/soccer/football_player $0))
+
+what league is real madrid a member of
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/soccer/football_league_participation@team@league@from@to:t $1 $0 $2 $3)))))
+

@@ -1,0 +1,42 @@
+how many people practice buddhism
+(lambda $0 /type/int (/religion/religion@number_of_adherents:t /en/buddhism:/religion/religion $0))
+
+what are the christian holidays
+(lambda $0 /common/topic (/religion/religion@holidays:t /en/christianity:/religion/religion $0))
+
+what are the texts of taoism
+(lambda $0 /common/topic (/religion/religion@texts:t /en/taoism:/religion/religion $0))
+
+who are some notable agnostic figures
+(lambda $0 /people/person (/religion/religion@notable_figures:t /en/agnosticism:/religion/religion $0))
+
+what types of judaism are there
+(lambda $0 /common/topic (/religion/religion@includes:t /en/judaism:/religion/religion $0))
+
+what are the deities of hinduism
+(lambda $0 /common/topic (/religion/religion@deities:t /en/hinduism:/religion/religion $0))
+
+what are the practices of sikhism
+(lambda $0 /common/topic (/religion/religion@practices:t /en/sikhism:/religion/religion $0))
+
+what religions branched from roman catholicism
+(lambda $0 /common/topic (/religion/religion@branched_into:t /en/catholicism:/religion/religion $0))
+
+what are sacred sites in sunni islam
+(lambda $0 /location/location (/religion/religion@sacred_sites:t /en/sunni_islam:/religion/religion $0))
+
+how many religions believe in reincarnation
+(count $0 (/religion/belief@belief_of:t /en/reincarnation:/religion/belief $0))
+
+how many religions worship god
+(count $0 (/religion/deity@deity_of:t /en/god:/religion/deity $0))
+
+what religion did martin luther found
+(lambda $0 /common/topic (/religion/founding_figure@religion_founded:t /en/martin_luther:/religion/founding_figure $0))
+
+what religious order belongs to kirkstall abbey
+(lambda $0 /common/topic (/religion/monastery@religious_order:t /en/kirkstall_abbey:/religion/monastery $0))
+
+how many religions use the bible
+(count $0 (/religion/religious_text@religious_text_of:t /en/bible:/religion/religious_text $0))
+

@@ -1,0 +1,39 @@
+what architectural style is the brooklyn bridge
+(lambda $0 /common/topic (/architecture/structure@architectural_style:t /en/brooklyn_bridge:/architecture/structure $0))
+
+who are some bauhaus architects
+(lambda $0 /people/person (/architecture/architectural_style@architects:t /en/bauhaus:/architecture/architectural_style $0))
+
+how many floors does the white house have
+(lambda $0 /type/int (/architecture/building@floors:t /en/white_house:/architecture/building $0))
+
+when was the ss great britain established as a museum
+(lambda $0 /type/datetime (/architecture/museum@established:t /en/ss_great_britain:/architecture/museum $0))
+
+what structures did frank lloyd wright design
+(count $0 (/architecture/architect@structures_designed:t /en/frank_lloyd_wright:/architecture/architect $0))
+
+what was walter gropius' architectural style
+(lambda $0 /common/topic (/architecture/architect@architectural_style:t /en/walter_gropius:/architecture/architect $0))
+
+what is the building function of the eiffel tower
+(lambda $0 /common/topic (/architecture/building@building_function:t /en/eiffel_tower:/architecture/building $0))
+
+who lived in fallingwater
+(lambda $0 /common/topic (exists $1 (exists $2 (/architecture/occupancy@occupant@from@to@building:t $0 $1 $2 /en/fallingwater:/architecture/building))))
+
+when was the pencarrow head lighthouse first lit
+(lambda $0 /type/datetime (/architecture/lighthouse@year_first_lit:t /en/pencarrow_head_lighthouse:/architecture/lighthouse $0))
+
+what is the cape may lighthouse made of
+(lambda $0 /common/topic (/architecture/lighthouse@construction:t /en/cape_may_lighthouse:/architecture/lighthouse $0))
+
+when did john j. raskob own the empire state building
+(lambda $0 /type/datetime (exists $1 (/architecture/ownership@end_date@start_date@owner@structure:t $0 $1 /en/john_j_raskob:/architecture/architectural_structure_owner /en/empire_state_building:/architecture/structure)))
+
+how tall is westminster abbey
+(lambda $0 /common/topic (/architecture/structure@height_meters:t /en/westminster_abbey:/architecture/structure $0))
+
+who designed the parthenon
+(lambda $0 /people/person (/architecture/structure@architect:t /en/parthenon:/architecture/structure $0))
+

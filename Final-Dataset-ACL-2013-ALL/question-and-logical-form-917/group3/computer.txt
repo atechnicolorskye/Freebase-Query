@@ -1,0 +1,48 @@
+what languages has microsoft designed
+(lambda $0 /common/topic (/computer/programming_language_designer@languages_designed:t /en/microsoft:/computer/programming_language_designer $0))
+
+what software has oracle designed
+(lambda $0 /common/topic (/computer/software_developer@software:t /en/oracle_corporation:/computer/software_developer $0))
+
+what are some object-oriented programming languages
+(lambda $0 /common/topic (/computer/programming_language_paradigm@languages:t /en/object-oriented_programming:/computer/programming_language_paradigm $0))
+
+who is the developer of java language
+(lambda $0 /common/topic (/computer/programming_language@developers:t /m/07sbkfb:/computer/programming_language $0))
+
+what software has claris developed
+(lambda $0 /common/topic (/computer/software_developer@software:t /en/claris:/computer/software_developer $0))
+
+when was the latest release of microsoft word
+(lambda $0 /type/datetime (/computer/software@latest_release_date:t /en/microsoft_word:/computer/software $0))
+
+how many operating systems is adobe flash compatible with
+(count $0 (exists $1 (exists $2 (/computer/software_compatibility@software@operating_system@os_version_start@os_version_end:t /en/adobe_flash:/computer/software $0 $1 $2))))
+
+what programming languages were used for aol instant messenger
+(lambda $0 /common/topic (/computer/software@languages_used:t /en/aol_instant_messenger:/computer/software $0))
+
+what versions of mac os x is mozilla firefox compatible with
+(lambda $0 /common/topic (/computer/software@compatible_oses:t /en/mozilla_firefox:/computer/software $0))
+
+what processor did the apple ii use
+(lambda $0 /common/topic (/computer/computer@processor:t /en/apple_ii:/computer/computer $0))
+
+when did the apple i stop being sold
+(lambda $0 /type/datetime (/computer/computer@discontinued:t /en/apple_i:/computer/computer $0))
+
+when was the iphone introduced
+(lambda $0 /type/datetime (/computer/computer@introduced:t /en/iphone:/computer/computer $0))
+
+who designed the iphone
+(lambda $0 /common/topic (/computer/computer@key_designers:t /en/iphone:/computer/computer $0))
+
+when was macintosh introduced
+(lambda $0 /type/datetime (/computer/computer@introduced:t /en/macintosh:/computer/computer $0))
+
+what are the file formats supported by the iphone
+(lambda $0 /common/topic (/computer/computing_platform@file_formats_supported:t /en/iphone:/computer/computing_platform $0))
+
+who were the key designers of the macintosh
+(lambda $0 /common/topic (/computer/computer@key_designers:t /en/macintosh:/computer/computer $0))
+

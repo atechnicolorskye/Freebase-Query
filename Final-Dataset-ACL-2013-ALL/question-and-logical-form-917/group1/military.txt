@@ -1,0 +1,21 @@
+how many politicians have served in the us navy
+(count $0 (/military/armed_force@personnel:t /en/united_states_navy:/military/armed_force $0))
+
+how many units does the us army have
+(count $0 (/military/armed_force@units:t /en/united_states_army:/military/armed_force $0))
+
+what country does the royal navy belong to
+(lambda $0 /common/topic (/military/armed_force@military_combatant:t /en/royal_navy:/military/armed_force $0))
+
+what armed forces does thailand have
+(lambda $0 /common/topic (/military/military_combatant@armed_forces:t /en/thailand:/military/military_combatant $0))
+
+in how many military conflicts did mussolini command
+(count $0 (exists $1 (/military/military_command@military_conflict@military_commander@military_combatant:t $0 /en/benito_mussolini:/military/military_commander $1)))
+
+how many commanders were there in the civil war
+(count $0 (exists $1 (/military/military_command@military_conflict@military_commander@military_combatant:t /en/american_civil_war:/military/military_conflict $0 $1)))
+
+how many military units originated in delaware
+(count $0 (/military/military_unit_place_of_origin@military_units:t /en/delaware:/military/military_unit_place_of_origin $0))
+

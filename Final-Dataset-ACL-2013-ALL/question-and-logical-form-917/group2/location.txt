@@ -1,0 +1,93 @@
+what are the major exports of madagascar
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/location/statistical_region/major_exports&/location/imports_exports_by_industry@amount@currency@date@industry:t /en/madagascar:/location/statistical_region $1 $2 $3 $0)))))
+
+what is the state flower of alaska
+(lambda $0 /common/topic (exists $1 (exists $2 (/location/location_symbol_relationship@date_adopted@date_revoked@administrative_division@symbol@Kind_of_symbol:t $1 $2 /en/alaska:/government/governmental_jurisdiction $0 /en/state_flower:/location/offical_symbol_variety))))
+
+since when has the california gull been the state bird of utah
+(lambda $0 /type/datetime (exists $1 (/location/location_symbol_relationship@date_adopted@date_revoked@administrative_division@symbol@Kind_of_symbol:t $0 $1 /en/utah:/government/governmental_jurisdiction /en/california_gull:/location/symbol_of_administrative_division /en/state_bird:/location/offical_symbol_variety)))
+
+what is the capital of iceland
+(lambda $0 /location/location (/location/country@capital:t /en/iceland:/location/country $0))
+
+what is the official language of mauritania
+(lambda $0 /common/topic (/location/country@official_language:t /en/mauritania:/location/country $0))
+
+what are the latitude and longitude of the eiffel tower
+(lambda $0 /common/topic (/location/location@geolocation:t /en/eiffel_tower:/location/location $0))
+
+where is walden pond located
+(lambda $0 /location/location (/location/location@containedby:t /en/walden_pond:/location/location $0))
+
+where is the uss alabama currently moored
+(lambda $0 /location/location (/location/location@containedby:t /base/usnris/item/86000083:/location/location $0))
+
+where is independence hall located
+(lambda $0 /location/location (/location/location@containedby:t /en/independence_hall:/location/location $0))
+
+where is the tempelhof international airport located
+(lambda $0 /location/location (/location/location@containedby:t /en/tempelhof_international_airport:/location/location $0))
+
+in what time zone is illinois
+(lambda $0 /common/topic (/location/location@time_zones:t /en/illinois:/location/location $0))
+
+what are the neighborhoods in new york city
+(lambda $0 /location/location (/location/place_with_neighborhoods@neighborhoods:t /en/new_york:/location/place_with_neighborhoods $0))
+
+what is africa 's area
+(lambda $0 /common/topic (/location/location@area:t /en/africa:/location/location $0))
+
+what is the area of antarctica
+(lambda $0 /common/topic (/location/location@area:t /en/antarctica:/location/location $0))
+
+how many major events happened in australia
+(count $0 (/location/location@events:t /en/australia:/location/location $0))
+
+what is europe 's area
+(lambda $0 /common/topic (/location/location@area:t /en/europe:/location/location $0))
+
+what is the area of north america
+(lambda $0 /common/topic (/location/location@area:t /en/north_america:/location/location $0))
+
+how many countries are within north america
+(count $0 (/location/location@containedby:t $0 /en/north_america:/location/location))
+
+what is the area of south america
+(lambda $0 /common/topic (/location/location@area:t /en/south_america:/location/location $0))
+
+how many countries are in south america
+(count $0 (/location/location@containedby:t $0 /en/south_america:/location/location))
+
+how many historical events happened in south america
+(count $0 (/location/location@events:t /en/south_america:/location/location $0))
+
+what is the earth 's area
+(lambda $0 /common/topic (/location/location@area:t /en/earth:/location/location $0))
+
+what major events in history happened in africa
+(lambda $0 /common/topic (/location/location@events:t /en/africa:/location/location $0))
+
+what is the area of australia
+(lambda $0 /common/topic (/location/location@area:t /en/australia:/location/location $0))
+
+what is the population of belgium
+(lambda $0 /type/int (exists $1 (exists $2 (/location/statistical_region/population&/measurement_unit/dated_integer@number@year@source:t /en/belgium:/location/statistical_region $0 $1 $2))))
+
+what is the population in iowa
+(lambda $0 /type/int (exists $1 (exists $2 (/location/statistical_region/population&/measurement_unit/dated_integer@number@year@source:t /en/iowa:/location/statistical_region $0 $1 $2))))
+
+what is africa 's population
+(lambda $0 /type/int (exists $1 (exists $2 (/location/statistical_region/population&/measurement_unit/dated_integer@number@year@source:t /en/africa:/location/statistical_region $0 $1 $2))))
+
+what is the population of asia
+(lambda $0 /type/int (exists $1 (exists $2 (/location/statistical_region/population&/measurement_unit/dated_integer@number@year@source:t /en/asia:/location/statistical_region $0 $1 $2))))
+
+what is the population estimated in the world
+(lambda $0 /type/int (exists $1 (exists $2 (/location/statistical_region/population&/measurement_unit/dated_integer@number@year@source:t /en/earth:/location/statistical_region $0 $1 $2))))
+
+what is the population of europe
+(lambda $0 /type/int (exists $1 (exists $2 (/location/statistical_region/population&/measurement_unit/dated_integer@number@year@source:t /en/europe:/location/statistical_region $0 $1 $2))))
+
+what is the population of the people on the earth
+(lambda $0 /type/int (exists $1 (exists $2 (/location/statistical_region/population&/measurement_unit/dated_integer@number@year@source:t /en/earth:/location/statistical_region $0 $1 $2))))
+

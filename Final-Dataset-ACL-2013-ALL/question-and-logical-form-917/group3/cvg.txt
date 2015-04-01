@@ -1,0 +1,36 @@
+what games has macsoft games developed
+(lambda $0 /common/topic (/cvg/cvg_developer@games_developed:t /en/macsoft_games:/cvg/cvg_developer $0))
+
+what games has electronic arts developed
+(lambda $0 /common/topic (/cvg/cvg_developer@games_developed:t /en/electronic_arts:/cvg/cvg_developer $0))
+
+who did nathan fillion voice in halo: reach
+(lambda $0 /common/topic (exists $1 (/cvg/game_performance@character@game@voice_actor@performance_type@playable:t $0 /en/halo_reach:/cvg/computer_videogame /en/nathan_fillion:/cvg/game_voice_actor /m/02nsjvf:/cvg/computer_game_performance_type $1)))
+
+how many games are there for nintendo ds
+(count $0 (/cvg/cvg_platform@games_on_this_platform:t /en/nintendo_ds:/cvg/cvg_platform $0))
+
+how many songs are there for guitar hero: aerosmith
+(count $0 (exists $1 (exists $2 (exists $3 (/cvg/musical_game_song_relationship@download@game@platforms@song@release_date:t $1 /en/guitar_hero_aerosmith:/cvg/musical_game $2 $0 $3)))))
+
+when was civilization first released
+(lambda $0 /type/datetime (/cvg/computer_videogame@release_date:t /m/01vvf:/cvg/computer_videogame $0))
+
+how many expansion packs does the sims have
+(count $0 (/cvg/computer_videogame@expansions:t /en/the_sims:/cvg/computer_videogame $0))
+
+what characters are in super mario bros
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/cvg/game_performance@character@game@voice_actor@performance_type@playable:t $0 /en/super_mario_bros:/cvg/computer_videogame $1 $2 $3)))))
+
+does doom have a multiplayer mode
+(/cvg/computer_videogame@gameplay_modes:t /en/doom:/cvg/computer_videogame /en/multiplayer_game:/cvg/gameplay_mode)
+
+which characters are playable in sonic rush
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/cvg/game_performance@character@game@voice_actor@performance_type@playable:t $0 /en/sonic_rush:/cvg/computer_videogame $1 $2 $3)))))
+
+how many games are in the final fantasy series
+(count $0 (/cvg/game_series@games_in_series:t /en/final_fantasy:/cvg/game_series $0))
+
+who designed pac-man
+(lambda $0 /common/topic (/cvg/computer_videogame@designers:t /en/pac-man:/cvg/computer_videogame $0))
+

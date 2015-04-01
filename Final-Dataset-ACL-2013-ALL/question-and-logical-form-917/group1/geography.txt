@@ -1,0 +1,30 @@
+how tall is mount everest
+(lambda $0 /common/topic (/geography/mountain@elevation:t /en/mount_everest:/geography/mountain $0))
+
+when did mount fuji last erupt
+(lambda $0 /type/datetime (/geography/mountain@last_eruption:t /en/mount_fuji:/geography/mountain $0))
+
+what is the origin of the mississippi river
+(lambda $0 /location/location (/geography/river@origin:t /en/mississippi_river:/geography/river $0))
+
+how many islands are there in lake superior
+(count $0 (/geography/body_of_water@islands:t /en/lake_superior:/geography/body_of_water $0))
+
+what bridges go over the san francisco bay
+(lambda $0 /location/location (/geography/body_of_water@bridges:t /en/san_francisco_bay:/geography/body_of_water $0))
+
+how thick is the aletsch glacier
+(lambda $0 /common/topic (/geography/glacier@thickness:t /en/aletsch_glacier:/geography/glacier $0))
+
+what island group is jekyll island a part of
+(lambda $0 /location/location (/geography/island@island_group:t /en/jekyll_island:/geography/island $0))
+
+how many islands are in the antilles
+(count $0 (/geography/island_group@islands_in_group:t /en/antilles:/geography/island_group $0))
+
+what mountain range is king edward peak in
+(lambda $0 /location/location (/geography/mountain@mountain_range:t /en/king_edward_peak:/geography/mountain $0))
+
+how high is niagara falls
+(lambda $0 /common/topic (/geography/waterfall@height:t /en/niagara_falls:/geography/waterfall $0))
+

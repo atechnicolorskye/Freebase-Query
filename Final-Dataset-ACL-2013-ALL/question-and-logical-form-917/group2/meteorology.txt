@@ -1,0 +1,27 @@
+how many types of cumulus clouds are there
+(count $0 (/meteorology/cloud@varieties:t /m/0csh5:/meteorology/cloud $0))
+
+what is the maximum altitude of stratus clouds
+(lambda $0 /common/topic (/meteorology/cloud@maximum_altitude_m:t /en/stratus:/meteorology/cloud $0))
+
+what do cirrus clouds look like
+(lambda $0 /common/topic (/meteorology/cloud@appearance:t /m/0cs96:/meteorology/cloud $0))
+
+when did hurricane andrew form
+(lambda $0 /type/datetime (/meteorology/tropical_cyclone@formed:t /en/hurricane_andrew:/meteorology/tropical_cyclone $0))
+
+what were the highest wind speeds in hurricane katrina
+(lambda $0 /common/topic (/meteorology/tropical_cyclone@highest_winds:t /en/hurricane_katrina:/meteorology/tropical_cyclone $0))
+
+how many people died in hurricane wilma
+(lambda $0 /type/int (/meteorology/tropical_cyclone@direct_fatalities:t /en/hurricane_wilma:/meteorology/tropical_cyclone $0))
+
+how many areas were affected by hurricane ivan
+(count $0 (/meteorology/tropical_cyclone@affected_areas:t /en/hurricane_ivan:/meteorology/tropical_cyclone $0))
+
+how many storms were in the 2005 atlantic hurricane season
+(lambda $0 /type/int (/meteorology/tropical_cyclone_season@total_storms:t /en/2005_atlantic_hurricane_season:/meteorology/tropical_cyclone_season $0))
+
+what was the strongest storm in the 1992 atlantic hurricane season
+(lambda $0 /common/topic (/meteorology/tropical_cyclone_season@strongest_storm:t /en/1992_atlantic_hurricane_season:/meteorology/tropical_cyclone_season $0))
+

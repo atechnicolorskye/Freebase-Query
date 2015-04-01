@@ -1,0 +1,27 @@
+during what time period did uluru form
+(lambda $0 /common/topic (/geology/geological_formation@formed_during_period:t /en/uluru:/geology/geological_formation $0))
+
+what type of rock is the marcellus formation
+(lambda $0 /common/topic (/geology/geological_formation@type_of_rock:t /en/marcellus_formation:/geology/geological_formation $0))
+
+how many rock formations were formed during the cretaceous period
+(count $0 (/geology/geological_formation@formed_during_period:t $0 /en/cretaceous:/time/geologic_time_period))
+
+what are the sub-types of coal
+(lambda $0 /common/topic (/geology/rock_type@sub_types:t /en/coal:/geology/rock_type $0))
+
+how many sub-types of metamorphic rock are there
+(count $0 (/geology/rock_type@sub_types:t /en/metamorphic_rock:/geology/rock_type $0))
+
+what rock formations are made of quartzite
+(lambda $0 /location/location (/geology/rock_type@formations:t /en/quartzite:/geology/rock_type $0))
+
+what rock formations formed in the barremian period
+(lambda $0 /location/location (/geology/geological_formation@formed_during_period:t $0 /en/barremian:/time/geologic_time_period))
+
+what rock is gruta das torres made of
+(lambda $0 /common/topic (/geology/geological_formation@type_of_rock:t /en/gruta_das_torres:/geology/geological_formation $0))
+
+how many parent types does igneous rock have
+(count $0 (/geology/rock_type@parent_rock_type:t /en/igneous_rock:/geology/rock_type $0))
+

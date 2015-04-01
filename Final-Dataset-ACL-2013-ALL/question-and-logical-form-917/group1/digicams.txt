@@ -1,0 +1,24 @@
+how heavy is a panasonic lumix dmc-tz3
+(lambda $0 /common/topic (/digicams/digital_camera@weight:t /en/panasonic_lumix_dmc_tz3:/digicams/digital_camera $0))
+
+does the canon powershot a75 have an orientation sensor
+(lambda $0 /common/topic (/digicams/digital_camera@orientation_sensor:t /en/canon_powershot_a75:/digicams/digital_camera $0))
+
+what is the lcd screen resolution of a nikon d80
+(lambda $0 /common/topic (/digicams/digital_camera@lcd_pixels:t /en/nikon_d80:/digicams/digital_camera $0))
+
+what digital cameras take an sdhc card
+(lambda $0 /common/topic (/digicams/camera_storage_type@compatible_cameras:t /en/sdhc_card:/digicams/camera_storage_type $0))
+
+how many canon digital cameras are there
+(count $0 (/digicams/digital_camera_manufacturer@cameras:t /en/canon:/digicams/digital_camera_manufacturer $0))
+
+how big is the screen on a nikon coolpix s50
+(lambda $0 /common/topic (/digicams/digital_camera@lcd_screen_dimensions:t /en/nikon_coolpix_s50:/digicams/digital_camera $0))
+
+how much did a canon powershot tx1 cost when it was released
+(lambda $0 /common/topic (/digicams/digital_camera@street_price:t /en/canon_powershot_tx1:/digicams/digital_camera $0))
+
+when was the sony nex-5 released
+(lambda $0 /type/datetime (/digicams/digital_camera@released:t /m/0cp1pcv:/digicams/digital_camera $0))
+

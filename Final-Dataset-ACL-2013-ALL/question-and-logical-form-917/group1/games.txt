@@ -1,0 +1,15 @@
+how many people can play settlers of catan
+(lambda $0 /type/int (/games/game@number_of_players:t /en/settlers_of_catan:/games/game $0))
+
+how many cards do you need to play canasta
+(lambda $0 /type/int (/games/playing_card_game@number_of_cards:t /en/canasta:/games/playing_card_game $0))
+
+how many games has hasbro published
+(count $0 (/games/game_publisher@games_published:t /en/hasbro:/games/game_publisher $0))
+
+who designed the game of life
+(lambda $0 /common/topic (/games/game@designer:t /en/the_game_of_life:/games/game $0))
+
+how old do you have to be to play monopoly
+(lambda $0 /common/topic (/games/game@minimum_age_years:t /en/monopoly_boardgame:/games/game $0))
+

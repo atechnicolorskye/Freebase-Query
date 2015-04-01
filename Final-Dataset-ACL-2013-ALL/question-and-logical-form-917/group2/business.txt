@@ -1,0 +1,138 @@
+in what year did motorola have the most revenue
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/business_operation/revenue&/measurement_unit/dated_money_value@valid_date@amount@currency:t /en/motorola:/business/business_operation $0 $1 $2))))
+
+what was viacom 's revenue in 2009
+(lambda $0 /common/topic (exists $1 (/business/business_operation/revenue&/measurement_unit/dated_money_value@valid_date@amount@currency:t /en/viacom:/business/business_operation /un/2009:/type/datetime $0 $1)))
+
+what was procter & gamble's net profit in 1955
+(lambda $1 /common/topic (exists $2 (exists $3 (/business/business_operation/net_profit&/measurement_unit/dated_money_value@valid_date@amount@currency:t /en/procter_gamble:/business/business_operation $1 $2 $3))))
+
+what is jcpenney 's operating income
+(lambda $0 /common/topic (exists $1 (exists $2 (/business/business_operation/operating_income&/measurement_unit/dated_money_value@valid_date@amount@currency:t /en/j_c_penney:/business/business_operation $1 $0 $2))))
+
+how many employees does nintendo have
+(count $0 (/business/employer@employees:t /en/nintendo:/business/employer $0))
+
+who was the editor in chief of die welt in 2000
+(lambda $0 /people/person (/business/employment_tenure@person@company@title@from@to:t $0 /en/die_welt:/business/employer /en/editor_in_chief:/business/job_title /type/datetime/2000:/type/datetime /type/datetime/2000:/type/datetime))
+
+what company owns nutter butter
+(lambda $0 /common/topic (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/nutter_butter:/business/brand $0 $1 $2))))
+
+who is the president of gap, inc.
+(lambda $0 /people/person (exists $1 (exists $2 (/business/employment_tenure@person@company@title@from@to:t $0 /en/gap_inc:/business/employer /en/president:/business/job_title $1 $2))))
+
+what companies produce smartphones
+(lambda $0 /common/topic (exists $1 (exists $2 (/business/competitive_space_mediator@company@space@portion@brand:t $0 /en/smartphone:/business/competitive_space $1 $2))))
+
+how many brands does sara lee own
+(count $0 (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t $0 /en/sara_lee:/business/consumer_company $1 $2))))
+
+how many products has mattel produced
+(count $0 (/business/consumer_company@products:t /en/mattel:/business/consumer_company $0))
+
+how many organizations are in the automobile industry
+(count $0 (/business/business_operation@industry:t $0 /en/automobile:/business/industry))
+
+what product lines does ipod include
+(lambda $0 /common/topic (/business/product_line@includes_product_lines:t /en/ipod:/business/product_line $0))
+
+how many stores are in nittany mall
+(count $0 (/business/shopping_center@store:t /en/nittany_mall:/business/shopping_center $0))
+
+what is the retail floor space of the dubai marina mall
+(lambda $0 /type/int (/business/shopping_center@retail_floor_space_m_2:t /m/06zl3_x:/business/shopping_center $0))
+
+how many malls does oxford properties own
+(count $0 (/business/shopping_center_owner@shopping_centers_owned:t /en/oxford_properties:/business/shopping_center_owner $0))
+
+how many generations of the ipod are there
+(count $0 (/business/consumer_product@product_line:t /en/ipod:/business/consumer_product $0))
+
+when was scope introduced
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /m/02r3cjp:/business/brand $1 $0 $2))))
+
+who developed capri sun
+(lambda $0 /common/topic (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/capri_sun:/business/brand $0 $1 $2))))
+
+when was capri sun developed
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/capri_sun:/business/brand $1 $0 $2))))
+
+who invented koolaid
+(lambda $0 /common/topic (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/kool-aid:/business/brand $0 $1 $2))))
+
+when was koolaid invented
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/kool-aid:/business/brand $1 $0 $2))))
+
+who is the owner of easy cheese
+(lambda $0 /common/topic (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/easy_cheese:/business/brand $0 $1 $2))))
+
+when were ritz crackers introduced
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/ritz_cracker:/business/brand $1 $0 $2))))
+
+when was stove top stuffing introduced
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/stove_top_stuffing:/business/brand $1 $0 $2))))
+
+when was the oreo cookie introduced
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/oreo:/business/brand $1 $0 $2))))
+
+when gatorade was first developed
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/gatorade:/business/brand $1 $0 $2))))
+
+who are gatorade 's major sponsors
+(lambda $0 /common/topic (exists $1 (exists $2 (/business/sponsorship@sponsored_by@from@to@sponsored_recipient:t $0 $1 $2 /en/gatorade:/business/sponsored_recipient))))
+
+when was doritos produced
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/doritos:/business/brand $1 $0 $2))))
+
+when was diet mountain dew created
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/mountain_dew:/business/brand $1 $0 $2))))
+
+when was tostitos introduced
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/tostitos:/business/brand $1 $0 $2))))
+
+when was cap'n crunch introduced
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/capn_crunch:/business/brand $1 $0 $2))))
+
+who founded gsusa
+(lambda $0 /common/topic (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/girl_scouts_of_the_usa:/business/brand $0 $1 $2))))
+
+how many different products does gsusa produce
+(count $0 (/business/brand@products:t /en/girl_scouts_of_the_usa:/business/brand $0))
+
+who is wells fargo 's supplier
+(lambda $0 /common/topic (/business/customer@supplier:t /en/wells_fargo:/business/customer $0))
+
+how many industries does walmart consist of
+(count $0 (/business/business_operation@industry:t /en/wal-mart:/business/business_operation $0))
+
+what is target 's industry
+(lambda $0 /common/topic (/business/business_operation@industry:t /en/target_corporation:/business/business_operation $0))
+
+how many different industries are there in home depot
+(count $0 (/business/business_operation@industry:t /en/home_depot:/business/business_operation $0))
+
+who produced country time
+(lambda $0 /common/topic (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/country_time:/business/brand $0 $1 $2))))
+
+when was country time produced
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/country_time:/business/brand $1 $0 $2))))
+
+when was crystal light originally marketed
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/crystal_light:/business/brand $1 $0 $2))))
+
+when did chips ahoy debut
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/chips_ahoy:/business/brand $1 $0 $2))))
+
+who owned doritos
+(lambda $0 /common/topic (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/doritos:/business/brand $0 $1 $2))))
+
+when was barbie launched
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/barbie:/business/brand $1 $0 $2))))
+
+when was girl scouts of the usa founded
+(lambda $0 /type/datetime (exists $1 (exists $2 (/business/company_brand_relationship@brand@company@from_date@to_date:t /en/girl_scouts_of_the_usa:/business/brand $1 $0 $2))))
+
+how many people does borders employ
+(count $0 (/business/employer@employees:t /en/borders_group:/business/employer $0))
+

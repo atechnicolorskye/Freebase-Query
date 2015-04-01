@@ -1,0 +1,15 @@
+how many animals are there at the london zoo
+(lambda $0 /type/int (/zoos/zoo@num_animals:t /en/london_zoo:/zoos/zoo $0))
+
+when was the san diego zoo opened
+(lambda $0 /type/datetime (/zoos/zoo@opened:t /en/san_diego_zoo:/zoos/zoo $0))
+
+how many species does the san francisco zoo have
+(lambda $0 /type/int (/zoos/zoo@num_species:t /en/san_francisco_zoo:/zoos/zoo $0))
+
+in what zoo was knut kept
+(lambda $0 /location/location (exists $1 (exists $2 (exists $3 (/zoos/animal_captivity@zoo@animal@exhibit@from@to:t $0 /m/02q470c:/zoos/zoo_animal $1 $2 $3)))))
+
+what exhibits are there at the arignar anna zoological park
+(lambda $0 /common/topic (/zoos/zoo@exhibits:t /en/arignar_anna_zoological_park:/zoos/zoo $0))
+

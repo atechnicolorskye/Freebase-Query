@@ -1,0 +1,63 @@
+in how many countries is the euro used
+(count $0 (/finance/currency@countries_used:t /en/euro:/finance/currency $0))
+
+what is the symbol for yen
+(lambda $0 /common/topic (/finance/currency@prefix_symbol:t /en/japanese_yen:/finance/currency $0))
+
+where was the peseta used as currency
+(lambda $0 /location/location (/finance/currency@countries_formerly_used:t /en/spanish_peseta:/finance/currency $0))
+
+what regions does the lse cover
+(lambda $0 /location/location (/finance/stock_exchange@primary_regions:t /en/london_stock_exchange:/finance/stock_exchange $0))
+
+how much danish kroner is a us dollar worth
+(lambda $0 /common/topic (exists $1 (exists $2 (/finance/exchange_rate@amount@date_of_rate@target_of_exchange@source_of_exchange:t $1 $2 $0 /en/danish_krone:/finance/currency))))
+
+how many companies are traded by the nyse
+(count $0 (/finance/stock_exchange@companies_traded:t /en/nyse:/finance/stock_exchange $0))
+
+what is the usa money currency code
+(lambda $0 /common/topic (/finance/currency@currency_code:t /en/us:/finance/currency $0))
+
+what is the australian dollar code
+(lambda $0 /common/topic (/finance/currency@currency_code:t /en/australian_dollar:/finance/currency $0))
+
+what is currency code for uk currency
+(lambda $0 /common/topic (/finance/currency@currency_code:t /en/uk:/finance/currency $0))
+
+what is currency code for the canadian dollar
+(lambda $0 /common/topic (/finance/currency@currency_code:t /en/canadian_dollar:/finance/currency $0))
+
+what is currency code for the mexican peso
+(lambda $0 /common/topic (/finance/currency@currency_code:t /en/mexican_peso:/finance/currency $0))
+
+how many countries use the indian rupee
+(count $0 (/finance/currency@countries_used:t /en/indian_rupee:/finance/currency $0))
+
+how many countries use the spanish peseta
+(count $0 (/finance/currency@countries_used:t /en/spanish_peseta:/finance/currency $0))
+
+what is currency code for the japanese yen
+(lambda $0 /common/topic (/finance/currency@currency_code:t /en/japanese_yen:/finance/currency $0))
+
+what is currency code for the swedish krona
+(lambda $0 /common/topic (/finance/currency@currency_code:t /en/swedish_krona:/finance/currency $0))
+
+what is currency code for the singapore dollar
+(lambda $0 /common/topic (/finance/currency@currency_code:t /en/singapore_dollar:/finance/currency $0))
+
+how many countries use euros
+(count $0 (/finance/currency@countries_used:t /en/euro:/finance/currency $0))
+
+how many countries use the australian dollar
+(count $0 (/finance/currency@countries_used:t /en/australian_dollar:/finance/currency $0))
+
+how many countries use uk money
+(count $0 (/finance/currency@countries_used:t /en/uk:/finance/currency $0))
+
+what is the currency code for the spanish peseta
+(lambda $0 /common/topic (/finance/currency@currency_code:t /en/spanish_peseta:/finance/currency $0))
+
+what is the currency code for the indonesian rupiah
+(lambda $0 /common/topic (/finance/currency@currency_code:t /en/indonesian_rupiah:/finance/currency $0))
+

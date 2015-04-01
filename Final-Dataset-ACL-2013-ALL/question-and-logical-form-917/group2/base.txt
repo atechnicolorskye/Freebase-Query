@@ -1,0 +1,69 @@
+how many dinosaur species are from africa
+(count $0 (/base/dinosaur/dinosaur_location@dinosaur_s:t /en/africa:/base/dinosaur/dinosaur_location $0))
+
+what diet did ceratopsia have
+(lambda $0 /common/topic (/base/dinosaur/dinosaur@diet:t /en/ceratopsia/-/base/dinosaur:/base/dinosaur/dinosaur $0))
+
+where did barosaurus live
+(lambda $0 /location/location (/base/dinosaur/dinosaur_location@dinosaur_s:t $0 /en/barosaurus/-/base/dinosaur:/base/dinosaur/dinosaur))
+
+how many types of dinosaurs were there in africa
+(count $0 (/base/dinosaur/dinosaur_location@dinosaur_s:t /en/africa:/base/dinosaur/dinosaur_location $0))
+
+how many dinosaur species are there in north america
+(count $0 (/base/dinosaur/dinosaur_location@dinosaur_s:t /en/north_america:/base/dinosaur/dinosaur_location $0))
+
+how many pets did john f kennedy own
+(count $0 (exists $1 (exists $2 (/base/famouspets/pet_ownership@pet@owner@to@from:t $0 /en/john_f_kennedy:/base/famouspets/pet_owner $1 $2))))
+
+what weight class was the fight of the century
+(lambda $0 /common/topic (/base/boxing/boxing_match@weight_class:t /en/fight_of_the_century:/base/boxing/boxing_match $0))
+
+what titles were at stake in the the rumble in the jungle
+(lambda $0 /common/topic (/base/boxing/boxing_match@titles_at_stake:t /en/the_rumble_in_the_jungle:/base/boxing/boxing_match $0))
+
+who won aliÃ¢â‚¬â€œfrazier ii
+(lambda $0 /people/person (exists $1 (exists $2 (exists $3 (/base/boxing/match_boxer_relationship@match@boxer@winner_won@points:t $1 $0 $2 $3)))))
+
+what decision did manny pacquiao vs. timothy bradley end with
+(lambda $0 /common/topic (/base/boxing/boxing_match@decision:t /m/0j24b7h:/base/boxing/boxing_match $0))
+
+what round did thrilla in manila end
+(lambda $0 /type/int (/base/boxing/boxing_match@round_match_ended:t /en/thrilla_in_manila:/base/boxing/boxing_match $0))
+
+who fought in the the battle of the champions
+(lambda $0 /people/person (exists $1 (exists $2 (exists $3 (/base/boxing/match_boxer_relationship@match@boxer@winner_won@points:t $1 $0 $2 $3)))))
+
+did jack dempsey win the long count fight
+(lambda $0 /common/topic (exists $1 (exists $2 (/base/boxing/match_boxer_relationship@match@boxer@winner_won@points:t $1 /en/jack_dempsey:/sports/boxer $0 $2))))
+
+what titles does the world boxing association have
+(lambda $0 /common/topic (/base/boxing/boxing_sanctioning_body@titles:t /en/world_boxing_association:/base/boxing/boxing_sanctioning_body $0))
+
+who has held the title of wba world champion
+(lambda $0 /people/person (exists $1 (exists $2 (exists $3 (exists $4 (exists $5 (exists $6 (/base/boxing/boxing_title_tenure@champion@weight@from@to@defenses@title@notes:t $0 $1 $2 $3 $4 $5 $6))))))))
+
+what matches have had the wbc world champion title at stake
+(lambda $0 /common/topic (/base/boxing/boxing_title@matches_with_this_title_at_stake:t /m/0cj52b7:/base/boxing/boxing_title $0))
+
+what episode of snl did ben stiller host
+(lambda $0 /common/topic (/base/saturdaynightlive/snl_host@episodes_hosted:t /en/ben_stiller:/base/saturdaynightlive/snl_host $0))
+
+who played in the game of the century
+(lambda $0 /people/person (exists $1 (exists $2 (/chess/chess_game_participation@game@player@color@outcome:t /en/the_game_of_the_century:/chess/chess_game $0 $1 $2))))
+
+what games has garry kasparov won
+(lambda $0 /common/topic (exists $1 (exists $2 (/chess/chess_game_participation@game@player@color@outcome:t $0 $1 $2 /m/0454vkd:/chess/chess_game_outcome))))
+
+what color did adolf anderssen play in the immortal game
+(lambda $0 /common/topic (exists $1 (/chess/chess_game_participation@game@player@color@outcome:t /en/immortal_game:/chess/chess_game /en/adolf_anderssen:/chess/chess_player $0 $1)))
+
+how many oscar shows did frank sinatra host
+(count $0 (/base/academyawards/host_of_oscar_show@oscar_show_hosted:t /en/frank_sinatra:/base/academyawards/host_of_oscar_show $0))
+
+what labels does sarah jessica parker wear
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (exists $4 (/base/popstra/fashion_choice@heat@interest@source@designer@fashion_wearer@date:t $1 $2 $3 $0 /en/sarah_jessica_parker:/base/popstra/celebrity $4))))))
+
+what conventions has hillary clinton spoken at
+(lambda $0 /common/topic (exists $1 (exists $2 (exists $3 (/base/politicalconventions/convention_speech@speaker@date@introduced_by@venue@conventions_spoken_at:t /en/hillary_rodham_clinton:/base/politicalconventions/convention_speaker $1 $2 $3 $0)))))
+

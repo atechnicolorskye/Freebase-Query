@@ -1,0 +1,15 @@
+who was vice president to woodrow wilson
+(lambda $0 /people/person (/government/us_president@vice_president:t /en/woodrow_wilson:/government/us_president $0))
+
+what party did grover cleveland belong to
+(lambda $0 /common/topic (exists $1 (exists $2 (/government/political_party_tenure@politician@from@to@party:t /en/grover_cleveland:/government/politician $1 $2 $0))))
+
+who won the 1964 united states presidential election
+(lambda $0 /people/person (/government/election@winner:t /en/united_states_presidential_election_1964:/government/election $0))
+
+who are the current senators of colorado
+(lambda $0 /people/person (exists $1 (exists $2 (exists $3 (exists $4 (exists $5 (exists $6 (/government/government_position_held@office_holder@office_position_or_title@governmental_body@district_represented@appointed_by@from@to@jurisdiction_of_office@legislative_sessions:t $0 /en/united_states_senator:/government/government_office_or_title $1 $2 $3 $4 $5 /en/colorado:/government/governmental_jurisdiction $6))))))))
+
+who was the 22nd president
+(lambda $0 /people/person (/government/us_president@presidency_number:t $0 /type/int/22:/type/int))
+

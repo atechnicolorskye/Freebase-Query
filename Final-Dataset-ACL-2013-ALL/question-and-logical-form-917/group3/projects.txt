@@ -1,0 +1,27 @@
+how much did the construction of the taj mahal cost
+(lambda $0 /common/topic (/projects/project@actual_cost:t /en/initial_design_and_construction_of_taj_mahal:/projects/project $0))
+
+how many engineers worked on the design and construction of the plymouth breakwater
+(count $0 (exists $1 (exists $2 (/projects/project_participation@project@participant@role@from_date@to_date:t /en/design_and_construction_of_the_plymouth_breakwater:/projects/project $0 /en/engineer:/projects/project_role $1 $2))))
+
+when was the construction of new steubenville bridge finished
+(lambda $0 /type/datetime (/projects/project@actual_completion_date:t /m/0jb4_0h:/projects/project $0))
+
+how many people worked on the design and construction of the golden gate bridge
+(count $0 (exists $1 (exists $2 (exists $3 (/projects/project_participation@project@participant@role@from_date@to_date:t /en/design_and_construction_of_the_golden_gate_bridge:/projects/project $0 $1 $2 $3)))))
+
+when is the restoration of the rijksmuseum supposed to finish
+(lambda $0 /type/datetime (/projects/project@planned_completion_date:t /m/0fq7hj3:/projects/project $0))
+
+what was the manhattan project about
+(lambda $0 /common/topic (/projects/project@project_focus:t /en/manhattan_project:/projects/project $0))
+
+what was robert oppenheimer's role in the manhattan project
+(lambda $0 /common/topic (exists $1 (exists $2 (/projects/project_participation@project@participant@role@from_date@to_date:t /en/manhattan_project:/projects/project /en/robert_oppenheimer:/projects/project_participant $0 $1 $2))))
+
+on how many projects was james walker a design engineer
+(count $0 (exists $1 (exists $2 (/projects/project_participation@project@participant@role@from_date@to_date:t $0 /en/james_walker:/projects/project_participant /en/design_engineer:/projects/project_role $1 $2))))
+
+when did francesco sabatini start working on the puerta de san vicente
+(lambda $0 /type/datetime (exists $1 (exists $2 (/projects/project_participation@project@participant@role@from_date@to_date:t /m/0gk9x46:/projects/project /en/francesco_sabatini:/projects/project_participant $1 $0 $2))))
+

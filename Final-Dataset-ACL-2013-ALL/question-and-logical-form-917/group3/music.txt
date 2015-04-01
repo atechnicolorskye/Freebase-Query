@@ -1,0 +1,51 @@
+what year was the album decade released
+(lambda $0 /type/datetime (/music/album@release_date:t /m/02967:/music/album $0))
+
+who composed the song ship of fools
+(lambda $0 /people/person (/music/composition@composer:t /m/02knmd5:/music/composition $0))
+
+when did the band massive attack form
+(lambda $0 /type/datetime (/music/artist@active_start:t /en/massive_attack:/music/artist $0))
+
+who produced sabotage by the beastie boys
+(lambda $0 /common/topic (/music/track@producer:t /m/0l16j8:/music/track $0))
+
+what genre of music is b12
+(lambda $0 /common/topic (/music/artist@genre:t /en/b12:/music/artist $0))
+
+who were the members of the soul stirrers
+(lambda $0 /people/person (exists $1 (exists $2 (exists $3 (/music/group_membership@member@group@role@start@end:t $0 /en/the_soul_stirrers:/music/musical_group $1 $2 $3)))))
+
+when did japan end as a musical group
+(lambda $0 /type/datetime (/music/artist@active_end:t /m/016f2t:/music/artist $0))
+
+how many albums has fleet foxes released
+(count $0 (/music/artist@album:t /en/fleet_foxes:/music/artist $0))
+
+how many tracks has the band recorded
+(count $0 (/music/artist@track:t /en/the_band:/music/artist $0))
+
+what instrument did lightnin' hopkins play
+(lambda $0 /common/topic (/music/group_member@instruments_played:t /en/lightnin_hopkins:/music/group_member $0))
+
+what record label was ali farka toure signed to
+(lambda $0 /common/topic (/music/artist@label:t /en/ali_farka_toure:/music/artist $0))
+
+when did michael jackson go solo
+(lambda $0 /type/datetime (/music/artist@active_start:t /en/michael_jackson:/music/artist $0))
+
+what are dave grohl 's musical genres
+(lambda $0 /common/topic (/music/artist@genre:t /en/dave_grohl:/music/artist $0))
+
+where did omarion 's musical career begin
+(lambda $0 /location/location (/music/artist@origin:t /en/omarion:/music/artist $0))
+
+how many record labels was omarion under
+(count $0 (/music/artist@label:t /en/omarion:/music/artist $0))
+
+what instruments did omarion play
+(lambda $0 /common/topic (/music/group_member@instruments_played:t /en/omarion:/music/group_member $0))
+
+what genre did lil hardin armstrong represent
+(lambda $0 /common/topic (/music/artist@genre:t /en/lil_hardin_armstrong:/music/artist $0))
+

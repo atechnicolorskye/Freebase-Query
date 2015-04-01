@@ -1,0 +1,24 @@
+what was henry viii's royal line
+(lambda $0 /common/topic (/royalty/monarch@royal_line:t /en/henry_viii_of_england:/royalty/monarch $0))
+
+when was the order of saint michael founded
+(lambda $0 /type/datetime (/royalty/order_of_chivalry@date_founded:t /en/order_of_saint_michael:/royalty/order_of_chivalry $0))
+
+who founded the order of the dragon
+(lambda $0 /people/person (/royalty/order_of_chivalry@founders:t /en/order_of_the_dragon:/royalty/order_of_chivalry $0))
+
+how many knights of the garter did the order of the garter have
+(count $0 (exists $1 (exists $2 (exists $3 (/royalty/chivalric_order_membership@order@recipient@from@to@presented_by@title:t /en/order_of_the_garter:/royalty/order_of_chivalry $0 $1 $2 $3 /en/knight_of_the_garter:/royalty/chivalric_title)))))
+
+what is the motto of the order of the golden fleece
+(lambda $0 /common/topic (/royalty/order_of_chivalry@motto:t /en/order_of_the_golden_fleece:/royalty/order_of_chivalry $0))
+
+how many people have held the title of grand master of the order of the most holy annunciation
+(count $0 (exists $1 (exists $2 (/royalty/chivalric_order_position_tenure@order@chivalric_office@from@until@officer:t /en/order_of_the_most_holy_annunciation:/royalty/order_of_chivalry /en/grand_master:/royalty/chivalric_office $1 $2 $0))))
+
+how many orders did queen victoria found
+(count $0 (/royalty/chivalric_order_founder@orders_founded:t /en/victoria_of_the_united_kingdom:/royalty/chivalric_order_founder $0))
+
+how many monarchs are from the house of tutor
+(count $0 (/royalty/royal_line@monarchs_from_this_line:t /en/tudor_dynasty:/royalty/royal_line $0))
+

@@ -1,0 +1,9 @@
+who painted the mona lisa
+(lambda $0 /people/person (/visual_art/artwork@artist:t /en/mona_lisa:/visual_art/artwork $0))
+
+when was starry night painted
+(lambda $0 /type/datetime (/visual_art/artwork@date_completed:t /en/the_starry_night:/visual_art/artwork $0))
+
+what is the thinker made of
+(lambda $0 /common/topic (/visual_art/artwork@media:t /en/the_thinker:/visual_art/artwork $0))
+
